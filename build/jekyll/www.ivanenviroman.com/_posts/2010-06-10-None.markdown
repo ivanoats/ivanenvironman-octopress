@@ -1,0 +1,33 @@
+---
+comments: true
+date: 2010-06-10 15:06:59
+layout: post
+published: false
+slug: None
+title: Google PageRank In Five Lines Of Ruby
+wordpress_id: 1910
+---
+
+_Giles Bowkett - Ruby Inside's [Top Presenter of 2008](http://www.rubyinside.com/top-ruby-presenter-of-2008-giles-bowkett-1425.html) - contributes a guest post:_
+
+
+
+
+I created a 90-minute video called [_How To Get A Kickass Job, Making Six Figures Working (From Home) With The Stars Of Your Community, Even If You Just Got So Fired That The Cops Hauled You Out Of The Building In Handcuffs_](http://gilesbowkett.blogspot.com/2010/03/programmers-what-to-do-if-you-get-fired.html). Part of my magic formula includes understanding Google PageRank, and the best way to understand complex, abstract mathematics is to reduce them to a very short Ruby script. As an aside, you'd be surprised how many complex, abstract theoretical thingamajigs can condense down to just a few lines of easily understandable Ruby.
+
+
+
+
+
+
+
+Having problems watching the video embedded above? You can go [directly to the video on Vimeo.com](http://vimeo.com/9945353).
+
+
+
+
+
+[![](http://feeds.feedburner.com/~ff/RubyInside?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/RubyInside?a=7kzRDd7nIus:BFX96czFzJk:yIl2AUoC8zA) [![](http://feeds.feedburner.com/~ff/RubyInside?i=7kzRDd7nIus:BFX96czFzJk:3H-1DwQop_U)](http://feeds.feedburner.com/~ff/RubyInside?a=7kzRDd7nIus:BFX96czFzJk:3H-1DwQop_U) [![](http://feeds.feedburner.com/~ff/RubyInside?i=7kzRDd7nIus:BFX96czFzJk:F7zBnMyn0Lo)](http://feeds.feedburner.com/~ff/RubyInside?a=7kzRDd7nIus:BFX96czFzJk:F7zBnMyn0Lo) [![](http://feeds.feedburner.com/~ff/RubyInside?i=7kzRDd7nIus:BFX96czFzJk:gIN9vFwOqvQ)](http://feeds.feedburner.com/~ff/RubyInside?a=7kzRDd7nIus:BFX96czFzJk:gIN9vFwOqvQ)
+
+
+![](http://feeds.feedburner.com/~r/RubyInside/~4/7kzRDd7nIus)

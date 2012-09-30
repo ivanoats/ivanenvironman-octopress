@@ -1,0 +1,82 @@
+---
+comments: true
+date: 2011-06-03 12:22:06
+layout: post
+published: false
+slug: None
+title: 'Survey: 36% Of U.S. Adults “Not Concerned” With Electronics Power Consumption'
+wordpress_id: 2296
+tags:
+- cleantech
+- Consumer Electronics Association
+- eMeter
+- energy management
+- GreenTech
+- grid2home
+- OPOWER
+- smart grid
+- smart home
+- TC
+---
+
+![](http://tctechcrunch.files.wordpress.com/2011/06/tc-powerplant-cc-blatantworld.jpg?w=300&h=193) Adults in the U.S. could use a little more education on economics and physics, it seems. We’re not drawing the connection between power consumed by our electronics and the cost of our electric bills. 
+
+
+
+
+A [new survey](http://www.ce.org/Press/CurrentNews/press_release_detail.asp?id=12108) from the [Consumer Electronics Association](http://www.crunchbase.com/company/consumer-electronics-association) found thirty-six percent of adults in the U.S. are “not concerned” with the amount of power consumed by their gadgets, gear and appliances. Sixty percent of U.S. adults, by contrast, are concerned about the cost of their electric bill. 
+
+
+
+
+CEA also estimated that just 10.2 million U.S. households are enrolled in electricity management programs, now. That’s a mere 8.6 percent of 119 million households that have access to these things. 
+
+
+
+
+Overall, energy management programs help consumers control most anything that’s plugged in at home — from heaters and air conditioners to dishwashers and lighting — so that the devices keep them comfortable and happy without hogging as much power. One aim of these programs would be to decrease pollution caused by large-scale electricity generation. Another aim is to keep the cost of electricity reasonable as demand rises.
+
+
+
+
+A number of software and hardware startups— like [eMeter](http://techcrunch.com/2010/07/08/emeter-series-f-funding/), [Grid2Home](http://www.crunchbase.com/company/grid2home), [OPOWER](http://www.crunchbase.com/company/opower/posts) and [Green Energy Options](http://www.crunchbase.com/company/green-energy-options)—  are working with huge power companies to make these programs, and devices and software to support them, mainstream. 
+
+
+
+
+It’s hard to see how the U.S. will achieve national goals to reduce energy related pollution and emissions, when not even 10 percent of the American adults who have access to energy management programs try them out. 
+
+
+
+
+Some of the harmful environmental impacts of traditional electricity generation are acid rain and air pollution. The Federal Government aims to reduce its own greenhouse gas (GHG) emissions by 28 percent by 2020; and the EPA has proposed new national standards for mercury, arsenic and other [toxic air pollution from power plants](http://www.whitehouse.gov/energy/our-environment). 
+
+
+
+
+However, the [U.S. Energy Information Administration (EIA) page](http://www.eia.gov/energyexplained/index.cfm?page=electricity_environment) projects energy demand in the U.S. will rise by 1% a year through 2035.
+
+
+
+
+The growth in demand and consumption of electricity has, in recent years, led to growth in pollution globally. The [International Energy Agency](http://www.iea.org/) reported last week that global emissions of energy-related carbon dioxide in 2010 were the [highest ever](http://www.iea.org/index_info.asp?id=1959) measured at 30.6 gigatonnes.
+
+
+
+
+Attitudes aren’t _all_ bad stateside, though. The CEA survey found 55 percent of U.S. consumers are at least interested in an electricity management program that’s sponsored by their local utility or electric company. Forty-six percent of those who are aware of electricity management programs say they want to enroll in coming years.
+
+
+
+
+_Image: A Georgia power plant spewing emissions, via [BlatantWorld](http://www.flickr.com/people/blatantworld/) [[CC by 2.0](http://creativecommons.org/licenses/by/2.0/deed.en)]_
+
+
+  
+ [![](http://feeds.wordpress.com/1.0/comments/tctechcrunch.wordpress.com/309667/)](http://feeds.wordpress.com/1.0/gocomments/tctechcrunch.wordpress.com/309667/) [![](http://feeds.wordpress.com/1.0/delicious/tctechcrunch.wordpress.com/309667/)](http://feeds.wordpress.com/1.0/godelicious/tctechcrunch.wordpress.com/309667/) [![](http://feeds.wordpress.com/1.0/facebook/tctechcrunch.wordpress.com/309667/)](http://feeds.wordpress.com/1.0/gofacebook/tctechcrunch.wordpress.com/309667/) [![](http://feeds.wordpress.com/1.0/twitter/tctechcrunch.wordpress.com/309667/)](http://feeds.wordpress.com/1.0/gotwitter/tctechcrunch.wordpress.com/309667/) [![](http://feeds.wordpress.com/1.0/stumble/tctechcrunch.wordpress.com/309667/)](http://feeds.wordpress.com/1.0/gostumble/tctechcrunch.wordpress.com/309667/) [![](http://feeds.wordpress.com/1.0/digg/tctechcrunch.wordpress.com/309667/)](http://feeds.wordpress.com/1.0/godigg/tctechcrunch.wordpress.com/309667/) [![](http://feeds.wordpress.com/1.0/reddit/tctechcrunch.wordpress.com/309667/)](http://feeds.wordpress.com/1.0/goreddit/tctechcrunch.wordpress.com/309667/) ![](http://stats.wordpress.com/b.gif?host=techcrunch.com&blog=11718616&post=309667&subd=tctechcrunch&ref=&feed=1)
+
+
+[![](http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI)](http://feeds.feedburner.com/~ff/Techcrunch?a=MRGe-TzZllQ:q2cD1qsXLzA:2mJPEYqXBVI) [![](http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA)](http://feeds.feedburner.com/~ff/Techcrunch?a=MRGe-TzZllQ:q2cD1qsXLzA:7Q72WNTAKBA) [![](http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/Techcrunch?a=MRGe-TzZllQ:q2cD1qsXLzA:yIl2AUoC8zA) [![](http://feeds.feedburner.com/~ff/Techcrunch?i=MRGe-TzZllQ:q2cD1qsXLzA:-BTjWOF_DHI)](http://feeds.feedburner.com/~ff/Techcrunch?a=MRGe-TzZllQ:q2cD1qsXLzA:-BTjWOF_DHI) [![](http://feeds.feedburner.com/~ff/Techcrunch?i=MRGe-TzZllQ:q2cD1qsXLzA:D7DqB2pKExk)](http://feeds.feedburner.com/~ff/Techcrunch?a=MRGe-TzZllQ:q2cD1qsXLzA:D7DqB2pKExk) [![](http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs)](http://feeds.feedburner.com/~ff/Techcrunch?a=MRGe-TzZllQ:q2cD1qsXLzA:qj6IDK7rITs)
+
+
+![](http://feeds.feedburner.com/~r/Techcrunch/~4/MRGe-TzZllQ)

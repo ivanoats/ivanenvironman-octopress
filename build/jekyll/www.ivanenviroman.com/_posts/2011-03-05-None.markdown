@@ -1,0 +1,17 @@
+---
+comments: true
+date: 2011-03-05 19:05:16
+layout: post
+published: false
+slug: None
+title: 'Episode 103: HTML5 Quick Start with Compass-html5-boilerplate'
+wordpress_id: 2371
+---
+
+![Episode 103: HTML5 Quick Start with Compass-html5-boilerplate](http://sdruby.org/images/screenshots/large/103.png?1299461057)
+
+
+
+
+
+Peter Gumeson shows off his compass-html5-boilerplate gem, which uses Compass to make it easier to integrate the HTML5 Boilerplate template into Rails apps.

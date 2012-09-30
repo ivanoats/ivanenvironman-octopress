@@ -1,0 +1,34 @@
+---
+comments: true
+date: 2007-12-11 23:00:00
+layout: post
+published: false
+slug: None
+title: I'm Batman
+wordpress_id: 1917
+---
+
+Thanks to [Giles Bowkett](http://gilesbowkett.blogspot.com/) every ruby programer can say the above with his handy new gem [Utility Belt](http://utilitybelt.rubyforge.org/index.html). Utility Belt is a hodge podge of useful IRB tools that the community has been slowly been building up over time. Most experineced Ruby programmers already have a .irbrc similar to what Utility Belt offers, but what is nice is that Giles actually took the time to polish it up and put it into a nice little package. You no longer need to copy over your .irbrc file to very machine you have- all you need is UtilityBelt. I’ve only been using it for about a day and I already am loving it. The only small tweak I added to my .irbrc after installing it was this:
+
+
+
+    
+    <code><span>require</span> <span>'rubygems'</span>
+    <span>require</span> <span>'utility_belt'</span>
+    
+    <span>def</span> <span>cb</span>
+      <span>MacClipboard</span><span>.</span><span>read</span>
+    <span>end</span>
+    
+    <span>def</span> <span>cb</span><span>=</span><span>(</span><span>text</span><span>)</span>
+      <span>MacClipboard</span><span>.</span><span>write</span><span>(</span><span>text</span><span>)</span>
+    <span>end</span>
+    </code>
+
+
+
+
+
+
+
+These wrapper methods make it a lot easier to use the nice clipboard functionality in Utility Belt IMO.

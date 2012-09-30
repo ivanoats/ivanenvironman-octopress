@@ -1,0 +1,121 @@
+---
+comments: true
+date: 2010-10-26 10:12:00
+layout: post
+published: false
+slug: None
+title: Upgrading your Rakefile from RSpec 1.3 to RSpec 2
+wordpress_id: 1880
+---
+
+I'm updating [Erector](http://erector.rubyforge.org) to RSpec 2 and came across two problems for which solutions were surprisingly difficult to Google. Here are my (finally successful) results.
+
+
+
+
+
+* * *
+
+
+
+
+
+## Problem:
+
+
+
+
+    
+    <code>no such file to load -- spec/rake/spectask
+    </code>
+
+
+
+
+
+### Before:
+
+
+
+
+    
+    <code>require "spec/rake/spectask"  # RSpec 1.3
+    </code>
+
+
+
+
+
+### After:
+
+
+
+
+    
+    <code>require "rspec/core/rake_task" # RSpec 2.0
+    </code>
+
+
+
+
+
+* * *
+
+
+
+
+
+## Problem:
+
+
+
+
+    
+    <code>undefined method `spec_files=' for #<RSpec::Core::RakeTask:0x00000101550aa8>
+    </code>
+
+
+
+
+
+### Before:
+
+
+
+
+    
+    <code># RSpec 1.3
+    Spec::Rake::SpecTask.new(:core) do |spec|
+      spec.spec_files = FileList['spec/erector/*_spec.rb']
+      spec.spec_opts = ['--backtrace']
+    end
+    </code>
+
+
+
+
+
+### After:
+
+
+
+
+    
+    <code># RSpec 2.0
+    RSpec::Core::RakeTask.new(:core) do |spec|
+      spec.pattern = 'spec/erector/*_spec.rb'
+      spec.rspec_opts = ['--backtrace']
+    end
+    </code>
+
+
+
+
+
+* * *
+
+
+
+
+
+See also [http://github.com/rspec/rspec-core/blob/master/Upgrade.markdown](http://github.com/rspec/rspec-core/blob/master/Upgrade.markdown) (curiously cloaked from Google searches for the above problem strings).

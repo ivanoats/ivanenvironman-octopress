@@ -1,0 +1,23 @@
+---
+comments: true
+date: 2011-02-08 08:56:49
+layout: post
+published: false
+slug: None
+title: 'Episode 090: CoffeeScript'
+wordpress_id: 2218
+---
+
+![Episode 090: CoffeeScript](http://sdruby.com/images/screenshots/large/90.png?1297273134)
+
+
+
+
+
+People are drawn to Ruby by its beautiful syntax, and CoffeeScript brings that same joie de vivre to Javascript. John Lynch shares his experience using CoffeeScript for both web and mobile app development.
+
+
+
+
+
+Bonus content: [download the slides](http://www.slideshare.net/johnthethird/coffeescript-presentation) from this talk.

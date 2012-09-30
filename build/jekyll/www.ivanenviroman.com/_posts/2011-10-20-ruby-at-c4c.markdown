@@ -1,0 +1,24 @@
+---
+comments: true
+date: 2011-10-20 17:23:00
+layout: post
+slug: ruby-at-c4c
+title: Ruby at C4C
+wordpress_id: 2536
+categories:
+- UW Blog
+---
+
+I gave a presentation at the UW web council on our plans for using the Ruby programming language at the Center for Commercialization.
+
+
+
+
+
+**[Ruby at UW C4C](http://www.slideshare.net/ivanoats/ruby-presso-web-council)**
+
+View more [presentations](http://www.slideshare.net/) from [Ivan Storck](http://www.slideshare.net/ivanoats)
+
+
+
+

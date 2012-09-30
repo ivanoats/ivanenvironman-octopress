@@ -1,0 +1,44 @@
+---
+comments: true
+date: 2010-11-01 03:48:57
+layout: post
+published: false
+slug: None
+title: Took a Detour
+wordpress_id: 1876
+tags:
+- cocoa
+- Projects
+---
+
+Professionally I’ve been writing a ton of JavaScript lately, but in my free time I took a detour into the land of Cocoa to develop a tiny little Mac app. It only does one thing, but hopefully it does it well enough to get some use.
+
+
+
+
+[Detours](http://detoursapp.com/) is a GUI to manage your Mac’s host lookups. Yes, you can already do this by manually editing /etc/hosts, but I find that method difficult to explain to others, somewhat cumbersome and not very portable. Here’s a shot of [Detours](http://detoursapp.com) in action:
+
+
+
+
+[![](http://blog.jerodsanto.net/wp-content/uploads/2010/10/Detours.png)](http://detoursapp.com)
+
+
+
+
+Please give it a try if you’re on a Mac. I’d love some feedback.
+
+
+
+
+Overall I really like developing for the Mac and have a few ideas of apps I might try to get in the upcoming App Store. There are a few pain points for me, but most of them are alleviated by the very exciting [MacRuby](http://www.macruby.org/) project.
+
+
+
+
+[![](http://blog.jerodsanto.net/wp-content/uploads/2010/10/dock.png)](http://detoursapp.com)
+
+
+
+
+I’d like to give a huge **THANKS** to Cody Peterson of [Secret Penguin](http://secretpenguin.com) for donating his time & skills to produce the [Detours](http://detoursapp.com) icon & website. To be quite honest, I believe the artwork outshines the app itself. And I’m okay with that ![:)](http://blog.jerodsanto.net/wp-includes/images/smilies/icon_smile.gif)

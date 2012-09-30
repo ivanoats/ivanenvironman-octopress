@@ -1,0 +1,75 @@
+---
+comments: true
+date: 2011-05-18 11:30:47
+layout: post
+published: false
+slug: None
+title: Rails-Footnotes Resurrected For Rails 3
+wordpress_id: 2260
+---
+
+
+
+
+				
+
+By [Rick DeNatale](http://rubyreflector.com/Rick-DeNatale) of [Talk Like A Duck](http://bit.ly/j28bh) 5 days ago.
+
+
+				
+
+I was disappointed that the backtrace links didn't seem to work with  Rails 3.  So I forked the code on github, and fixed that.  This morning I noticed that the backtrace code had been removed from the official code, but there were some other fixes. So I merged the official branch back to my forked version, and it seems to be working.
+
+Getting this to work with  Rails 3 required a bit of  ahem duck-punching of the  Rails:: BacktraceCleaner, and there arent any tests for this, but it …
+
+
+				
+
+
+
+				
+  * Topics: [Ruby on Rails](http://rubyreflector.com/Ruby-on-Rails), [Rick DeNatale](http://rubyreflector.com/Rick-DeNatale)
+
+
+				
+        
+  * 
+		JJinuxLand: [Python: I'm Looking for a Python Instructor](http://bit.ly/guQDRB)
+		
+
+
+        
+  * 
+		Blog on Applicake's ideas, Ruby on Rails and Internet start-ups: [Writing a JavaScript debugger in... JavaScript!](http://bit.ly/jFUUhM)
+		
+
+
+        
+  * 
+		RailsCasts: [Episode 256: I18n Backends](http://bit.ly/ikBjTu)
+		
+
+
+        
+  * 
+		SapphireSteel Software: [Ruby In Steel 2 - 2nd beta available](http://bit.ly/iUunRW)
+		
+
+
+        
+  * 
+		Patrick Lenz: [More flexible local Rails development with Pow](http://bit.ly/ebAxoG)
+		
+
+
+        
+  * 
+		PeepCode Products: [Meet CoffeeScript](http://bit.ly/lNH6Oh)
+		
+
+
+
+
+
+				
+			

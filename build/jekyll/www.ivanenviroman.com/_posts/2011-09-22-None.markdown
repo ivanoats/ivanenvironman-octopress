@@ -1,0 +1,57 @@
+---
+comments: true
+date: 2011-09-22 04:35:59
+layout: post
+published: false
+slug: None
+title: Be Safe, Break the Law
+wordpress_id: 2463
+tags:
+- Economics
+- Law
+---
+
+The 55 mph speed limit was a vain attempt by the Federal government to reduce gasoline consumption; initially passed in the 1974 Emergency Highway Energy Conservation Act the law was relaxed in 1987 and finally repealed in 1995 allowing states to choose their speed limits. Highways and cars are safer today than in the 1970s and on many highways speed limits were increased to 65 mph. Higher speed limits are often safer because what is worse than speed is [variable speed](http://www.jstor.org/stable/1818655), some people driving fast and some driving slow. When the speed limit is set too low you get lots of people who safely break the law and a few law-abiders who make the roads more dangerous.
+
+
+
+
+Unfortunately vestiges of the 55mph limit remain, in part because police like the 55mph limit which lets them write tickets at will whenever they need an increase in revenues. John Carr at the National Motorists blog gives a particularly [egregious example](http://blog.motorists.org/warning-pay-no-attention-to-this-message/#more-2709) from Massachusetts:
+
+
+
+
+> The speed limit on Route 3 is 55. The speed limit used to be 60….It was reduced by executive order in 1973 to comply with the national speed limit. When the national speed limit was repealed in 1995 the highway commissioner ordered the low limit retained…
+> 
+> 
+
+> 
+> It gets better. Route 3 was completely rebuilt a decade ago. The design speed for the project was 110 km/h (68 mph). The design speed is like a warranty: nothing in the road design requires a driver to go slower than 68 mph, not even on a wet road at night (the design conditions).
+> 
+> 
+
+> 
+> The average speed is not far from the design speed. The 85th percentile speed, which is supposed to be used for setting speed limits, is around 75 mph. A little over by my measurement, which found 1% compliance with the speed limit.
+> 
+> 
+
+> 
+> Eventually the absurdity of the 55 mph speed limit sunk in and in 2006 MassHighway traffic engineers recommended a speed limit increase. State Police vetoed the change, preferring the 99% violation rate that let them write tickets at will. Police have no legal role in setting speed limits. Somebody in the Romney administration weighed the risk of losing ticket revenue against the risk of being blamed for accidents. Police won.
+> 
+> 
+
+> 
+> After engineers lost that fight people began to worry about the high accident rate on Route 3. The state hired a consultant to do a Road Safety Audit. The [consultant’s report](http://www.nmcog.org/RSA%20Bedford-Billerica-Chelmsford%20Final%20Draft%20Report%20w%20Appendix.pdf) blamed the low speed limit, among other factors, for the high crash rate. The report explicitly recommended raising the speed limit.
+> 
+> 
+
+> 
+> Three years later, state officials have not followed the advice of their engineers, their consultant, or 100,000 drivers per day. State police are still out there running speed traps and helping keep the road as dangerous and profitable as they can.
+
+
+
+
+Hat tip: Radley Balko.
+
+
+![](http://feeds.feedburner.com/~r/marginalrevolution/feed/~4/lML-BNxshIs)

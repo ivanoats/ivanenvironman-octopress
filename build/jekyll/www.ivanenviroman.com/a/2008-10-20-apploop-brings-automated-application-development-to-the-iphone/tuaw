@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Unknown Feed Name :: Pheedo : RSS Marketing Solutions</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="Description" content=""/>
+    <meta name="Keywords" content=""/>
+    <meta name="Author" content="www.pheedo.com"/>
+    <meta name="copyright" content="Pheedo, Inc., Copyright 2009, All Rights Reserved."/>
+
+    <meta name="distribution" content="global"/>
+    <meta name="resource-type" content="document"/>
+    <meta name="rating" content="general"/>
+
+    <link rel="shortcut icon" href="http://www.pheedo.com/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="http://www.pheedo.com/common/style.css" type="text/css" media="screen"/>
+    
+</head>
+
+<body>
+<div id="align">
+    <div id="header">
+
+        <div id="global">
+            <ul>
+                <li><a href="http://www.pheedo.com/" id="home" title="Home">Home</a></li>
+                <li><a href="http://www.pheedo.com/account" id="account" title="Your Account">Your Account</a></li>
+                <li><a href="http://knowledge.pheedo.com" id="help" title="Help">Help</a></li>
+                <li><a href="http://www.pheedo.info" id="blog" title="Our Blog">Our Blog</a></li>
+                <li><a href="http://www.pheedo.com/site/corp_company.php" id="about" title="About Us">About Us</a></li>
+
+            </ul>
+        </div>
+    <div id="primary">
+    
+    </div>
+    </div>
+    <div id="main">
+        <div id="padding3">
+            <div id="content">
+                <div id="leftcol">
+
+                        <p></p>
+                        <h1></h1>
+                </div>
+                <div id="centercol">
+                    <h2>Unknown Feed Name</h2>
+                    <!-- Begin Content -->
+                    <b>Error</b>
+                    <br />
+                    <blockquote>
+                    The feed name you requested is not registered with the system.
+
+                    New feeds may take several minutes before becoming available.
+
+                    If this feed previously functioned, it may have been disabled or deleted by the publisher.
+
+                    </blockquote>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>
+            <a href="http://www.pheedo.info" id="rssweblog" title="Our RSS Feed Weblog">Our Weblog</a>  |  <a href="http://www.pheedo.com/site/corp_contact.php" title="Contact Us">Contact Us</a>  |  <a href="http://www.pheedo.com/site/corp_employment.php" title="We're Hiring!">We're Hiring!</a>
+
+        </p>
+    </div>
+    <div class="copyright">
+        &copy; 2009 Pheedo, Inc. All rights reserved. 
+    </div>
+</div>
+</body>
+</html>

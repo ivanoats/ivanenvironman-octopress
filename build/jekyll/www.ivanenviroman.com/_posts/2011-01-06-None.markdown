@@ -1,0 +1,89 @@
+---
+comments: true
+date: 2011-01-06 11:00:00
+layout: post
+published: false
+slug: None
+title: Slink Available on the Mac App Store
+wordpress_id: 1970
+tags:
+- News
+---
+
+Auckland, New Zealand – Slinkware is delighted to announce that our innovative remote access product, Slink, is available today on the Mac App Store. Slink is the easiest way to remotely access your home network. Listen to your iTunes music and watch your movies from anywhere, get the files from your home Mac or Time Capsule that you forgot to bring with you on the road, or help your parents or kids out using remote screen sharing.
+
+
+
+
+“Slink is the easiest way to access content remotely from anywhere in the world,” said Slinkware founder, Olof Olsson. “We are thrilled to be part of the Mac App Store from day one.”
+
+
+
+
+Slink’s network magic makes your home network appear to be connected and all shared services automatically appear in the Finder, iTunes, iPhoto and other applications, just as they do at home. With Slink you are only a click away from your home network, no matter where you are. Slink supports almost all applications that use Apple’s Bonjour technology, including:
+
+
+
+
+* iTunes Home Sharing  
+
+* iPhoto Sharing  
+
+* Screen Sharing  
+
+* File Sharing  
+
+* Print Sharing
+
+
+
+
+Some of the key features that sets Slink apart from the competition are:  
+
+* Easy to set-up with very little configuration  
+
+* Remote access to all Macs and Bonjour services on your home network  
+
+* Based on rock solid UNIX SSH technology and all traffic is secured using strong encryption  
+
+* Secure browsing to protect against threats when using WiFi hotspots  
+
+* Remotely connect to many home networks simultaneously  
+
+* Support for proxies to allow remote connections from locked down corporate networks  
+
+* Connection Doctor and Firewall Buster to help troubleshoot connectivity issues
+
+
+
+
+Pricing and Availability:  
+
+Slink is immediately available from the Mac App Store in the Utilities category for $24.99 (USD).
+
+
+
+
+[Slink 1.8](http://prmac.com/external_link.php?release=20281&l=1&url=http://slinkware.com/)  
+[Purchase and Download](http://prmac.com/external_link.php?release=20281&l=2&url=http://itunes.apple.com/us/app/slink/id402358338?mt=12&ls=1)  
+[Screenshot 1](http://prmac.com/external_link.php?release=20281&l=3&url=http://slinkware.com/press/screenshot1.png)  
+[Screenshot 2](http://prmac.com/external_link.php?release=20281&l=4&url=http://slinkware.com/press/screenshot2.png)
+
+
+
+
+Founded by Olof Olsson in 2009, Slinkware is based in beautiful Auckland, New Zealand, and specializes in user-friendly, yet powerful, Mac OS X and iOS network applications. Copyright 2010-2011 Slinkware. Apple, the Apple logo and Mac OSX are registered trademarks of Apple Computer in the U.S. and/or other countries.
+
+
+
+
+
+[![](http://feedads.g.doubleclick.net/~a/UeE7R7wc_bhWulHQOIRUNK4ycDw/0/di)](http://feedads.g.doubleclick.net/~a/UeE7R7wc_bhWulHQOIRUNK4ycDw/0/da)  
+
+[![](http://feedads.g.doubleclick.net/~a/UeE7R7wc_bhWulHQOIRUNK4ycDw/1/di)](http://feedads.g.doubleclick.net/~a/UeE7R7wc_bhWulHQOIRUNK4ycDw/1/da)
+
+
+[![](http://feeds.feedburner.com/~ff/macmegasite?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/macmegasite?a=yJL6VUhw5ew:2LTGcLX0wmI:yIl2AUoC8zA) [![](http://feeds.feedburner.com/~ff/macmegasite?d=dnMXMwOfBR0)](http://feeds.feedburner.com/~ff/macmegasite?a=yJL6VUhw5ew:2LTGcLX0wmI:dnMXMwOfBR0) [![](http://feeds.feedburner.com/~ff/macmegasite?i=yJL6VUhw5ew:2LTGcLX0wmI:D7DqB2pKExk)](http://feeds.feedburner.com/~ff/macmegasite?a=yJL6VUhw5ew:2LTGcLX0wmI:D7DqB2pKExk) [![](http://feeds.feedburner.com/~ff/macmegasite?i=yJL6VUhw5ew:2LTGcLX0wmI:V_sGLiPBpWU)](http://feeds.feedburner.com/~ff/macmegasite?a=yJL6VUhw5ew:2LTGcLX0wmI:V_sGLiPBpWU) [![](http://feeds.feedburner.com/~ff/macmegasite?i=yJL6VUhw5ew:2LTGcLX0wmI:F7zBnMyn0Lo)](http://feeds.feedburner.com/~ff/macmegasite?a=yJL6VUhw5ew:2LTGcLX0wmI:F7zBnMyn0Lo)
+
+
+![](http://feeds.feedburner.com/~r/macmegasite/~4/yJL6VUhw5ew)

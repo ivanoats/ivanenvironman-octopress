@@ -1,0 +1,28 @@
+---
+comments: true
+date: 2011-01-14 06:35:11
+layout: post
+published: false
+slug: None
+title: 'Twitter for Mac: ‘Tweet’ from Anywhere in OS X'
+wordpress_id: 1982
+tags:
+- Featured
+- mac
+- Tutorials &amp; Tips
+- twitter
+---
+
+Just a few days ago everyone ([including us](http://www.macstories.net/links/twitter-for-mac-bookmarklet/)) was talking about a simple [bookmarklet](http://dl.dropbox.com/u/534786/twitter.html) for Safari that sends the site title and link to Twitter for Mac (Tweetie 2). Last night, I even found a [Safari extension](http://rafeed.me/2011/01/11/post-to-twitter-a-safari-5-extension-for-twitter-for-mac/) that did the same thing but also adds a tweet option in the contextual menu (right click) within Safari. Right after I tweeted the link, @SebastienPeek told me “who needs that when you can highlight anything, right click and it’ll show Tweet?” I had no idea what he was talking about, do you? I asked him if it was Safari only and he went one step more and said that it’s system wide, you can do it with a right click and highlight of any text. @BoltClock is credited with pointing me to this discovery. It’s system-wide for all apps that support Mac OS X’s contextual menu item additions. Here’s some visual goodness:
+
+
+
+
+![](http://www.macstories.net/wp-content/uploads/2011/01/Tweet11.jpg) [Read More](http://www.macstories.net/mac/twitter-for-mac-tweet-from-anywhere-in-os-x/#more-18494)
+
+
+
+
+[![](http://c2438712.cdn.cloudfiles.rackspacecloud.com/UNEASYbanner.png)](http://appshopper.com/link/uneasy)
+
+![](http://feeds.feedburner.com/~r/macstoriesnet/~4/5mYCTF-FiOc)

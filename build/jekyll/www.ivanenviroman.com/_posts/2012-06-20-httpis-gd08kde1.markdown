@@ -1,0 +1,14 @@
+---
+comments: false
+date: 2012-06-20 04:16:00
+layout: post
+slug: httpis-gd08kde1
+title: http://is.gd/08KDe1
+wordpress_id: 2690
+categories:
+- Bookmarks
+tags:
+- from-twitter
+---
+
+goldmine (0.9.0): http://t.co/kc8IIgvI     Goldmine allows you to apply pivot table logic to any list for powerful data mining capabilities.

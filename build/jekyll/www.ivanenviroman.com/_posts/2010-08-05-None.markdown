@@ -1,0 +1,78 @@
+---
+comments: true
+date: 2010-08-05 05:18:00
+layout: post
+published: false
+slug: None
+title: Mac Vim Speed Tips
+wordpress_id: 1905
+---
+
+Today I spent a few minutes making things better for myself with MacVim.
+
+
+
+
+	
+
+First, I upgraded to snapshot 52 of MacVim. There hasn’t been a stable release of MacVim since 2008, but development is ongoing. There are about 2 years of MacVim development that you can take advantage of if you use the snapshots.
+
+
+
+
+	
+
+Snapshot 52 was released in March 2010 makes rendering a lot faster, and also includes an even faster experimental rendering mode, but this did anti-aliasing which I didn’t like so I didn’t use it.
+
+
+
+
+	
+
+If you use the stable version of MacVim, then you are no doubt aware how slow the rendering is. Highly worth it to upgrade!
+
+
+
+
+	
+
+Second, I got the PeepOpen application and added:
+
+
+  
+    
+    1<tt>
+    </tt>2<tt>
+    </tt>3<tt>
+    </tt>4<tt>
+    </tt>5<tt>
+    </tt>6<tt>
+    </tt>7<tt>
+    </tt>
+
+
+  
+    
+    <tt>
+    </tt>"""""""""""""""""""""""""""""""""""""""""""""""""<tt>
+    </tt>" PeepOpen                                      "<tt>
+    </tt>" Project search                               "<tt>
+    </tt>"""""""""""""""""""""""""""""""""""""""""""""""""<tt>
+    </tt>map <leader>t :PeepOpen<CR><tt>
+    </tt><tt>
+    </tt>
+
+
+
+
+
+to my .vimrc
+
+
+
+
+	
+
+These two changes make opening files about 100x faster due to faster rendering and faster search. Fuzzyfinder textmate was bugging me due to issues with 1.9.2 I think, as well as a extreme slowness in a my rather large application.
+
+![](http://feeds.feedburner.com/~r/momoro/~4/OD17pqpxdoo)

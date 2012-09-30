@@ -1,0 +1,14 @@
+---
+comments: true
+date: 2011-05-02 05:00:17
+layout: post
+published: false
+slug: None
+title: Cisco Rolls Out Its Data Center Containers
+wordpress_id: 2249
+tags:
+- Cisco
+- Containers
+---
+
+Citing growing interest in modular designs, Cisco Systems is making a major push into the market for data center containers. After months of quietly selling custom solutions, the networking giant today launched the Cisco Containerized Data Center.![](http://feeds.feedburner.com/~r/DataCenterKnowledge/~4/8AxBTAw5yDI)

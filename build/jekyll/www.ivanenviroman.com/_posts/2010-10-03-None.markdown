@@ -1,0 +1,40 @@
+---
+comments: true
+date: 2010-10-03 20:35:00
+layout: post
+published: false
+slug: None
+title: 'OmniAuth: Flexible, Unassuming Multi-Provider Authentication for Rack'
+wordpress_id: 1888
+---
+
+
+
+				[
+					![](http://i2.reflectornetwork.com/images-4/aW1nLnNraXRjaC5jb20vMjAxMDEwMDQtbXg1eDlzNnlzbncyNWphYWNnaWhycnhoZGYucG5n.png)
+				](http://bit.ly/bBCsOu)
+
+
+				
+
+By [Michael Bleigh](http://rubyreflector.com/Michael-Bleigh) of [Intridea - Company Blog](http://bit.ly/80ut3) 1 day ago.
+
+
+				
+
+There are lots of authentication solutions out there for  Rails. Many of them even have ways to connect to services such as  Facebook or Twitter. But as I used these in project after project I noticed an emerging pattern: they all make too many assumptions about how I want to handle authentication in my application. Sure that makes it a quick start for the vanilla use case, but I honestly can't think of a time when I've dropped in an authentication solution and I was good to go. It's …
+
+
+				
+
+
+
+				
+  * Topics: [Facebook](http://rubyreflector.com/Facebook), [Twitter](http://rubyreflector.com/Twitter), [OpenID](http://rubyreflector.com/OpenID), [Linkedin](http://rubyreflector.com/Linkedin), [GitHub](http://rubyreflector.com/GitHub)
+
+
+				
+
+
+				
+			

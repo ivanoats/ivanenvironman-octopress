@@ -1,0 +1,41 @@
+---
+comments: true
+date: 2008-05-09 22:00:00
+layout: post
+published: false
+slug: None
+title: Slides and code from my BDD/rspec presentation
+wordpress_id: 1915
+---
+
+Here are the slides from my [URUG (Utah Ruby User Group)](http://urug.org) presentation on 5/7/2008:
+
+
+
+
+[![SlideShare](http://static.slideshare.net/swf/logo_embd.png)](http://www.slideshare.net/?src=embed) | [View](http://www.slideshare.net/bmabey/the-why-behind-tddbdd-and-the-how-with-rspec?src=embed) | [Upload your own](http://www.slideshare.net/upload?src=embed)
+
+
+
+
+During the presentation I attempted to show some actual code. Using git I had previously walked through the different ways of using the rspec story runner (ruby with inlined steps, with steps libraries, and plain text with steps) and tagged the progress as I went. You can download the git repo and look at the different ways of using the story runner by checking out the different tags.
+
+
+
+
+
+To list the tags simply type ‘git tag’ and to checkout a tag into a new branch type ‘git checkout -b tag_name tag_name’.
+
+
+
+
+
+  [![Download](http://www.benmabey.com/wp-content/icons/downloads.png)](http://www.benmabey.com/wp-content/uploads/2008/05/story_runner_demo.tar.gz)
+  
+
+#### 
+    [story_runner_demo.tar.gz ](http://www.benmabey.com/wp-content/uploads/2008/05/story_runner_demo.tar.gz)
+  
+
+
+

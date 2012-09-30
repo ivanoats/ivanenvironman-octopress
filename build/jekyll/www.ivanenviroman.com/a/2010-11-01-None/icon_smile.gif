@@ -1,0 +1,953 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Jerod Santo" />
+  <meta name="viewport" content="width=700, maximum-scale=1.0" />
+  <meta name="description" content="Ouch. The page you were looking for is gone." />
+  <title>
+    404 -  Jerod Santo
+  </title>
+  <link rel="stylesheet" href="/css/reset.css" type="text/css" />
+  
+  <link rel="stylesheet" href="/css/screen.css" type="text/css" />
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/nomeanblog" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="inner">
+      <div id="container">
+        <div id="header">
+          <h1><a href="/" title="Home">Jerod Santo</a></h1>
+          <ul>
+            <li>
+              <a href="/archives/" title="archives">[archives]</a>
+            </li>
+            <li>
+              <a href="https://github.com/jerodsanto" title="github">[on github]</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/jerodsanto" title="twitter">[on twitter]</a>
+            </li>
+            <li>
+              <a href="mailto:jerod.santo@gmail.com" title="contact">[contact]</a>
+            </li>
+          </ul>
+          <hr class="right hidden"/>
+        </div>
+        <h2>404</h2>
+        <h4>Ouch. The page you were looking for is gone.</h4>
+
+<p>Somehow the page you're looking for vanished. You can go to the <a href="/">homepage</a> or check the recent articles below to try to find what you're looking for.</p>
+
+
+  <div class="post">
+    <h3><a href="/2012/09/and-now-for-something-so-niche-that-perhaps-only-i-will-use-it">And Now For Something So Niche That Perhaps Only I Will Use It</a></h3>
+    <p class="date">20 Sep 2012</p>
+    <p>It's called <a href='http://pushpop.herokuapp.com'>Push Pop</a> and I love it. Maybe you will too. Probably not, though.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/09/announcing-object-lateral">Announcing Object Lateral</a></h3>
+    <p class="date">04 Sep 2012</p>
+    <p>This is my company. There are many like it, but this one is mine.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/08/adding-your-own-bookmarks-and-bookmarklets-to-the-ios-simulators-mobile-safari">Adding Your Own Bookmarks and Bookmarklets to the iOS Simulator's Mobile Safari</a></h3>
+    <p class="date">29 Aug 2012</p>
+    <p>The process is only a little longer than its title</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/08/7-ways-to-level-up-your-sublime-text-editing">7 Ways to Level Up Your Sublime Text Editing</a></h3>
+    <p class="date">17 Aug 2012</p>
+    <p></p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/08/how-to-get-quick-access-to-technical-symbols-and-other-special-characters-in-os-x">How to get quick access to technical symbols and other special characters in OS X</a></h3>
+    <p class="date">08 Aug 2012</p>
+    <p>If you find yourself typing out "command", "option", or "control" often and want to take a principled stand against verbosity, I have good news for you!</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/08/get-sinatra-up-and-running-with-zurbs-foundation-3-framework">Get Sinatra Up and Running with Zurb's Foundation 3 Framework</a></h3>
+    <p class="date">07 Aug 2012</p>
+    <p><a href='http://sinatrarb.com'>Sinatra</a> and Zurb's <a href='http://foundation.zurb.com'>Foundation</a> are a great one-two punch, but getting them to play nice is not exactly straight forward. I created a <a href='https://github.com/jerodsanto/sinatra-foundation-skeleton'>skeleton project</a> you can use to get up and running quickly.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/07/some-white-spaces-are-more-equal-than-others">Some White Spaces are More Equal Than Others</a></h3>
+    <p class="date">23 Jul 2012</p>
+    <p>Let's not argue about tabs vs. spaces. Let's argue about spaces vs. spaces!</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/07/you-might-be-a-unix-geek">You Might be a Unix Geek</a></h3>
+    <p class="date">14 Jul 2012</p>
+    <p>Jeff Foxworthy's PC is probably rolling in its grave.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/07/my-favorite-bundler-feature">My Favorite Bundler Feature</a></h3>
+    <p class="date">03 Jul 2012</p>
+    <p>Ruby's popular gem bundling library made dependency management headaches a thing of the past, but it also bundles another feature that has changed my day-to-day life for the better: open</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/06/wrangle-your-ios-apps">Wrangle Your iOS Apps</a></h3>
+    <p class="date">28 Jun 2012</p>
+    <p>Digital clutter can be as bad as its analog equivalent. I find that I enjoy my iOS devices more when they're populated by a handful of super high quality apps instead of a boatload of apps of varying quality. But maintaining such a state can be slightly overwhelming if you don't have a system. I have a system. Oh, I have a system...</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/06/3-tools-i-install-on-every-server">3 Tools I Install on Every Server</a></h3>
+    <p class="date">14 Jun 2012</p>
+    <p>htop, ack, and tree</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/06/a-brief-message-to-web-designers">A Brief Message to Web Designers</a></h3>
+    <p class="date">07 Jun 2012</p>
+    <p>If you're not designing websites that adapt to mobile browser sizes, you need to be.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/06/the-birth-life-and-death-of-sant0sk1">the birth, life, and death of sant0sk1</a></h3>
+    <p class="date">05 Jun 2012</p>
+    <p>The storied history of my Internet handle and why I've decided to put it to rest.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/05/back-that-gmail-up">Back That Gmail Up</a></h3>
+    <p class="date">26 May 2012</p>
+    <p>Girl, you looks good, won't you back that Gmail up</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/05/enumerables-star-ect-methods-reimplemented-using-each_with_object">Enumerable's *ect Methods Reimplemented Using `each_with_object`</a></h3>
+    <p class="date">20 May 2012</p>
+    <p>On episode 54 of the Ruby Rogues podcast, Josh Susser mentioned an interview question he used to use where he would ask the interviewee to reimplement Enumerable's *ect methods (collect, select, reject, and detect) using <code>inject</code>. In this post I attempt the same thing, but using <code>each_with_object</code></p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/05/tee-for-two">Tee for Two</a></h3>
+    <p class="date">16 May 2012</p>
+    <p>Tee is one of those commands so simple, so basic that you've either been using it for years or you'll wish you had been.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/04/confessions-of-a-meteor-newb">Confessions of a Meteor Newb</a></h3>
+    <p class="date">23 Apr 2012</p>
+    <p>I spent a weekend building a game with the brand new <a href='http://meteor.com'>Meteor</a> JavaScript Framework. Lessons learned and all that.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/04/dead-simple-rails-config">Dead Simple Rails Config</a></h3>
+    <p class="date">04 Apr 2012</p>
+    <p>Adding custom configuration to a Rails app used to be a chore, but now it's dead simple. Here's how.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/03/get-firehol-off-of-rsyslogs-lawn">Get FireHOL off of RSyslog's lawn</a></h3>
+    <p class="date">27 Mar 2012</p>
+    <p>FireHOL is the best tool I've used for configuring Linux firewalls. But it can really spew its logs all over your kern.log and syslog. Getting it to stop this is non-obvious so hopefully this saves you some time.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/03/naming-schemes">Naming Schemes</a></h3>
+    <p class="date">22 Mar 2012</p>
+    <p>Naming things is hard. This website helps.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/03/best-buy-considered-harmful">Best Buy Considered Harmful</a></h3>
+    <p class="date">05 Mar 2012</p>
+    <p>In which I rant on the terrible user experience at a run-of-the-mill Best Buy retail store.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/02/ip2loc-lives">ip2loc lives</a></h3>
+    <p class="date">25 Feb 2012</p>
+    <p>So many folks reached out to say thanks, offer assistance, and tell me how often they use ip2loc that I decided to bring it back to life.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/02/a-simple-pattern-to-namespace-and-selectively-execute-certain-bits-of-javascript-depending-on-which-rails-controller-and-action-are-active">A Simple Pattern to Namespace and Selectively Execute Certain Bits of JavaScript Depending on Which Rails Controller and Action are Active</a></h3>
+    <p class="date">08 Feb 2012</p>
+    <p>The title says it all</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2012/01/sublime-text-2-icon-replacement-roundup">Sublime Text 2 Icon Replacement Roundup</a></h3>
+    <p class="date">12 Jan 2012</p>
+    <p>Sublime Text 2 may be the best text editor on the planet, but its icon is an abomination. Thankfully, replacements abound.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/12/beloved-bits-2011">Beloved Bits, 2011</a></h3>
+    <p class="date">31 Dec 2011</p>
+    <p>My first ever list-of-things-that-I-deem-notable-in-the-year-which-is-about-to-conclude.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/12/a-photostream-problem-workaround-bonus">A Photo Stream Problem, Workaround, &amp; Bonus</a></h3>
+    <p class="date">11 Dec 2011</p>
+    <p>One major problem with Photo Stream is that it uploads <em>everything</em> that hits your device's Camera Roll. That'd be great if all we ever took were amazing photographs. But alas, many of the images captured by our phones just aren't worth the effort</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/08/a-kindle-cloud-reader-bookmarklet-to-enable-text-selection-copy-paste-etc">A Kindle Cloud Reader Bookmarklet to Enable Text Selection, Copy/Paste, Et Cetera</a></h3>
+    <p class="date">10 Aug 2011</p>
+    <p>Amazon's new Kindle Cloud Reader is an awesome web-based reader. However, they won't let you select text to copy/paste, look up in dictionary, or do any of the other cool stuff that we can do on the web. This post provides a bookmarklet that unlocks those features.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/08/brew-install-vim">Brew Install Vim</a></h3>
+    <p class="date">04 Aug 2011</p>
+    <p>Apple ships vim with OS X, but it's lacking a few nice features. Homebrew proper doesn't have a Vim formula because it violates the 'no-duplicates' policy. Thankfully, there's an alternative repo of nice Homebrew formulae, including Vim!</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/08/a-better-way-to-get-recency-based-google-searches-in-chrome">A Better Way to Get Recency-based Google Searches in Chrome</a></h3>
+    <p class="date">02 Aug 2011</p>
+    <p>Last week I shared my Dotjs hack which forces Chrome's Omnibar searches to use Google's "past year" parameter. Since then I've learned a couple of things and found a better way of handling it.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/07/my-dotjs-hack-to-default-google-searches-to-past-year">My Dotjs Hack to Default Google Searches to Past Year</a></h3>
+    <p class="date">26 Jul 2011</p>
+    <p>Sick of clicking on 'More tools' and 'Past year' after almost all of your Google searches? I was, so I hacked together a dotjs quickie which adds the necessary params if they aren't already provided.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/07/the-coldplay-effect">The Coldplay Effect</a></h3>
+    <p class="date">25 Jul 2011</p>
+    <p>In the context of music recommendation engines, The Coldplay Effect is an unfortunate phenomenon that arises when certain artists' music (like Coldplay's) ranks high for likeness across diverse genres.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/07/building-multi-tenant-rails-apps-with-postgresql-schemas">Building Multi-tenant Rails Apps with PostgreSQL Schemas</a></h3>
+    <p class="date">18 Jul 2011</p>
+    <p>There are a few different ways to go about building a multi-tenant Rails application. One way that works really well for certain apps is to use PostgreSQL's 'schemas' feature to partition each tenant's data. This article lays out why you might want to build your multi-tenant app this way and how to go about it.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/06/cap-db-pull">cap db:pull</a></h3>
+    <p class="date">29 Jun 2011</p>
+    <p>A quick and dirty capistrano task to pull a snapshot of your (PostgreSQL) production database into your development environment.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/06/connecting-node-js-to-redis-to-go-on-heroku">Connecting Node.js to Redis To Go on Heroku</a></h3>
+    <p class="date">17 Jun 2011</p>
+    <p>Heroku's new Cedar stack is awesome for many reasons, one of which is first-class Node.js hosting. I'm giving it a test run with an app that uses Redis for data caching and I couldn't find any documentation on how to connect a Node app to the Redis To Go add-on. Here's how I did it</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/06/reasons-your-dev-team-might-choose-talker-over-campfire-for-group-chat">Reasons Your Dev Team Might Choose Talker Over Campfire for Group Chat</a></h3>
+    <p class="date">14 Jun 2011</p>
+    <p>Talker is a great tool for group chat, especially for development teams. Herein I enumerate 3 reasons why it's better suited than Campfire.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/04/benchmarketing">Benchmarketing</a></h3>
+    <p class="date">16 Apr 2011</p>
+    <p>(pejorative) The misleading use of unrepresentative benchmark software results in marketing a computer system.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/04/pow-and-apache-side-by-side">Pow and Apache Side-by-Side</a></h3>
+    <p class="date">12 Apr 2011</p>
+    <p>Pow is the new hotness for serving up Ruby apps in development. Apache is the old standby for serving up PHP (and other) apps in development. Pow and Apache don't play nice, but we can change that.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/04/activerecord-association-caching-gotcha">ActiveRecord Association Caching Gotcha</a></h3>
+    <p class="date">07 Apr 2011</p>
+    <p>Updating a related object in an ActiveRecord callback can be tricky due to association caching. It tripped me up for too long and Google was not helpful. Hopefully this post will at least solve the unhelpful Googling problem.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/03/install-firefox-4-and-firefox-3-side-by-side-on-mac-os-x">Install Firefox 4 and Firefox 3 Side by Side on Mac OS X</a></h3>
+    <p class="date">23 Mar 2011</p>
+    <p>Want to upgrade to the newly released Firefox 4 while maintaining your Firefox 3 install for browser testing purposes? So did I. Here's how to get 'er done</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/03/the-two-character-config-hack-that-changed-my-bashing-life">The Two Character Config Hack That Changed my Bashing Life</a></h3>
+    <p class="date">20 Mar 2011</p>
+    <p>Little conveniences can make big differences. I recently added two characters to my Bash configuration that made a profound affect on my everyday computer use.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/02/the-perfect-setup-rails-on-screen">The Perfect Setup: Rails on Screen</a></h3>
+    <p class="date">25 Feb 2011</p>
+    <p>This post isn't trying to sell you on <code>screen</code>. There are umpteen sites out there which do that. Instead, I'd like to share with you how I've engineered my setup such that it's a joy to use.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/01/jquery-is-in-array-boolean-sugar">jQuery isInArray Boolean Sugar</a></h3>
+    <p class="date">31 Jan 2011</p>
+    <p>Sprinkle this sugary function on top of your jQuery for a little syntactic delight.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/01/tech-podcasts-you-should-know-about">Tech Podcasts You Should Know About</a></h3>
+    <p class="date">30 Jan 2011</p>
+    <p>I've been listening to tech-related podcasts since the birth of the medium. I recently realized that I've never shared the shows that I think are great. So, here they are (in no particular order).</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/01/quickly-determine-your-current-heroku-database-size">Quickly Determine Your Current Heroku Database Size</a></h3>
+    <p class="date">26 Jan 2011</p>
+    <p>Heroku does not expose the current database size of your application via their web interface or command-line tool, but its pretty easy to get at.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2011/01/three-ways-to-retain-your-dev-flow">Three Ways to Retain Your Dev Flow</a></h3>
+    <p class="date">14 Jan 2011</p>
+    <p>Context switching: computers are great at it, humans suck at it. Every time we developers lose the context of our current task we are forced to waste precious time getting back...</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/12/bridging-the-gap-between-javascripts-console-log-and-cocoas-nslog">Bridging the Gap Between JavaScript's console.log and Cocoa's NSLog</a></h3>
+    <p class="date">27 Dec 2010</p>
+    <p>Working with JavaScript inside of a WebKit WebView can be tricky because bare-bone WebViews don't ship with the handy, dandy developer console that is available in Safari and Chrome. In this post, I outline how to get your JavaScript console.logs to show up in Xcode's Debugger Console using NSLog.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/12/the-tech-behind-the-new-grooveshark">The Tech Behind the New Grooveshark</a></h3>
+    <p class="date">15 Dec 2010</p>
+    <p>In which I pay respect to the many open source libraries we used as foundation for Grooveshark's new web-based player.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/12/making-rails-3-mail-gem-and-paperclip-play-nice">Making Rails 3's Mail Gem and Paperclip Play Nice</a></h3>
+    <p class="date">09 Dec 2010</p>
+    <p>The old TMail gem used in Rails allowed directly importing parsed attachments into Paperclip. The new Mail gem works differently, but we can make them play nice.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/12/minimally-awesome-todos">Minimally Awesome Todos</a></h3>
+    <p class="date">01 Dec 2010</p>
+    <p>I've wasted many hours of my life trying different task management applications and have never found anything effective enough to stick with. Finally, I've found a solution that is simple and effective. It Just Works&reg;. I think it's awesome. Maybe you will too.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/11/took-a-detour">Took a Detour</a></h3>
+    <p class="date">01 Nov 2010</p>
+    <p>Professionally I've been writing a ton of JavaScript lately, but in my free time I took a detour into the land of Cocoa to develop a tiny little Mac app. It only does one thing, but hopefully it does it well enough to get some use.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/08/lazercatz">LazerCatz!</a></h3>
+    <p class="date">30 Aug 2010</p>
+    <p>I competed in the first ever <a href='http://nodeknockout.com/'>Node Knockout</a> over the weekend with a <a href='http://twitter.com/jmhobbs'>couple</a> of <a href='http://twitter.com/codypeterson'>friends</a> and the fruit of our labor is an 8-bit multiplayer shooter called LazerCatz!</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/08/extract-edit-a-safari-extension">Extract & Edit a Safari Extension</a></h3>
+    <p class="date">21 Aug 2010</p>
+    <p>Turns out it's pretty easy to edit a Safari extension that you've downloaded. Here's how.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/06/some-great-ios-apps">Some Great iOS Apps</a></h3>
+    <p class="date">19 Jun 2010</p>
+    <p>I'd like to give props to a handful of iOS apps that I think are exceptional. If you haven't used any of the following, I highly suggest you check them out.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/03/rack-and-firebug-and-fuel">Rack, and Firebug, and Fuel. Oh Hai!</a></h3>
+    <p class="date">20 Mar 2010</p>
+    <p>I'm very happy to announce that I've joined the <a href='http://www.fuelbrandnetwork.com/'>Fuel Network</a> as co-editor of <a href='http://fuelyourcoding.com'>FYC</a>!</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/03/exciting-projects-i-watched-in-february">Exciting Projects I Watched in February</a></h3>
+    <p class="date">06 Mar 2010</p>
+    <p>Another month, another handful of great open-source projects I found on GitHub.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/02/exciting-projects-i-watched-in-january">Exciting Projects I Watched In January</a></h3>
+    <p class="date">02 Feb 2010</p>
+    <p>One of my favorite <a href='http://github.com'>GitHub</a> features is the ability to find and track the progress of projects that interest me. I've decided to post the new projects I find each month on this blog since there is a high likelihood that you and I have common interests</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/01/cappuccino-on-rails">Cappuccino On Rails</a></h3>
+    <p class="date">12 Jan 2010</p>
+    <p>I'm happy to announce the release of <a href='http://github.com/jerodsanto/CappuccinoResource'>CappuccinoResource</a> (CR), a library dedicated to interfacing between a <a href='http://cappuccino.org'>Cappuccino</a> front-end and a <a href='http://rubyonrails.org'>Rails</a> back-end.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2010/01/testing-cappuccino-notifications">Testing Cappuccino Notifications</a></h3>
+    <p class="date">07 Jan 2010</p>
+    <p>Writing a web app using <a href='http://cappuccino.org'>Cappuccino</a> has a lot of benefits, one of which is a really nice message passing system wherein certain objects can register to observe events and take action when other objects post notifications of those events.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/12/rubular">Rubular</a></h3>
+    <p class="date">02 Dec 2009</p>
+    <p>Most of the online regular expression testers I've used just aren't that useful, but Rubular is the exception.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/11/280-atlas-introductory-screencast">280 Atlas Introductory Screencast</a></h3>
+    <p class="date">16 Nov 2009</p>
+    <p>The much anticipated <a href='https://atlas-beta.heroku.com/' rel='external'>280 Atlas developer beta</a> is under way and I recorded a brief screencast introducing the basic concepts of creating applications with Atlas.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/11/ad-hoc-command-line-notifications-with-twitter">Ad Hoc Command-Line Notifications with Twitter</a></h3>
+    <p class="date">14 Nov 2009</p>
+    <p>Have you ever spent way too much time babysitting a long-running command? Code compilation, large file transfers, software upgrades and other time consuming tasks can trash productivity by requiring intermittent attention. Here is a way to avoid the predicament.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/11/managing-broken-symlinks">Managing Broken Symlinks</a></h3>
+    <p class="date">05 Nov 2009</p>
+    <p>I just added two new functions to my bashrc which make it super-simple to find & remove broken symbolic links on your system.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/11/learning-cappuccino-a-linked-list">Learning Cappuccino: A Linked List</a></h3>
+    <p class="date">01 Nov 2009</p>
+    <p>A list of valuable resources for learning Objective-J and the Cappuccino web framework.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/10/a-wordpress-skeleton-key">A WordPress Skeleton Key</a></h3>
+    <p class="date">29 Oct 2009</p>
+    <p>I often use WordPress as a CMS and have a couple of sites with many users contributing. I rarely go a week without an email or phone call from a user who needs help posting. When it comes to remote support there is no substitute for seeing what they're seeing.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/10/cheating-on-rails">Cheating on Rails</a></h3>
+    <p class="date">20 Oct 2009</p>
+    <p>Fellow command-line junkies either love <a href='http://cheat.errtheblog.com/'>the cheat gem</a> by <a href='http://ozmm.org/'>Chris Wanstrath</a> or they've never heard of it.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/10/cappuccinoflow">CappuccinoFlow</a></h3>
+    <p class="date">14 Oct 2009</p>
+    <p>It has been a little quiet around these parts lately. I blame Cappuccino.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/09/run-os-x-system-profiler-from-terminal">Run OS X System Profiler From Terminal</a></h3>
+    <p class="date">09 Sep 2009</p>
+    <p>OS X's built-in `System Profiler` provides a great graphical display of pretty much anything you'll want to know about your Mac.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/09/cd-up-up-up">cd up, up, and a-up</a></h3>
+    <p class="date">07 Sep 2009</p>
+    <p>We all know that <code>.</code> represents the current working directory and <code>..</code> represents the current working directory's parent directory. If we follow this pattern to its logical conclusion, then <code>...</code> would represent the current working directory's parent's parent, etc. Unfortunately, <code>cd</code> doesn't work that way.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/09/kill-snow-leopards-blue-ring-of-expose">Kill Snow Leopard's Blue Ring of Expos&eacute;</a></h3>
+    <p class="date">01 Sep 2009</p>
+    <p>Looks like <a href='http://twitter.com/dougneiner/status/3679180990'>I'm not the only one</a> who hates Snow Leopard's blue ring around selected windows in Exposé.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/08/just-abort-it">Just Abort It</a></h3>
+    <p class="date">24 Aug 2009</p>
+    <p>Ruby's `abort` method may be just what you need to print a message and exit.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/08/appstore-ruby-module">AppStore Ruby Module</a></h3>
+    <p class="date">22 Aug 2009</p>
+    <p>I open-sourced a module to fetch app information out of Apple's App Store.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/08/self-scheduling-ruby-scripts">Self-Scheduling Ruby Scripts</a></h3>
+    <p class="date">20 Aug 2009</p>
+    <p>I have a lot of Ruby scripts running on different servers all scheduled via cron and it's quite easy to forget what script is scheduled when and how often. This can be worked around with `Whenever`.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/08/amending-git-commits">Amending Git Commits</a></h3>
+    <p class="date">16 Aug 2009</p>
+    <p>I recently learned that you can fix you're previous commit (modify commit message, add more files, etc.) quite easily with git.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/08/mini-book-review-ruby-best-practices">Mini Book Review: Ruby Best Practices</a></h3>
+    <p class="date">01 Aug 2009</p>
+    <p>I just finished reading Gregory Brown's **Ruby Best Practices** (RBP). I could probably write a book about this book, but I hate long book reviews so I'll try to keep this short.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/07/wordpress-console-update">WordPress Console Update</a></h3>
+    <p class="date">23 Jul 2009</p>
+    <p>It's been awhile since I posted about my <a href='http://github.com/jerodsanto/wordpress-console'>open-source</a> WordPress Console (WPC) plugin, and enough has happened since I released it that I thought it deserved a little mention.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/07/ad-hoc-rails-console-logging">Ad Hoc Rails Console Logging</a></h3>
+    <p class="date">18 Jul 2009</p>
+    <p>If you want to be able to toggle your development log between the default Rails logger and the console, just add this method to your `~/.irbrc`</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/07/sass-never-forgets">Sass Never Forgets</a></h3>
+    <p class="date">09 Jul 2009</p>
+    <p>A Sass mixin for centering a div on a page horizontally and vertically.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/07/on-wordpress-plugin-release-notes">On WordPress Plugin Release Notes</a></h3>
+    <p class="date">03 Jul 2009</p>
+    <p>Plugin upgrade notifications and one-click installs are great for both developers and users alike, but there is one thing about them that I find irritating as a user, and easily avoidable as a developer: **displaying reasons to upgrade**.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/07/jquery-tools-101-nested-tabs">jQuery Tools 101: Nested Tabs</a></h3>
+    <p class="date">01 Jul 2009</p>
+    <p>If you want to nest tabs inside one another you'll need to change things slightly. I demonstrate in this post.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/06/introducing-the-wordpress-console">Introducing the WordPress Console</a></h3>
+    <p class="date">23 Jun 2009</p>
+    <p>I enjoy developing for WordPress, but I've been spoiled by Rails and I often long for an interactive console for WordPress.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/06/sniff-your-iphones-network-traffic">Sniff Your iPhone's Network Traffic</a></h3>
+    <p class="date">13 Jun 2009</p>
+    <p>Ever wanted (or needed) to see your iPhone's network traffic? All you need is a wireless LAN and the cross-platform proxy application, Paros.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/06/php5-with-readline-support-on-os-x">PHP5 with readline support on OS X</a></h3>
+    <p class="date">06 Jun 2009</p>
+    <p>OS X ships with PHP5 installed but it does not have `readline()` support compiled in.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/06/let-capistrano-compile-ruby-19-for-you">Let Capistrano Compile Ruby 1.9 For You</a></h3>
+    <p class="date">02 Jun 2009</p>
+    <p>A Capistrano task to install Ruby 1.9.1 to `/opt/ruby-1.9.1` on Debian</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/05/dead-simple-rails-deployment">Dead Simple Rails Deployment</a></h3>
+    <p class="date">31 May 2009</p>
+    <p>A couple of technologies have come along and made my deployment process a whole lot easier.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/05/rename-a-gitosis-repository">Rename A Gitosis Repository</a></h3>
+    <p class="date">28 May 2009</p>
+    <p>I recently needed to rename one of my repositories and couldn't find any info on how to do it, so here is a walk-thru.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/05/3-reasons-why-heroku-is-a-game-changer">3 Reasons Why Heroku is a Game Changer</a></h3>
+    <p class="date">26 May 2009</p>
+    <p>Why I think Heroku is awesome and will change the game of Ruby app deployment</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/05/create-arbitrarily-sized-files-in-less-than-15-lines-of-ruby">Create Arbitrarily Sized Files In Less Than 15 Lines of Ruby</a></h3>
+    <p class="date">22 May 2009</p>
+    <p>With this little Ruby script, you can arbitrarily generate files of any size (using 1MB increments).</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/05/jquery-open-external-links-in-new-windowtab">jQuery - Open External Links In New Window/Tab</a></h3>
+    <p class="date">18 May 2009</p>
+    <p>Use jQuery to add the target attribute to links so it doesn't muck up the HTML.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/05/expand-your-twitter-network-in-less-than-15-lines-of-ruby">Expand Your Twitter Network In Less Than 15 Lines of Ruby</a></h3>
+    <p class="date">17 May 2009</p>
+    <p>Let's use Ruby to generate a list of people highly followed by our friends.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/05/avoid-sore-fingers-while-sshing-around">Avoid Sore Fingers While SSHing Around</a></h3>
+    <p class="date">14 May 2009</p>
+    <p>Using SSH's config settings to save you keystrokes</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/05/see-which-twitterers-dont-follow-youback-in-less-than-15-lines-of-ruby">See Which Twitterers Don't Follow You Back In Less Than 15 Lines of Ruby</a></h3>
+    <p class="date">12 May 2009</p>
+    <p>See Which Twitterers Don't Follow You Back In Less Than 15 Lines of Ruby</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/05/jquery-set-mouse-focus-on-page-load">jQuery - Set Mouse Focus On Page Load</a></h3>
+    <p class="date">09 May 2009</p>
+    <p>How to set the mouse's focus to an element on the page when the DOM is ready, using jQuery</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/05/git-informed-when-your-site-is-hacked">Git Informed When Your Site Is Hacked</a></h3>
+    <p class="date">04 May 2009</p>
+    <p>How to set up git as a change notification mechanism</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/05/dreamy-now-with-100-api-coverage">Dreamy: Now With 100% API Coverage</a></h3>
+    <p class="date">02 May 2009</p>
+    <p>The folks at DreamHost were gracious enough to provide me with a complimentary Private Server account so I could expand Dreamy's functionality.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/04/clean-wp-dashboard">Clean WP Dashboard</a></h3>
+    <p class="date">23 Apr 2009</p>
+    <p>Clean WP Dashboard is a plugin that cleans up WordPress 2.7's dashboard.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/04/tweetie-has-arrived">Tweetie Has Arrived</a></h3>
+    <p class="date">21 Apr 2009</p>
+    <p>The anointing of an OS X application</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/04/so-dreamy">So Dreamy!</a></h3>
+    <p class="date">18 Apr 2009</p>
+    <p>Dreamy is a command-line tool and Ruby library for accessing DreamHost's API</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/04/new-gem-rack-noie6">New Gem: Rack-noIE6</a></h3>
+    <p class="date">18 Apr 2009</p>
+    <p>Many web developers are discontinuing support for IE6. I, happily, am one of them (unless a client demands it). Here is a Rack middleware to accomplish just that.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/03/2-1">2>&1</a></h3>
+    <p class="date">17 Mar 2009</p>
+    <p>Ever wonder what 2>&1 means on all the cron examples out there?</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/03/rsnapshotrsync-gotcha">Rsnapshot (Rsync) Gotcha</a></h3>
+    <p class="date">09 Mar 2009</p>
+    <p>How to troubleshoot a cryptic Rsnapshot error</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/02/bash-array-and-loops-in-firehol-configuratio">Bash array and loops in FireHOL configuration</a></h3>
+    <p class="date">26 Feb 2009</p>
+    <p>One of FireHOL's strengths is that it uses standard Bash syntax inside its configuration file, so you get all the power of Bash to configure your firewall.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/02/extending-tmailmail-for-html-and-plaintext-only">Extending TMail::Mail for HTML and plaintext only</a></h3>
+    <p class="date">21 Feb 2009</p>
+    <p>A project I'm working on required a little more from Ruby's TMail library than it offers out of the box.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/02/a-simple-ruby-method-to-send-emai">A simple Ruby method to send email</a></h3>
+    <p class="date">17 Feb 2009</p>
+    <p>Feel free to use this simple method to send email</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/02/great-article-on-aptitude-vs-apt-get">Great Article on Aptitude vs Apt-Get</a></h3>
+    <p class="date">16 Feb 2009</p>
+    <p>In case you need some convincing to start using aptitude for all your Debian/Ubuntu software management needs</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/02/gettin-ready-for-lenny">Getting ready for Lenny</a></h3>
+    <p class="date">16 Feb 2009</p>
+    <p>You don't need to fire up an editor to switch your APT repositories from Debian 4 (Etch) to Debian 5 (Lenny)</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/02/debian-50-lenny-released">Debian 5.0 (Lenny) Released</a></h3>
+    <p class="date">15 Feb 2009</p>
+    <p>Almost every software package in my favorite server operating system has been upgraded!</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2009/02/there-and-back-again">There and Back Again</a></h3>
+    <p class="date">14 Feb 2009</p>
+    <p>Mephisto just wasn't cutting it so I switched blogging engines back to WordPress.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/09/fix-your-debian-vmware-image-s-network-after-offline-copy">fix your Debian VMware image's network after offline copy</a></h3>
+    <p class="date">17 Sep 2008</p>
+    <p>If you copy and move a VMware virtual machine that runs Debian, you’ll find that the network adapter is no longer available, which sucks.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/09/starting-asterisk-on-boot-in-debian">Starting Asterisk on Boot in Debian</a></h3>
+    <p class="date">03 Sep 2008</p>
+    <p>You just compiled Asterisk on your Debian server and you want to make sure it starts when you reboot. Here’s how</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/08/adhearsion-textmate-bundle">Adhearsion TextMate Bundle</a></h3>
+    <p class="date">30 Aug 2008</p>
+    <p>I began hacking on Asterisk using the Adhearsion framework a few weeks ago. Despite initial setbacks, I am now having an absolute blast.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/08/date-range-goodies-in-rails">Date Range Goodies in Rails</a></h3>
+    <p class="date">27 Aug 2008</p>
+    <p>When it comes to dealing with dates and their formats between different databases, Ruby, time zones, etc, etc…it can get pretty nasty...</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/08/configure-network-time-protocol-ntp-in-debian">Configure Network Time Protocol (NTP) in Debian</a></h3>
+    <p class="date">27 Aug 2008</p>
+    <p>Here’s how to synchronize your Debian system’s time with network time servers, in a few simple steps</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/08/introducing-lil-tom-peep">Introducing lil tom peep</a></h3>
+    <p class="date">23 Aug 2008</p>
+    <p>lil tom peep is a new web application I wrote to fix a problem I had with web surfing.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/08/debian-etch-default-repositories">Debian Etch: Default Repositories</a></h3>
+    <p class="date">22 Aug 2008</p>
+    <p>In case you muck up your `/etc/apt/sources.list` and want to set it back to the defaults</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/08/easy-configuration-with-ruby-and-yaml">Easy Configuration with Ruby and Yaml</a></h3>
+    <p class="date">19 Aug 2008</p>
+    <p>Even trivial apps need to be configured. Why not use Yaml?</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/08/ruby-to-the-rescue">Ruby to the Rescue</a></h3>
+    <p class="date">18 Aug 2008</p>
+    <p>Walking through the basic usage of Ruby's `rescue` feature</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/08/great-jquery-reference">Great jQuery Reference</a></h3>
+    <p class="date">14 Aug 2008</p>
+    <p>I don’t usually post links on this blog unless they accompany a tutorial, but this reference is so good I can’t help but throw it up here for others.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/08/debian-quickie-mailutils">Debian Quickie: MailUtils</a></h3>
+    <p class="date">12 Aug 2008</p>
+    <p>How to ensure access to the handy, dandy `/usr/bin/mail` command on your Debian box.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/08/jquery-wizard-redux">jQuery Wizard Redux</a></h3>
+    <p class="date">09 Aug 2008</p>
+    <p>I was interested in creating a step-by-step form wizard for a Rails app I’ve been working on, so naturally I began searching for a jQuery plugin or tutorial. The best thing I could find was a ‘plugin’ written back in June of 2007...</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/07/rails-screen-awesome">Rails + Screen = Awesome</a></h3>
+    <p class="date">24 Jul 2008</p>
+    <p>Unix’s `screen` utility is like pow-pow-power wheels for remote shells.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/07/pass-optional-arguments-to-ruby-method">Pass Optional Arguments to Ruby Method</a></h3>
+    <p class="date">24 Jul 2008</p>
+    <p>Ruby makes it super-simple to pass optional arguments with default values.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/07/symlink-your-samba-shares">Symlink Your Samba Shares</a></h3>
+    <p class="date">23 Jul 2008</p>
+    <p>Oftentimes a symbolic link is just the quickest/easiest solution to the task at hand.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/07/ip2loc">ip2loc</a></h3>
+    <p class="date">19 Jul 2008</p>
+    <p><a href='http://ip2loc.jerodsanto.net'>ip2loc</a> is a simple tool which visualizes location data for a given IP address using the Google Maps API.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/07/my-perfect-os-x-ftp-server">My Perfect OS X FTP Server</a></h3>
+    <p class="date">17 Jul 2008</p>
+    <p>Sometimes you need to set up a quick and dirty FTP server for one-time use. This is what I use to do it.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/07/traversing-directories-with-ruby">Traversing Directories with Ruby</a></h3>
+    <p class="date">15 Jul 2008</p>
+    <p>A few quick tips on traversing directories with Ruby.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/07/new-github-repo-aws-ruby-miscellany">New GitHub Repo: AWS Ruby Miscellany</a></h3>
+    <p class="date">14 Jul 2008</p>
+    <p>I decided to source out a few random Ruby scripts I use to interface with Amazon’s Simple Storage Service (S3) from the command line.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/07/capify-public-key-deployment">Capify - public key deployment</a></h3>
+    <p class="date">11 Jul 2008</p>
+    <p>I’ve been playing with Capistrano a lot lately and loving it. Here is an example of how easy it is to write tasks and use them on multiple remote servers.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/06/slicehost-debian-firehol-gotchas">SliceHost + Debian + FireHOL gotchas</a></h3>
+    <p class="date">20 Jun 2008</p>
+    <p>Securing your slice with FireHOL is a really, really good move. Here are a few notes that may save you some time</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/06/rails-nested-layouts">Rails: Nested Layouts</a></h3>
+    <p class="date">20 Jun 2008</p>
+    <p>Sometimes one layout (application.html.erb) just doesn’t cut it, but you don’t want a separate layout for each controller in your app. You can use the following technique to nest your Rails app’s layouts.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/06/htop-like-top-but-awesome">htop: like top, but awesome</a></h3>
+    <p class="date">03 Jun 2008</p>
+    <p>If you’ve been hacking at your linux CLI for a little while, you’re probably familiar with the pic below. If not, just type `top` and your terminal will spring to life with an ever-updating process and usage display.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/05/10-5-3-fixes-spaces">10.5.3 Fixes Spaces</a></h3>
+    <p class="date">31 May 2008</p>
+    <p>If you’re like me then one desktop just doesn’t cut it anymore. Leopard’s Spaces is Apple’s attempt at a virtual desktop management app and it has lacked one very crucial feature until the .3 release of the operating system which was pushed last week.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/05/mysql-backup-and-restore">MySQL backup and restore</a></h3>
+    <p class="date">19 May 2008</p>
+    <p>A reference for how to backup and restore MySQL databases, including optional compression.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/05/git-clone-pull-without-changing-directories">git clone & pull without changing directories</a></h3>
+    <p class="date">19 May 2008</p>
+    <p>If you’re trying to configure git commands in a directory that isn’t `pwd`, you’ll have to deal with `clone` and `pull` a little differently.</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/05/debian-disable-sytem-beep">Debian: Disable Sytem Beep</a></h3>
+    <p class="date">19 May 2008</p>
+    <p>Here’s how to turn off that annoying system beep at your Debian CLI</p>
+  </div>
+
+  <div class="post">
+    <h3><a href="/2008/05/railscasts-contest-winner-ish">Railscasts Contest Winner!(ish)</a></h3>
+    <p class="date">14 May 2008</p>
+    <p>They say that second place is the first loser, but not in Ryan Bates’ most recent Railscasts Contest where all 10 winners were handsomely rewarded.</p>
+  </div>
+
+
+
+        <form class="search">
+          <input type="text" id="st-search-input" class="st-search-input" placeholder="Search this site"/>
+        </form>
+        <div id="st-results-container"></div>
+        <script type="text/javascript">
+          var Swiftype = window.Swiftype || {};
+          (function() {
+            Swiftype.key = 'TM8ezPQi8DZRuszeAPuU';
+            Swiftype.inputElement = '#st-search-input';
+            Swiftype.resultContainingElement = '#st-results-container';
+            Swiftype.attachElement = '#st-search-input';
+            Swiftype.renderStyle = "overlay";
+
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.async = true;
+            script.src = "//swiftype.com/embed.js";
+            var entry = document.getElementsByTagName('script')[0];
+            entry.parentNode.insertBefore(script, entry);
+          }());
+        </script>
+        <p id="footnote" style="text-align: center;">
+          &copy;<a href="http://jerodsanto.net">Jerod Santo</a>. Compiled from <a href="https://github.com/jerodsanto/blog">source</a> by <a href="https://github.com/mojombo/jekyll">Jekyll</a>. Original design credited to <a href="http://jeffkreeftmeijer.com/">Jeff Kreeftmeijer</a>.
+        </p>
+      </div>
+
+      <div id="ads">
+        <div class="ad box">
+          <div id="carbonads-container">
+            <div class="carbonad">
+              <div id="azcarbon"></div>
+              <script>var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/15434/azcarbon_2_1_0_VERTDARK"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/js/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/js/jquery.tipsy.js"></script>
+  <script>
+    (function($, undefined) {
+      $.easing.easeOutBack = function (x, t, b, c, d, s) {
+        if (s == undefined) s = 1.70158;
+        return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;
+      };
+      $(function() {
+        $(".service_links a").tipsy();
+
+        var title = escape(document.title.split(" - ")[0]);
+        var url   = escape(document.location);
+
+        $("#content img").each(function() {
+          var $self = $(this);
+          $self.after("<p class='caption'>" + $self.attr("alt") + "</p>");
+        });
+        $(".tweet").attr("href", "http://twitter.com/share?url=" + url + "&via=jerodsanto&text=" + title);
+        $(".instapaper").attr("href", "http://www.instapaper.com/hello2?url=" + url + "&title=" + title);
+        $(".hackernews").attr("href", "http://news.ycombinator.com/submitlink?u=" + url + "&t=" + title);
+        setTimeout(function() {
+          $("#ads").animate({right: "-155px"}, 600, "easeOutBack");
+        }, 1000);
+
+        
+      });
+    })(jQuery)
+  </script>
+  
+  <script>
+     var _gaq = [['_setAccount', 'UA-3287978-18'], ['_trackPageview']];
+     (function(d, t) {
+      var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      g.async = true;
+      g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g, s);
+     })(document, 'script');
+  </script>
+  <script>
+    var _gauges = _gauges || [];
+    (function() {
+     var t   = document.createElement('script');
+     t.type  = 'text/javascript';
+     t.async = true;
+     t.id    = 'gauges-tracker';
+     t.setAttribute('data-site-id', '50460739f5a1f555f0000005');
+     t.src = '//secure.gaug.es/track.js';
+     var s = document.getElementsByTagName('script')[0];
+     s.parentNode.insertBefore(t, s);
+     })();
+  </script>
+  
+</body>
+</html>

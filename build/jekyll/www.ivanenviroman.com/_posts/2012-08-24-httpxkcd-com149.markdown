@@ -1,0 +1,14 @@
+---
+comments: false
+date: 2012-08-24 12:38:38
+layout: post
+slug: httpxkcd-com149
+title: http://xkcd.com/149
+wordpress_id: 2864
+categories:
+- Bookmarks
+tags:
+- from-twitter
+---
+
+@allanbranch @justinko @stevenbristol http://t.co/aSEhsbk7 is the original comic - mad props to someone that wears that on a t-shirt!

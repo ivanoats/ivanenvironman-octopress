@@ -1,0 +1,32 @@
+---
+comments: true
+date: 2010-04-26 09:07:00
+layout: post
+published: false
+slug: None
+title: Creating the Minimum Viable Product
+wordpress_id: 1914
+---
+
+The NYTimes.com had a fantastic article this weekend on [The Rise of the Fleet-Footed Start-Up](http://www.nytimes.com/2010/04/25/business/25unboxed.html).  Here at [Highgroove](http://highgroove.com), we have been preaching about being lean, building products agilely, and doing more with less for quite some time.  It’s great to see a piece in the NYTimes.com Business section advocating this now-proven successful model.
+
+
+
+
+
+
+> 
+...the lean playbook advises quick development of a “minimum viable product,” designed with the smallest set of features that will please some group of customers. Then, the start-up should continually experiment by tweaking its offering, seeing how the market responds and changing the product accordingly.
+
+
+
+
+	
+
+Ready.  Set.  Iterate!
+
+
+[![](http://feeds.feedburner.com/~ff/cleanair?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/cleanair?a=BGCF9coWKP4:7GhJYL39F1Q:yIl2AUoC8zA) [![](http://feeds.feedburner.com/~ff/cleanair?d=7Q72WNTAKBA)](http://feeds.feedburner.com/~ff/cleanair?a=BGCF9coWKP4:7GhJYL39F1Q:7Q72WNTAKBA)
+
+
+![](http://feeds.feedburner.com/~r/cleanair/~4/BGCF9coWKP4)

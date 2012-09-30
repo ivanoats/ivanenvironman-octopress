@@ -1,0 +1,14 @@
+---
+comments: true
+date: 2010-05-25 02:00:55
+layout: post
+published: false
+slug: None
+title: Quick and Dirty Remote User Testing
+wordpress_id: 1913
+tags:
+- Design, User Interface Design, Process, Project Management and Workflow, User Science,
+  Usability
+---
+
+User research doesn’t have to be expensive and time-consuming. With online applications, you can test your designs, wireframes, and prototypes over the phone and your computer with ease and aplomb. Nate Bolt shows the way.

@@ -1,0 +1,35 @@
+---
+comments: true
+date: 2010-12-08 11:35:36
+layout: post
+published: false
+slug: None
+title: WordPress 3.0.3
+wordpress_id: 1953
+tags:
+- Releases
+- Security
+- xmlrpc
+---
+
+[WordPress 3.0.3 is available](http://wordpress.org/download/) and is a security update for all previous WordPress versions.
+
+
+
+
+[This release](http://codex.wordpress.org/Version_3.0.3) fixes issues in the remote publishing interface, which under certain circumstances allowed Author- and Contributor-level users to improperly edit, publish, or delete posts.
+
+
+
+
+**These issues only affect sites that have remote publishing enabled.**
+
+
+
+
+Remote publishing is disabled by default, but you may have enabled it to use a remote publishing client such as one of the WordPress mobile apps. You can check these settings on the “Settings → Writing” screen.
+
+
+
+
+[Download 3.0.3](http://wordpress.org/download/) or update automatically from the “Dashboard → Updates” screen in your site’s admin area.

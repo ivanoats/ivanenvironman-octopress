@@ -1,0 +1,109 @@
+---
+comments: true
+date: 2011-08-13 05:34:00
+layout: post
+published: false
+slug: None
+title: BASH (GNU shell for Unix) cheat sheet
+wordpress_id: 2369
+tags:
+- BASH
+- cheat sheet
+- command line
+- computer
+- linux
+- shell
+- unix
+---
+
+While using the command-line shell, BASH (for Unixen, part of GNU (GNU's Not Unix), developed by FSF (Free Software Foundation), quite popular and superior), for a long time I employed just a few of its manipulation features for command lines -- just these, in fact:
+  
+!$ - last command's last argument
+  
+(C-r) - reverse search, through command history
+  
+
+  
+Recently, I have wanted to combine multiple arguments from multiple commands. To help me remember how, I used the technique of making a cheat sheet. Interestingly, BASH is similar to the text editor, Emacs (as well as Nano). Here is a sample:
+  
+
+  
+Key abbreviations:
+  
+(C-) - Ctrl
+  
+(M-) - Alt
+  
+(newline) - Enter
+  
+(rubout) - Backspace
+  
+
+  
+Move the cursor:
+  
+(C-a) - beginning-of-line
+  
+(C-e) - end-of-line
+  
+(M-f) - forward-word
+  
+(M-b) - backward-word
+  
+
+  
+Change text:
+  
+(M-t) - transpose-words
+  
+
+  
+Kill and yank:
+  
+(C-k) - kill-line
+  
+(C-x rubout) - backward-kill-line
+  
+(M-d) - kill-word
+  
+(C-y) - yank
+  
+
+  
+Completing:
+  
+(tab) - complete
+  
+(M-/ M-/) - complete-filename
+  
+(M-g) - glob-complete-word
+  
+(M-?) - possible-completions
+  
+(C-x /) - possible-filename-completions
+  
+
+  
+Miscellaneous:
+  
+(C-_) - undo
+  
+
+  
+Event designators:
+  
+(!-2) - command previous to last
+  
+(!-2:1-2) - second previous commands's first and second arguments
+  
+(!-2:0 !:3* !-2:2) - second previous command word plus its second argument, the last command's third and following arguments intervening
+  
+
+  
+There's [more](https://github.com/MarkDBlackwell/debian-bash-tool-scripts/blob/master/bash-cheat.txt) on GitHub.
+  
+
+  
+Copyright (c) 2011 Mark D. Blackwell.
+
+![](https://blogger.googleusercontent.com/tracker/3755010526029146864-4267455095470246410?l=markdblackwell.blogspot.com)

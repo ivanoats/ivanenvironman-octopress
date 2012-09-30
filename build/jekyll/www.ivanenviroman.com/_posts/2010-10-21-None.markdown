@@ -1,0 +1,90 @@
+---
+comments: true
+date: 2010-10-21 06:25:48
+layout: post
+published: false
+slug: None
+title: The Top 10 applications we don’t want to build
+wordpress_id: 1882
+tags:
+- Software Development
+---
+
+1.  I need an application to get around constraints imposed by a vendor, whether it’s Microsoft, Apple (iPhone). - They’re going to find a way to block you or sue you before you recover your costs.
+
+
+
+
+2.  I want an application that combines the features of Facebook, MySpace and YouTube. - Only a few people have enough money to compete successfully and they know better.  However, if you can create a niche (a specific subject or industry) and provide specific differentiators, there are possibilities.
+
+
+
+
+3.  I want a social media site to do "xx", but I don't have a revenue model. - Commercial quality custom software is relatively expensive.  We like to work on products that win in the marketplace and have staying power.  We're willing to work with you to see if we can help you fill out your concept, but you're not ready for development.
+
+
+
+
+4.  I need an application to let users design their own t-shirts, cards, etc. – there are already many applications available – too much competition.  I get at least one request for this every month or so.  The exception is if it is for a specific company that has a protected market.
+
+
+
+
+5.  I need a brochure site. - There are thousands of small firms that can do a good marketing web site at a much lower cost than us.  We focus on sites and applications that require backend systems (databases, content management systems, etc.).  We can refer you to a good firm for marketing sites.
+
+
+
+
+6.  I want to upgrade an existing VB6 application, in VB6 (rather than writing it from scratch in a more up-to-date language). - This would hold true for any obsolete technology.  Chances are requirements are out of date anyway.  You're much better off starting from scratch with newer technologies.  We're more than happy to help with that.
+
+
+
+
+7.  I need help finishing up a site or application.  It is 90-95% done.  It just isn't working right or doesn't flow well. - My guess is it's a long way from 90% complete and my guess is there are few, if any, automated tests.  We see this a lot with people who have gone offshore to, in theory, save money.  It is almost always more cost effective to start from scratch, though there is always some carryover value from a requirements and design perspective.  If you understand this, and you have a viable concept, we certainly can help you create a great product.
+
+
+
+
+Another variation of this: I have this green screen application.  I don't want to redo it, just make it look better. - i.e. I just need someone to put lipstick on my pig.
+
+
+
+
+8.  I have an application where user workflow and usability are not important. - It may be a good project for some companies, it's just not in our sweet spot.   We look for companies that want to use technology and user experience to create competitive advantage (which is why we do a lot with startups and new product areas for existing companies).
+
+
+
+
+9.  I  need help with a php (or Python) application. - Again, good for some firms, just not our cup of tea.  We'd rather use Rails, .Net or Java for these types of applications.
+
+
+
+
+10.  I don't feel comfortable with the Agile development process. -  Fortunately fewer and fewer people feel this way.  Business stakeholders generally love Agile because it keeps them involved throughout the design and development process and they are focusing on the business value and in the best position to recognize needed changes.  Only in very unusual circumstances would we agree to develop using a waterfall method.  We're more likely to listen to your concerns and figure out how to mitigate any risks you see.  When I hear someone say they've had a bad experience with Agile, it's generally because Agile best practices weren't used. 
+
+
+
+
+I bet you have others - send them on and I'll add them to my growing list.  There were actually some much more exciting requests, but I was afraid to publish them.
+
+
+
+
+* * *
+
+
+[Pathfinder Development - creating innovative software that builds business value. ](http://www.pathf.com/)
+  
+  
+[The Top 10 applications we don’t want to build](http://www.pathf.com/blogs/2010/10/top-10-applications-dont-build/)
+
+
+
+
+
+
+Related posts:
+
+  1. [Why Google Can’t Build Social Applications](http://www.pathf.com/blogs/2010/07/google-build-social-applications/)
+  2. [“Build half a product, not a half-assed product” – tips on clarity and focus from Jason Fried of 37Signals](http://www.pathf.com/blogs/2008/09/build-half-a-product-not-a-half-assed-product-tips-on-clarity-and-focus-from-jason-fried-of-37signals/)
+  3. [Tech Terms that Drive Business People Crazy](http://www.pathf.com/blogs/2009/04/tech-terms-that-drive-business-people-crazy/)

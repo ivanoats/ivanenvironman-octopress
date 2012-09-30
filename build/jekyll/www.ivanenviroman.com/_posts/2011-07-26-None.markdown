@@ -1,0 +1,77 @@
+---
+comments: true
+date: 2011-07-26 15:34:07
+layout: post
+published: false
+slug: None
+title: Learning Rails 3
+wordpress_id: 2354
+---
+
+
+
+				[
+					![](http://i2.reflectornetwork.com/images-4/Y292ZXJzLm9yZWlsbHkuY29tL2ltYWdlcy85NzgxNDQ5MzA5MzI5L2JrdC5naWY-.png)
+				](http://bit.ly/qs1Q2Y)
+
+
+				
+
+By [Edd Dumbill](http://rubyreflector.com/Edd-Dumbill) of [O'Reilly Media: Ruby and Rails](http://bit.ly/3CoYBx) 1 day ago.
+
+
+				
+
+Ready to learn  Rails? Unlike most  Rails books,   Learning  Rails is for web developers, and not for programmers. You'll start from the foundations of the  Web you already know, and learn how to create something visible with  Rails before reaching the more difficult database models and controller code. Learning  Rails 3 covers the most recent developments. 
+
+
+				
+
+
+
+				
+  * Topics: [Ruby on Rails](http://rubyreflector.com/Ruby-on-Rails), [Learning](http://rubyreflector.com/Learning), [Edd Dumbill](http://rubyreflector.com/Edd-Dumbill), [Web](http://rubyreflector.com/Web)
+
+
+				
+        
+  * 
+		Trevor Turk: [Links for 5-17-11](http://bit.ly/jHNbhP)
+		
+
+
+        
+  * 
+		Ruby Inside: [13 New Ruby and Rails Jobs for July 2011](http://bit.ly/nIP8XR)
+		
+
+
+        
+  * 
+		BenCurtis.com: [A Pricing Experiment](http://bit.ly/k3nkL8)
+		
+
+
+        
+  * 
+		MySQL Performance Blog: [Free Percona Live tickets and Percona Support contract!](http://bit.ly/l89GqU)
+		
+
+
+        
+  * 
+		Paul Gross's Blog: [Migrated blog from Mephisto to WordPress](http://bit.ly/nqz4uS)
+		
+
+
+        
+  * 
+		A Rubyist Railstastic Adventure: [Scaling a Rails Webservice on AWS/EC2 for a #1 iPhone and iPad App](http://bit.ly/kSYAoY)
+		
+
+
+
+
+
+				
+			

@@ -1,0 +1,116 @@
+---
+comments: true
+date: 2011-01-25 19:43:16
+layout: post
+published: false
+slug: None
+title: Startup Suicide — Knowing When You’ve Cut Your Own Throat
+wordpress_id: 1992
+tags:
+- lean startups
+---
+
+[![esu drag show_2056_edited-1](http://farm6.static.flickr.com/5209/5350553754_1a665b58d9_m.jpg)](http://www.flickr.com/photos/30030467@N08/5350553754/)  
+
+[![Creative Commons License](http://www.pathf.com/blogs/wp-content/plugins/photo-dropper/images/cc.png)](http://creativecommons.org/licenses/by/2.0/) [photo](http://www.photodropper.com/photos/) credit: [mel_rowling](http://www.flickr.com/photos/30030467@N08/5350553754/)
+
+
+
+
+Steve Blank writes a thought provoking article about the [folly of the complete software rewrite](http://steveblank.com/2011/01/25/startup-suicide-%E2%80%93-rewriting-the-code/). He envisions a scenario where an agile team builds a product and that product gradually accumulates technical debt until it is difficult to maintain and, I assume, add new features.
+
+
+
+
+> 
+
+> 
+> The benefits of customer and agile development and minimum features set are continuous customer feedback, rapid iteration and little wasted code. But over time if developers aren’t careful, code written to find early customers can become unwieldy, difficult to maintain and incapable of scaling. Ironically it becomes the antithesis of agile. And the magnitude of the problem increases exponentially with the success of the company. The logical solution? “Re-architect and re-write” the product.
+> 
+> 
+
+> 
+> For a company in a rapidly changing market, that’s usually the beginning of the end.
+> 
+> 
+
+
+
+
+
+First, you should be careful to avoid the unnecessary accumulation of technical debt. You need to refactor with each iteration. You can't avoid all technical debt, but can keep it small enough so it doesn't snowball into a problem.
+
+
+
+
+Second, you need to keep the user experience design debt under control as well. Your information architects have to keep an eye on the actors/personas and the overall arc of a feature as user stories are added and modified. Not only does design debt adversely affect maintainability, it also results in technical debt, as the code is contorted into supporting disjointed workflows and features.
+
+
+
+
+Still, these agile projects usually have something going for them: they have good and lean documentation on functional and non-functional requirements. If you do have the original development team, you may be able to pull off a rewrite, but if you can, it's clearly less risky to try to refactor the code.
+
+
+
+
+
+
+
+**A Thought Experiment on Rewrites**
+
+
+
+
+It is possible to do complete rewrites. It happens all the time, only it's usually competing companies that are "rewriting" their competitors products and launching them. Think Apple and the iPhone versus the old crop of smart phones. Obviously having a single company launch a competing product to an existing one is a bit more complicated. But there the problem is not one of code or software product development, but rather of channels, marketing, brand, existing customers, etc. In short, it is a business problem, not a technical problem.
+
+
+
+
+Other times the technical debt is just so large that rewriting is the only choice. In these cases -- usually not developed with an agile or really any sort of method (pet peeve: methodology is the study of methods) -- there's the additional issue of poor or non-existent requirements. In this case you are essentially forced to define the product all over again. Risky? You betcha. Something to be avoided? Without a doubt. Avoidable? Not at that late a date.
+
+
+
+
+**The Cadaver in the Boardroom**
+
+
+
+
+While Steve gets the risk of rewrites right, I think rewriting versus not rewriting is a false choice. By that I mean that if you've arrived at that choice, you're already dead; rewriting versus trying to resuscitate a troubled code base is a no-win decision. They're both expensive, they're both risky, and neither one of them is likely to succeed.
+
+
+
+
+At fault is that the perceived risk of not doing the right thing in a single iteration seems so low. Let's not refactor now, we don't have the time. We have too much to do to pair. Let's skip TDD for just a few stories while we get the next release out. Let's not fix the broken continuous integration system for now.
+
+
+
+
+All of these little simple shortcuts result in bad development habits (and, after all, a large part of agile is an accumulation of good habits) and a vicious cycle of increasing technical debt.
+
+
+
+
+Then it's not the CEO or VP of Development's fault for making a "wrong" decision. It really doesn't matter at that point. The company is already a corpse, stinking up the boardroom.
+
+
+
+
+* * *
+
+
+[Pathfinder Development - creating innovative software that builds business value. ](http://www.pathf.com/)
+  
+  
+[Startup Suicide — Knowing When You’ve Cut Your Own Throat](http://www.pathf.com/blogs/2011/01/startup-suicide-knowing-cut-throat/)
+
+
+
+
+
+
+Related posts:
+
+  1. [Refactoring versus Rewriting](http://www.pathf.com/blogs/2010/03/refactoring-rewriting/)
+  2. [You Shall Know Our Velocity!](http://www.pathf.com/blogs/2009/12/velocity/)
+  3. [Raising Capital for Your Startup – Part 1, Understanding the Investor](http://www.pathf.com/blogs/2010/06/raising-capital-startup-part-1-understanding-investor/)

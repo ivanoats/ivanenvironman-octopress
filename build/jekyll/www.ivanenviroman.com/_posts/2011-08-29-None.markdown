@@ -1,0 +1,54 @@
+---
+comments: true
+date: 2011-08-29 10:44:14
+layout: post
+published: false
+slug: None
+title: Nyan Cat progress bar for OS X makes loading fun
+wordpress_id: 2393
+tags:
+- apple
+- loading bar
+- mac
+- memes
+- nyan cat
+- os x
+- UI
+---
+
+Checking for updates for your Mac is about as fun as watching paint dry, but it doesn’t have to be that way. With a free, simple plug-in you can bring all the joy of Nyan Cat to various Mac OS X-based loading activities on Intel-based Macs running Snow Leopard or later.
+
+
+
+
+![](http://gigaom2.files.wordpress.com/2011/08/software-update.png?w=480&h=240)Nyan Cat, if you’re not aware, is a cat made mostly of pop tart that travels endlessly through space and has spawned iOS games and countless spin-offs after first appearing on [LOL-COMICS](http://www.prguitarman.com/index.php?id=348) in April. It’s bizarre and adorable, and now you can see its smiling face and pink-frosted body every time you open Software Update or copy a file in Finder.
+
+
+
+
+To install the Nyan Cat loading bar, just go to creator [Michael Buckley’s GitHub page](https://github.com/MichaelBuckley/NCProgressIndicator) and follow the instructions he provides there. It takes a minute or two at most, and is easy enough to reverse. Maybe you want to surprise a loved one with some unexpected space kitty action the next time they go to see if there’s an iTunes update available, or you’re just tired of Apple’s rather plain aqua loading bar. You’ll have to supply your own [background music](http://momolabo.lolipop.jp/nyancatsong/Nyan/Nyanyanyanyanyanyanya!.html).
+
+
+
+
+**Related research and analysis from GigaOM Pro:**  
+Subscriber content. [Sign up for a free trial](http://pro.gigaom.com/?utm_source=apple&utm_medium=editorial&utm_campaign=auto3&utm_term=398702+nyan-cat-progress-bar-for-os-x-makes-loading-fun&utm_content=etherin).
+
+  * [Flash analysis: Steve Jobs](http://pro.gigaom.com/2011/08/flash-analysis-steve-jobs/?utm_source=apple&utm_medium=editorial&utm_campaign=auto3&utm_term=398702+nyan-cat-progress-bar-for-os-x-makes-loading-fun&utm_content=etherin)
+  * [GigaOM Euro 20: the European startups to watch](http://pro.gigaom.com/2011/08/gigaom-euro-20-the-european-startups-to-watch/?utm_source=apple&utm_medium=editorial&utm_campaign=auto3&utm_term=398702+nyan-cat-progress-bar-for-os-x-makes-loading-fun&utm_content=etherin)
+  * [What the Google-Motorola deal means for Android, Microsoft and the mobile industry](http://pro.gigaom.com/2011/08/what-the-google-motorola-deal-means-for-android-microsoft-and-the-mobile-industry/?utm_source=apple&utm_medium=editorial&utm_campaign=auto3&utm_term=398702+nyan-cat-progress-bar-for-os-x-makes-loading-fun&utm_content=etherin)
+![](http://stats.wordpress.com/b.gif?host=gigaom.com&blog=14960843&post=398702&subd=gigaom2&ref=&feed=1)
+
+* * *
+
+
+	[
+		![](http://ads.gigaom.com/show/rss/)
+	](http://ads.gigaom.com/redirect/rss/)
+
+
+
+[![](http://feeds.feedburner.com/~ff/TheAppleBlog?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/TheAppleBlog?a=5t4YfQTlGU8:K8otnvWgSsM:yIl2AUoC8zA) [![](http://feeds.feedburner.com/~ff/TheAppleBlog?i=5t4YfQTlGU8:K8otnvWgSsM:D7DqB2pKExk)](http://feeds.feedburner.com/~ff/TheAppleBlog?a=5t4YfQTlGU8:K8otnvWgSsM:D7DqB2pKExk) [![](http://feeds.feedburner.com/~ff/TheAppleBlog?i=5t4YfQTlGU8:K8otnvWgSsM:V_sGLiPBpWU)](http://feeds.feedburner.com/~ff/TheAppleBlog?a=5t4YfQTlGU8:K8otnvWgSsM:V_sGLiPBpWU) [![](http://feeds.feedburner.com/~ff/TheAppleBlog?i=5t4YfQTlGU8:K8otnvWgSsM:F7zBnMyn0Lo)](http://feeds.feedburner.com/~ff/TheAppleBlog?a=5t4YfQTlGU8:K8otnvWgSsM:F7zBnMyn0Lo) [![](http://feeds.feedburner.com/~ff/TheAppleBlog?i=5t4YfQTlGU8:K8otnvWgSsM:guobEISWfyQ)](http://feeds.feedburner.com/~ff/TheAppleBlog?a=5t4YfQTlGU8:K8otnvWgSsM:guobEISWfyQ)
+
+
+![](http://feeds.feedburner.com/~r/TheAppleBlog/~4/5t4YfQTlGU8)

@@ -1,0 +1,35 @@
+---
+comments: true
+date: 2011-08-04 21:15:00
+layout: post
+published: false
+slug: None
+title: Installing Rails development stack on OS X Lion
+wordpress_id: 2370
+---
+
+I recently started working with OS X Lion at home and started researching the best way to get a Ruby on Rails environment up and running quickly.
+
+
+
+
+
+After a little searching, I found a really well written article by Frederico Araujo over at [http://www.frederico-araujo.com/2011/07/30/installing-rails-on-os-x-lion-with-homebrew-rvm-and-mysql/](http://www.frederico-araujo.com/2011/07/30/installing-rails-on-os-x-lion-with-homebrew-rvm-and-mysql/).
+
+
+
+
+
+Fred's blog post walks you through step by step getting Homebrew, RVM, Ruby 1.9.2 and MySQL up and running.
+
+
+
+
+
+It worked perfectly.
+
+
+
+
+
+Thanks Fred!

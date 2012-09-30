@@ -1,0 +1,17 @@
+---
+comments: true
+date: 2011-03-16 22:12:00
+layout: post
+published: false
+slug: None
+title: 'TrackerBot: Pivotal Tracker on your iPad/iPhone'
+wordpress_id: 2214
+---
+
+[TrackerBot](http://vulpinelabs.com/trackerbot), from [Vulpine Labs](http://vulpinelabs.com), is a great new app that brings [Pivotal Tracker](http://www.pivotaltracker.com) to your iPad and/or iPhone, complete with multi-touch, drag and drop, and off-line support. It's available now in the [app store](http://itunes.apple.com/us/app/trackerbot-pivotal-tracker/id423706643). 
+
+
+
+
+
+[![](http://assets.pivotallabs.com/913/original/trackerbot.png)](http://itunes.apple.com/us/app/trackerbot-pivotal-tracker/id423706643)

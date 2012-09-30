@@ -1,0 +1,140 @@
+---
+comments: true
+date: 2010-10-07 11:31:09
+layout: post
+published: false
+slug: None
+title: Installing mysql gem with bundler on Snow Leopard
+wordpress_id: 1885
+tags:
+- bundler
+- gem
+- mysql
+- rails
+- ruby
+- Software Development
+---
+
+![](http://farm3.static.flickr.com/2450/3593686294_600ee1b7fb_z.jpg)
+
+
+
+
+Between 0.9.26, RC and final 1.0 release, [bundler](http://gembundler.com/) went thru some heavy changes with respect to command line options it supports. Luckily, [twitter](http://twitter.com/indirect), [forum](http://groups.google.com/group/ruby-bundler) and [blogs](http://yehudakatz.com/tags/rails-3/) kept everybody in the loop.
+
+
+
+
+The blogs, however, became obsolete quickly and even blog posts few months old don't work with latest version of bundler. We came across this issue that kept is in a loop for a while.
+
+
+
+
+Snow Leopard changed a few things with ruby and mysql gem when it came out. Most mysql installation issues are hammered out by now and are [well documented](http://weblog.rubyonrails.org/2009/8/30/upgrading-to-snow-leopard). In summary, installing mysql gem requires 2 things:
+
+
+
+
+
+
+  * Specifying architecture flags: ARCHFLAGS="-arch x86_64"
+
+
+  * Specify location of mysql_config to compile agains: --with-mysql-config=/usr/local/mysql/bin/mysql_config
+
+
+
+
+  
+
+Prior to bundler, this is what you would do on snow-leopard to install mysql:
+
+
+
+    
+     
+    $ <span style="color:#c20cb9;font-weight:bold">sudo</span> <span style="color:#c20cb9;font-weight:bold">env</span> <span style="color:#007800">ARCHFLAGS=</span><span style="color:#ff0000">"-arch x86_64"</span> gem <span style="color:#c20cb9;font-weight:bold">install</span> mysql -- --with-mysql-<span style="color:#007800">config=</span>/usr/<span style="color:#7a0874;font-weight:bold">local</span>/mysql/bin/mysql_config
+     
+
+
+
+
+With bundler, there is no [command line option](http://gembundler.com/man/bundle.1.html) that I could find that I can pass to "bundle install" command. Having been in the loop around bundler, I knew that such OS specific options don't go in Gemfile and have to be specified in user specific files such as ~/.bundle/config file. The official website for [gem-bundler](http://gembundler.com/) doesn't have any mention of this (is it because we need to keep things simple for people just getting upto speed with bundler?).
+
+
+
+
+A search for "build-options" (recalling from vague memory) [turns up](http://www.samsworldofno.com/2010/01/04/installing-bundler-rails-and-mysql-on-os-x-snow-leopard/) [these results](http://github.com/schacon/bundler), which are all obsolete.
+
+
+
+    
+     
+    <span style="color:#808080;font-style:italic"># WARN: this doesn</span><span style="color:#ff0000">'t work with latest bundler gem. Read on for proper instructions
+    $ gem bundle --build-options build_options.yml
+    </span>
+
+
+
+
+After looping for a bit, I finally ended up at the [right place](http://gembundler.com/man/bundle-config.1.html) (Google found this on gembundler.com but there is no way to get to this from the website itself). So, I did this:
+
+
+
+    
+     
+    $ bundle config build.mysql --with-mysql-<span style="color:#007800">config=</span>/usr/<span style="color:#7a0874;font-weight:bold">local</span>/mysql/bin/mysql_config
+     
+
+
+
+
+This updated my ~/.bundle/config with proper information that it will need for "bundle install" command. It make sense to keep this in ~/ folder and not my project folder since it applies only to my environment and it applies to all projects on this machine.
+
+
+
+
+With this, doing "bundle install" still doesn't install mysql properly. Comparing this to the pre-bundler command, it solves one issue. The ARCHFLAGS still need to be available for "bundle install". With some leap of faith, I set an environment variable to this effect:
+
+
+
+    
+     
+    $ <span style="color:#7a0874;font-weight:bold">export</span> <span style="color:#007800">ARCHFLAGS=</span><span style="color:#ff0000">"-arch x86_64"</span>
+    <span style="color:#808080;font-style:italic"># should this go <span style="color:#000000;font-weight:bold">in</span> my .bash_profile <span style="color:#7a0874;font-weight:bold">(</span>so that mysql installs fine always, <span style="color:#000000;font-weight:bold">for</span> all projects?</span>
+    <span style="color:#808080;font-style:italic"># And I don</span><span style="color:#ff0000">'t have to remember to set this each time I do a fresh bundle install.
+    </span>
+
+
+
+
+And voila, "bundle install" installs mysql correctly.
+
+
+
+
+Bundler is stable now and is making everybody's life much much easier. It isn't changing as fast and so this blog post won't be obsolete too soon ![;)](http://www.pathf.com/blogs/wp-includes/images/smilies/icon_wink.gif)  
+
+s
+
+
+
+
+* * *
+
+
+[Pathfinder Development - creating innovative software that builds business value. ](http://www.pathf.com/)
+  
+  
+[Installing mysql gem with bundler on Snow Leopard](http://www.pathf.com/blogs/2010/10/installing-mysql-gem-with-bundler-on-snow-leopard/)
+
+
+
+
+
+
+Related posts:
+
+  1. [Using Bundler with rails 2.3.X](http://www.pathf.com/blogs/2010/06/using-bundler-with-rails-2-3-x/)
+  2. [Snow Leopard: the Obvious Choice](http://www.pathf.com/blogs/2009/08/snow-leopard-wins/)
+  3. [Installing Edge Ferret/acts_as_ferret](http://www.pathf.com/blogs/2008/11/installing-edge-ferretacts_as_ferret/)

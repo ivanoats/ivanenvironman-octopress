@@ -1,0 +1,73 @@
+---
+comments: true
+date: 2011-05-25 14:13:00
+layout: post
+published: false
+slug: None
+title: How To Fix RubyGems Deprecation Warnings
+wordpress_id: 2257
+---
+
+
+
+
+				
+
+By [Giles Bowkett](http://rubyreflector.com/Giles-Bowkett) of [Giles Bowkett](http://bit.ly/7vqZx) 3 days ago.
+
+
+				
+
+Go to the  Ruby directory for whichever  Ruby version(s) you wish to repair. Then edit the file  lib/ruby/site_ruby/1.8/rubygems/deprecate.rb , line 61. 
+
+
+				
+
+
+
+				
+  * Topics: [Ruby](http://rubyreflector.com/Ruby), [RubyGems](http://rubyreflector.com/RubyGems), [Giles Bowkett](http://rubyreflector.com/Giles-Bowkett)
+
+
+				
+        
+  * 
+		Phusion Corporate Blog: [Ruby Enterprise Edition 1.8.7-2011.03 released](http://bit.ly/hY9chZ)
+		
+
+
+        
+  * 
+		Engine Yard Ruby on Rails Blog: [JRuby 1.6 Released...Now What?](http://bit.ly/ekKLLW)
+		
+
+
+        
+  * 
+		Signal vs. Noise: [Summer internships at 37signals](http://bit.ly/eCQZvZ)
+		
+
+
+        
+  * 
+		Edge Rails.info: [Custom ActiveRecord Attribute Serialization](http://bit.ly/hu3GQB)
+		
+
+
+        
+  * 
+		Mental Paging Space: [Parsing dates and times in english free form](http://bit.ly/hhZmNd)
+		
+
+
+        
+  * 
+		GIANT ROBOTS SMASHING INTO OTHER GIANT ROBOTS: [PostgreSQL Conf East](http://bit.ly/iinE99)
+		
+
+
+
+
+
+				
+			

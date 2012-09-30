@@ -1,0 +1,112 @@
+---
+comments: true
+date: 2010-07-09 14:15:59
+layout: post
+slug: test-post
+title: The Simplest Possible Cucumber Test
+wordpress_id: 1656
+categories:
+- rubyonrails
+- Technology
+- Web Design
+tags:
+- cucumber
+- rails
+- ruby
+- ruby on rails
+- rubyonrails
+- testing
+- webdesign
+- webdevelopment
+---
+
+I'm not really that good at testing. So what, so are a lot of people. Having some tests is better than none! And, the way testing tutorials are written can seem really complex and scary. Today I started thinking about the simplest possible way to get started with web app testing.
+
+
+
+
+When I'm getting back into a project after not working on it for a while, I just want to know whether the application works. I want to know whether it will run on my development environment, even if I'm on a new machine. I have three computers that I use at various locations so this is important to me.
+
+
+
+
+So for me the simplest possible test would be:
+
+
+
+
+
+  
+  * The home page should load. That is the default route should return a successful page without any errors. It will have some key piece of text that says it's working.
+
+
+
+
+Here's how I do it with [cucumber](http://www.cukes.info/):
+
+
+
+
+If you haven't installed the cucumber gems yet, put this in your `config/test.rb`file.
+
+
+If you haven't cucumber set up yet, run [code]script/generate cucumber[/code]
+
+
+
+
+Then, create the file below:
+
+
+
+
+File: features/homepage.feature
+
+
+[code language="ruby"]
+Feature: View homepage for app
+  In order to make sure the app loads
+  As a user
+  I want to see the home page
+
+Scenario: Homepage should say Search
+  When I go to the homepage
+  Then I should see "Search"
+[/code]
+
+
+Tip: none of what you write in the Feature section really matters. It's just for you or your client's benefit.
+
+
+
+
+Then, run [code]cucumber features[/code]
+
+
+
+
+You should get the following output:
+[code language="ruby"]
+:> cucumber features
+Feature: View homepage for app
+  In order to make sure the app loads
+  As a user
+  I want to see the home page
+
+  Scenario: Homepage should say Search # features/homepage.feature:6
+    When I go to the homepage          # features/step_definitions/webrat_steps.rb:10
+    Then I should see "My Telltale Text" # features/step_definitions/webrat_steps.rb:118
+
+1 scenario (1 passed)
+2 steps (2 passed)
+[/code]
+
+
+
+
+
+Some cool things about this: "the homepage" is something that cucumber / webrat understands out of the box. See features/step_definitions/webrat_steps.rb for how to define other custom route names. And also, "I should see "something in quotes" is out of the box cucumber goodness.
+
+
+
+

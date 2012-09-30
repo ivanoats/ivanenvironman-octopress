@@ -1,0 +1,51 @@
+---
+comments: true
+date: 2011-09-08 10:32:03
+layout: post
+published: false
+slug: None
+title: Solving logrotate worries with /var/log/autorotate
+wordpress_id: 2419
+tags:
+- Server
+---
+
+No longer worry about growing logfiles or rotating everything properly, use autorotate!
+
+
+
+
+
+
+  1. mkdir /var/log/autorotate
+
+
+  2. 
+
+    
+    
+    # /etc/logrotate.d/autorotate
+    /var/log/autorotate/*.log {
+     daily
+     missingok
+     rotate 2
+     compress
+     notifempty
+     copytruncate
+     create 0666 deploy users
+    }
+    
+
+
+
+
+
+  3. 
+whatever_you_want >> /var/log/autorotate/someting_new.log  
+
+It will be rotated automatically
+
+
+
+  
+Tagged: [Server](http://grosser.it/tag/server/) [![](http://feeds.wordpress.com/1.0/comments/pragmatig.wordpress.com/1770/)](http://feeds.wordpress.com/1.0/gocomments/pragmatig.wordpress.com/1770/) [![](http://feeds.wordpress.com/1.0/delicious/pragmatig.wordpress.com/1770/)](http://feeds.wordpress.com/1.0/godelicious/pragmatig.wordpress.com/1770/) [![](http://feeds.wordpress.com/1.0/facebook/pragmatig.wordpress.com/1770/)](http://feeds.wordpress.com/1.0/gofacebook/pragmatig.wordpress.com/1770/) [![](http://feeds.wordpress.com/1.0/twitter/pragmatig.wordpress.com/1770/)](http://feeds.wordpress.com/1.0/gotwitter/pragmatig.wordpress.com/1770/) [![](http://feeds.wordpress.com/1.0/stumble/pragmatig.wordpress.com/1770/)](http://feeds.wordpress.com/1.0/gostumble/pragmatig.wordpress.com/1770/) [![](http://feeds.wordpress.com/1.0/digg/pragmatig.wordpress.com/1770/)](http://feeds.wordpress.com/1.0/godigg/pragmatig.wordpress.com/1770/) [![](http://feeds.wordpress.com/1.0/reddit/pragmatig.wordpress.com/1770/)](http://feeds.wordpress.com/1.0/goreddit/pragmatig.wordpress.com/1770/) ![](http://stats.wordpress.com/b.gif?host=grosser.it&blog=2921704&post=1770&subd=pragmatig&ref=&feed=1)

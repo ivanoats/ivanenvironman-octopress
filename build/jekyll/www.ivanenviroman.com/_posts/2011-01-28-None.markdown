@@ -1,0 +1,114 @@
+---
+comments: true
+date: 2011-01-28 04:30:00
+layout: post
+published: false
+slug: None
+title: Take Green Marketing to the Next Level with Geolocation & Location Aware Content
+wordpress_id: 1999
+categories:
+- wordpress
+tags:
+- foursquare
+- Geolocation
+- gowalla
+- loopt
+- yelp
+---
+
+
+			[  
+
+				![](http://api.tweetmeme.com/imagebutton.gif?url=http://www.maxgladwell.com/2011/01/green-marketing-geolocation/&style=normal)  
+
+			](http://api.tweetmeme.com/share?url=http://www.maxgladwell.com/2011/01/green-marketing-geolocation/)
+		
+
+
+
+
+_Guest post by Lorna Li, founder of a [green marketing blog](http://www.greenmarketing.tv) for green entrepreneurs and [social entrepreneurs](http://www.greenmarketing.tv/2010/07/05/what-is-a-social-entrepreneur/). Visit [Green Marketing 2.0](http://lornali.com) for more great tips on how to use social media for green business._
+
+
+
+
+[![SEED Eco Lounge on Foursquare](http://www.maxgladwell.com/wp-content/uploads/2011/01/eco-seed2.jpg)](http://www.maxgladwell.com/wp-content/uploads/2011/01/eco-seed2.jpg)  
+
+A new tool allows green business owners to take their marketing to the next level – geolocation.  This inexpensive marketing medium allows green business owners to not only attract more customers, but also to learn more about current customers.
+
+
+
+
+### What is Geolocation?
+
+
+
+
+Geolocation software has a variety of applications for small business owners.  The most popular geolocation software is available in the form of games for customers to play.  Foursquare, Gowalla, Yelp and Loopt all give customers the opportunity to “check in” to certain locations and earn points.  Each game has its own rules, however, all utilize global positioning software (GPS) on a player’s smartphone to identify where the player is located.
+
+
+
+
+•	**Foursquare:** These users access the Foursquare app on their phones and “check in” at certain locations.  Players can earn different badges after a certain number of check ins, or can become the “mayor” of a location if that player checks in at the location more than any other player.  
+
+•	**Gowalla:** Users check in on Gowalla to earn stamps on their “passport”.  Users may share their locations on Twitter and Facebook.  They may also take part in trips created by organizations such as National Geographic, USAToday and CNN.  
+
+•	**Loopt:** When Loopt users check in at certain locations, they are able to see which of their friends are nearby.  They can even use Loopt to “ping” their friends and share their own location.  Loopt allows players to set up alerts when certain friends are nearby or for local hot spots.  
+
+•	**Yelp:** This geolocation software lets users check in and review local restaurants, bars, clubs, shops and more.  It also allows users to find and read reviews written by other Yelp members.
+
+
+
+
+
+
+
+### How can My Business Use Geolocation?
+
+
+
+
+The most basic business application for geolocation software is information about a green business’s customers who use geolocation programs.  Before you can access this information, you must claim your green business’s location.  Usually this means visiting the program’s website to add your location and claim that you are a manager or owner.  After verification, you will be given access to analytics information about who is checking in there.  The analytics are usually free and can be sorted in a variety of ways, such as by gender or frequency of check ins.
+
+
+
+
+Once you have claimed your location and begun searching through the analytics, decide what you want to gain from geolocation programs.  Do you want to attract new customers or keep current ones?  When you decide how you would like to benefit from the programs, you can begin to reward your customers.  You may create specials based on the number of check ins a person has or if a player becomes “mayor” of your location.  These specials will not only encourage people to visit you, but also to use the geolocation program which will ultimately provide you will better demographic information.
+
+
+
+
+[![photo Threadless Everywhere Tour on Gowalla](http://www.maxgladwell.com/wp-content/uploads/2011/01/threadless-everywhere-tour.jpg)](http://www.maxgladwell.com/wp-content/uploads/2011/01/threadless-everywhere-tour.jpg)
+
+
+
+
+### Location Aware Content – Taking Geolocation to the Next Level
+
+
+
+
+Using geolocation programs is only the beginning for your company.  You can take your green marketing efforts to the next level by using geotargeting for your blog or website.  Geolocation publishing software works best for content management system (CMS), as many publishing platforms have apps or plug-ins that take care of coding your website.
+
+
+
+
+If you do not have an online presence, begin building one with free small business themes and marketing plug-ins.  Many small business themes, such as the [Business Turnkey WordPress theme](http://wordpress.salesforce.com/), allow you to build a blog and a website.  Learn more about how a [Marin landscape design company](http://www.farnsworthlandscaping.com) used the theme to quickly and easily create a new website.
+
+
+
+
+When your website is created, you can use geolocation software to tailor your message to people in different locations.  The [Geoposty GeoLocation Widgets, Posts and Redirects plugin](http://wordpress.org/extend/plugins/geoposty/) lets you create content that is automatically localized for each visitor.  Geoposty shows each of your readers information that is unique to their location and contextually relevant to your site. First, they combine your user’s IP address with the world’s most accurate database of geolocation IP information. Next, they use your custom search term/text/point of interest and combine it with reliable APIs from Google and others. Mix it all together and you get the most relevant, personalized, location-specific content that ever made a WordPress user happy. You can use it to serve up a location based welcome message, local weather, or display local promotions like prix fixe specials at organic restaurants in the area. Fascinating, huh?
+
+
+
+
+[Geolocation](http://wordpress.org/extend/plugins/geolocation/) is another great WordPress plug-in that is perfect for green travel bloggers or green photobloggers.  You can use it to share the location, photos and information about eco-friendly businesses you encounter.
+
+
+
+
+Geolocation services create a strong bond between green business owners and their customers.  You can learn more about who is walking through your door while rewarding them for visiting you.  You can better connect with them online by creating content that is relevant to their location.  Combining geolocation and social media may be the answer to a green business owner’s prayers!
+
+
+![](http://feeds.feedburner.com/~r/MaxGladwell/~4/FLWGwCoEOW0)

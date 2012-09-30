@@ -1,0 +1,38 @@
+---
+comments: true
+date: 2010-11-18 19:01:58
+layout: post
+published: false
+slug: None
+title: 'Rails for Zombies: An Online Rails Learning Environment'
+wordpress_id: 1927
+tags:
+- News
+- Tutorials
+---
+
+![railszombies.png](http://www.rubyinside.com/wp-content/uploads/2010/11/railszombies.png)[Rails for Zombies](http://railsforzombies.org/) is an intriguing attempt to teach people how to use Ruby on Rails directly in the Web browser. It comes from [Envy Labs](http://envylabs.com/) (and specifically Gregg Pollack, once of RailsEnvy fame).
+
+
+
+
+The goal of Rails for Zombies is to make the learning process immediately accessible and fun. You're guaranteed to learn quite a bit too as the in-browser development environment frequently tests you and makes you actually _do stuff_ rather than merely read learning material.
+
+
+
+
+As Gregg points out, what you learn through R4Z won't be quite enough for you to build your own version of Twitter (or even Twitter for zombies - _arf arf_) but it covers enough of the basics to put you in a better position to continue with more traditional learning techniques later.
+
+
+
+
+_[suggestion]_ You know I launched [Ruby Weekly](http://rubyweekly.com/), a weekly Ruby e-mail newsletter? Well, last week I launched [JavaScript Weekly](http://javascriptweekly.com/) for all of you JS-heads too! It's been going great and the next issue is out later today.
+
+
+
+
+
+[![](http://feeds.feedburner.com/~ff/RubyInside?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/RubyInside?a=cl3O4j5X7HQ:gFC0YOp3uRA:yIl2AUoC8zA) [![](http://feeds.feedburner.com/~ff/RubyInside?i=cl3O4j5X7HQ:gFC0YOp3uRA:3H-1DwQop_U)](http://feeds.feedburner.com/~ff/RubyInside?a=cl3O4j5X7HQ:gFC0YOp3uRA:3H-1DwQop_U) [![](http://feeds.feedburner.com/~ff/RubyInside?i=cl3O4j5X7HQ:gFC0YOp3uRA:F7zBnMyn0Lo)](http://feeds.feedburner.com/~ff/RubyInside?a=cl3O4j5X7HQ:gFC0YOp3uRA:F7zBnMyn0Lo) [![](http://feeds.feedburner.com/~ff/RubyInside?i=cl3O4j5X7HQ:gFC0YOp3uRA:gIN9vFwOqvQ)](http://feeds.feedburner.com/~ff/RubyInside?a=cl3O4j5X7HQ:gFC0YOp3uRA:gIN9vFwOqvQ)
+
+
+![](http://feeds.feedburner.com/~r/RubyInside/~4/cl3O4j5X7HQ)

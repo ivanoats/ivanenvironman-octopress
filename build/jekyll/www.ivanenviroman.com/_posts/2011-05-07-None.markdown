@@ -1,0 +1,173 @@
+---
+comments: true
+date: 2011-05-07 00:15:34
+layout: post
+published: false
+slug: None
+title: Google Panda Algorithm Exploit Uncovered
+wordpress_id: 2248
+---
+
+In [the Manufacturing Consent DVD](http://www.amazon.com/Manufacturing-Consent-Noam-Chomsky-Media/dp/B00005Y726) a newspaper executive highlighted that they liked to have a 60/40 ratio between ads and content. 
+
+
+
+
+Google says that if over half your page's content is ads [then your pages are of insufficient value](http://andrewhansen.name/affiliate-marketing/google-checkmates-me-but-reveals-internal-secrets/).
+
+
+
+
+What Google engineers miss when delivering sermons to webmasters is that Google is fine with disappearing their organic search results for self promotion & [even advertises that consumers can't tell the difference between their search ads and the organic results](http://www.seobook.com/googles-chinese-wall-between-ads-organic-search-results-disappears).
+
+
+
+
+You see, tricking people is bad. Unless you are Google. In which case you have to hit the quarterly numbers.
+
+
+
+
+Everyone else needs to read Google platitudes, create deep content, and pray to turn the corner before bankruptcy hits. 
+
+
+
+
+Matt Cutts stated that you should make your products like Apple products by packaging them nicely. 
+
+
+
+
+For illustrative purposes:
+
+
+
+
+![](http://www.seobook.com/images/deep-content.gif)
+
+
+
+
+It was easy for Google to speak from a moral high ground when their growth was above 50% a year, but now that growth has slowed over the past couple years they have been willing to do things they wouldn't have. In [November of 2009](http://www.seobook.com/excuse-me-where-did-googles-organic-search-results-go) when I saw the following I knew the writing was on the wall.
+
+
+
+
+![](http://www.seobook.com/images/google-serp-layout.gif)
+
+
+
+
+Since then Google has only dialed up local more. If you are not in the top 1 or 2 organic (non-localized) search results then [in some cases when they get localized you end up somewhere on page #2](http://www.seobook.com/google-local).
+
+
+
+
+[When Google Instant launched](http://www.seobook.com/how-google-instant-changes-seo-landscape), we got to test Google's 50% content theory. And they hit the numbers perfectly. A full 50% of web users could see 2 organic listings above the fold when instant was extended (the other half of folks could only see one or none).
+
+
+
+
+![](http://www.seobook.com/images/instantsearch/adwords-love.jpg)
+
+
+
+
+As if [the massive Youtube promotion](http://techcrunch.com/2011/05/05/google%E2%80%99s-panda-update-cripples-open-publishing-competition/) & the magically shrinking search results for everyone else were not bad enough, with Panda they suck at determining the original content source. 
+
+
+
+
+This site you are reading wasn't hit by Panda, which makes us lucky, as it allows us to rank as high as #3 for our own content (while Google pays dozens of other webmasters to snag it wholesale and wrap it in AdSense). 
+
+
+
+
+![](http://www.seobook.com/images/google-dup-filter.gif)
+
+
+
+
+We got lucky though. If we had been hit by Panda (like 10,000's of other webmasters) we probably wouldn't even rank on the first page of the search results **for our own content**.
+
+
+
+
+When Google screws up source attribution they are working counter to open culture, because they are having you bear 100% of the cost of content production, and then they are immediately paying someone else for your work. Do that long enough and the quality content disappears & we get a web full of eHow-like sites.
+
+
+
+
+And yet Google tells us the secret recipe (which may or may not work at some unknown time) is to pour more money into content development.
+
+
+
+
+The solution to this problem is more deep content. Keep feeding Google (and their AdSense scraper partners) and hope that after you pour $50,000 into your site that some small fraction of it ends up back in your bank account (while the larger share winds up in Google's and their AdSense partners).
+
+
+
+
+As bad as all that is, I recently got selected as a lucky beta user for the next version of Google's search results. Notice the horizontal spacing that drives down the organic search results. After the top AdWords listings the organic listings start off 88 pixels lower on the screen.
+
+
+
+
+[![](http://www.seobook.com/images/serps-down.gif)](http://www.seobook.com/images/serps-down-again.gif)
+
+
+
+
+I have a huge monitor. Less than 10% of people have a monitor as large as mine. Before this new search result I saw 8 organic search results above the fold on my large monitor. Now it is down to 5 (and that is with no Google video ad, no Google vertical comparison ad like the above credit card one, no browser toolbars, no browser status bar, and only 1 of the advertisers having ad sitelinks).
+
+
+
+
+[![](http://www.seobook.com/images/google-below-fold.gif)](http://www.seobook.com/images/google-below-the-fold.gif)
+
+
+
+
+So how does Google score now on their ad to content ratio? 
+
+
+
+
+![](http://www.seobook.com/images/50-50.gif)
+
+
+
+
+When Google's new search results roll out, there are some keywords where less than 1 in 3 searchers will be able to see a single organic listing above the fold! And lest you think that spacing is about improving user experience, notice how wide the spacing in the left column is, and how narrow the right rail AdWords spacing is. This is all about juicing revenues & hitting the number.
+
+
+
+
+Which leads me to the Google Panda loophole I mentioned in the headline. It is an easy (but painful) one-step process.
+
+
+
+
+![](http://www.seobook.com/images/pay-to-google.gif)
+
+
+
+
+All Google's propaganda about the horrors of paid inclusion look absurd when compared against the search result with 0 organic listings above the fold for half of desktop computer users. 
+
+
+
+
+The only "exploit" here is how Google is paying people to steal other's content, then ranking the stolen stuff above the original source.
+
+
+
+
+PS: wake up Larry! ;)
+
+
+
+
+Categories: 
+
+[google](http://www.seobook.com/archives/cat_google.shtml)

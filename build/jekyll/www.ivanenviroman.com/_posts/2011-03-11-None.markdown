@@ -1,0 +1,192 @@
+---
+comments: true
+date: 2011-03-11 00:48:00
+layout: post
+published: false
+slug: None
+title: Chef Solo - Tugging on the bootstraps
+wordpress_id: 2216
+---
+
+There's certainly no wrong way to run chef, however, a reasonable set of defaults are usually helpful as a starting place.  I'm building an example of a simple deploy with chef, with the goals of ending up with something that's easy to understand, copy and modify.  Eventually, I hope this allows for discussion of and iteration on what a solid ruby app stack should include.
+
+
+
+
+
+The first stumbling block with chef for most people is not usually [building am ami](http://pivotallabs.com/users/mkocher/blog/articles/1583-ec2-ami-building-adeventures).  It's usually getting chef and their recipes runningon a box.  At Pivotal we're firm believers in doing _the simplest thing that could possibly work_, and so what follows is the just least I could do to cleanly run chef.  Essentially, you want to install the ruby prerequisites, install a known Ruby (let Wayne [figure out how](http://rvm.beginrescueend.com/)), install chef, get some cookbooks on the box and run chef.  This boils down to a script written in Bash to get you to the point you can run Ruby, and some  capistrano tasks to install gems and run chef.
+
+
+
+
+
+I've written [Soloist](https://github.com/mkocher/soloist), a gem I use for invoking chef solo easily.  The goal is for it to be a thin layer over chef-solo to make it more friendly to use.  I'll use it here, but all it's doing is generating a solo.rb and node.json files - it's not magic.
+
+
+
+
+
+Here are the files I ended up with:
+
+
+
+
+    
+    <code>├── Capfile                   <- How we tell cap what to do
+    ├── Gemfile                   <- The three gems we need
+    ├── Gemfile.lock
+    ├── bootstrap.sh          <- The bash script to bootstrap an instance
+    ├── chef
+    │   └── cookbooks         <- Chef cookbooks go here
+    │       └── joy_of_cooking
+    │           └── recipes
+    │               └── default.rb
+    ├── config
+    │   └── deploy
+    │       └── staging.rb        <- What servers are in your environment
+    └── soloistrc             <- How you'll tell chef what to run
+    </code>
+
+
+
+
+
+First off we'l start with a bash script.  You can see the [full thing on github](https://github.com/mkocher/chef_deploy/blob/master/bootstrap.sh), but the psuedocode is:
+
+
+
+
+    
+    <code>as root:
+        Create an app user account
+        allow password authentication       # adding an Authorized key would be fine too
+        add epel as an RPM repository       # for an easy git instal
+        install git
+        install the rvm prereqs             # readline, zlib, openssl and more
+        enable passwordless sudo            # it's the only way to live
+    as user:
+        install rvm
+        add rvm to bashrc
+        set rvm to trust all rvmrcs, install rubys on use and install gemsets on use
+    </code>
+
+
+
+
+
+That's it.  My example is 41 lines of bash (including 11 blank and 6 comment lines).
+
+
+
+
+
+Capistrano is a reasonable multi server SSH tool.  Parts of it are fundamentally flawed, but the "ssh out to some servers and run some commands" works just fine.  So, we'll use it to upload and run the bootstrap script:
+
+
+
+
+    
+    <code>desc "bootstrap"
+    task :bootstrap do
+      set :user, "root"
+      set :default_shell, "/bin/bash"
+      upload "bootstrap.sh", "/root/bootstrap.sh"
+      run "chmod a+x /root/bootstrap.sh"
+      run "/root/bootstrap.sh"
+    end
+    </code>
+
+
+
+
+
+The boostrap task sets the user to root because everywhere else the user is set to the app user.  We set the shell to /bin/bash to override the use of rvm-shell.  We then upload the bootstrap script and run it.
+
+
+
+
+
+The deploy task consists of:
+
+
+
+
+    
+    <code>desc "Deploys"
+    task :deploy do
+      install_base_gems
+      upload_cookbooks
+      run_chef
+    end
+    </code>
+
+
+
+
+
+To see the details of each task, see the Capfile.  Be aware the first time you deploy, rvm will compile the requested ruby - this will take a few minutes.
+
+
+
+
+
+This leaves us at 4 lines in the terminal to spin up as many ec2 instances as amazon will let you and run chef on them:
+
+
+
+
+    
+    <code>ec2-run-instances ami-e67e8d8f -k mine2 -t m1.large
+    ec2-describe-instances  # you'll need to add the IP(s) of your
+                            # new instance(s) to the staging.rb file
+    cap staging bootstrap
+    cap staging deploy
+    </code>
+
+
+
+
+
+Currently, the chef run consists of a recipe which touches a file in the root directory.  For my next trick, I hope to actually run a web app.  Stay tuned.
+
+
+
+
+
+All the source code is [available on github](https://github.com/mkocher/chef_deploy/).
+
+
+
+
+
+Lessons learned:
+
+
+
+
+
+
+
+  * Rubyforge will be down when you'd like to to be up.
+
+
+  * Learning the ec2 shell commands is well worth the time over using the web interface.
+
+
+
+
+
+Open questions/issues:
+
+
+
+
+
+
+
+  * Is there a good alternative to cap for this use case? This is not something that involves [a server process, a web process, CouchDB, RabitMQ, a Solr server and a Solr indexer](http://wiki.opscode.com/display/chef/Manual+Chef+Server+Configuration#ManualChefServerConfiguration-VerifyThatAllComponentsareRunning).
+
+
+  * Should I switch to [using the rvm gem to load the capistrano patching](http://pivotallabs.com/users/danny/blog/articles/1600-standup-3-8-2011)? RVM doesn't even say it's possible, but it seems like it would keep the deploy from depending on an untracked local version of rvm.
+
+

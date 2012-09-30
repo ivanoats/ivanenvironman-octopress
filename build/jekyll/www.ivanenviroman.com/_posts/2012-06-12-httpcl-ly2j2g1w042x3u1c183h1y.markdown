@@ -1,0 +1,15 @@
+---
+comments: false
+date: 2012-06-12 17:49:12
+layout: post
+slug: httpcl-ly2j2g1w042x3u1c183h1y
+title: http://cl.ly/2J2G1w042x3U1c183h1y
+wordpress_id: 2658
+categories:
+- Bookmarks
+tags:
+- from
+- twitter
+---
+
+@scottw not sure this looks right: http://t.co/7TPKvTRf FF13 Mac OS 10.7.4

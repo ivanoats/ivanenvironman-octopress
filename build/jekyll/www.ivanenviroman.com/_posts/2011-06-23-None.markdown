@@ -1,0 +1,226 @@
+---
+comments: true
+date: 2011-06-23 14:05:03
+layout: post
+published: false
+slug: None
+title: So really, don’t use just /%postname%/ as your permalink structure.
+wordpress_id: 2309
+tags:
+- Uncategorized
+---
+
+**Here’s the really short version:** I used /%postname%/ as my permalink structure on [CSS-Tricks](http://css-tricks.com) for a long time. I have lots of Pages. My site went down. I changed my permalink structure to begin with a number. Now it’s fine.
+
+
+
+
+**And the long version:**
+
+
+
+
+All the sudden one evening the server that runs this site and one of my other sites, CSS-Tricks seemed to get very slow (I noticed while trying to save a draft of a post). I tried visiting the homepage and various other parts of the site and it either took a long time or just timed out completely. Always a heart-sinking time for me, as I know very little about servers and how to troubleshoot them. 
+
+
+
+
+When the server responded at all, serving up just the base document was by far the slowest thing:
+
+
+
+
+![](http://digwp.com/wp-content/uploads/slowresponse.png)
+
+
+
+
+These sites are hosted on a [MediaTemple](http://mediatemple.net/) (dv) server1. MediaTemple is known for responsive support and theoretically I’m on some kind of VIP program although I’m pretty sure I get the same level of support anybody else would. So of course I leaned on them for help. Even if the problem was outside of the scope of their support (likely since they don’t support the software you run, totally understandable) I thought if I pleaded hard enough they’d at least help me figure out the root cause.
+
+
+
+
+I knew enough myself to look in Plesk (the server management software that runs on my server) in the Virtuozzo part where I can see “QoS Alerts” (Quality of Service). The biggest recurring issue was “kmemsize” (server memory), but pretty much everything was in the black.
+
+
+
+
+![](http://digwp.com/wp-content/uploads/qosalerts.png)
+
+
+
+
+In the end, it was ultimately me who figured it out, but Media Temple was quite helpful in that I got to speak with someone on the phone who was clearly quite knowledgeable and helped watch the server as I tried different things confirming what was working and what was not.
+
+
+
+
+### Diagnosing the problem
+
+
+
+
+I made a quick HTML-only test page on the server and hit that. Assuming the server wasn’t in a completely dead state, that would come back fairly quickly. Then I made PHP page that just echo’d something out. That came back even faster. So it’s not just purely Apache, or server load, or PHP. Then I made PHP page that ran a fairly intense MySQL query. That came back fairly quickly as well. So it wasn’t MySQL being overloaded either. Then I made a WordPress template where all it did was `get_header()`. That page took forever to serve up. So I proved that the problem was related to WordPress (something particular to my WordPress setup).
+
+
+
+
+### The root of the problem
+
+
+
+
+Turns out it was the permalink structure set up in WordPress for CSS-Tricks that was the problem. From day one, about four years now, it’s been /%postname%/. I really like how short and readable the URL’s are in that structure. A URL like http://css-tricks.com/css-sprites/ is very clear about what that page is about, as well as great SEO for the search term “CSS Sprites”. But alas, having your post structure set up like that has serious performance implications.
+
+
+
+
+I use [W3 Total Cache](http://wordpress.org/extend/plugins/w3-total-cache/) for caching, and it’s worked great for a long time. One of the things that it does is database caching. It displays the results at the end of the page in HTML comments. With the permalink structure set to /%postname%/, the comment on the end of the page looked like this:
+
+
+
+
+![](http://digwp.com/wp-content/uploads/postnamequeries.png)
+
+
+
+
+Twenty five hundred queries on one page? That ain’t right. If I changed the permalink structure to something else, like one of the default options like /%year%/%monthnum%/%postname%/, then flushed the cache and checked what W3 Total Cache was saying, it was this:
+
+
+
+
+![](http://digwp.com/wp-content/uploads/view-source_css-tricks.png)
+
+
+
+
+Even that seems high but way more reasonable. 
+
+
+
+
+So, database queries? WTF? Why (or even does) WordPress need the database involved with permalink structures? Andrew Nacin, a WordPress core developer, was super helpful in all this. He told me that [queries aren’t the problem](https://twitter.com/nacin/status/82236131072147456) and [urged me](https://twitter.com/nacin/status/82239949293895680) to make that clear after publicly sharing these results. It really doesn’t make sense to me that the number of queries shoots way up under that permalink structure, but hey, I’m just reporting what I saw.
+
+
+
+
+This is a very relevant part of [The Codex](http://codex.wordpress.org/Using_Permalinks):
+
+
+
+
+> For performance reasons, it is not a good idea to start your permalink structure with the category, tag, author, or postname fields. The reason is that these are text fields, and using them at the beginning of your permalink structure it takes more time for WordPress to distinguish your Post URLs from Page URLs (which always use the text “page slug” as the URL), and to compensate, **WordPress stores a lot of extra information in its database (so much that sites with lots of Pages have experienced difficulties)**. So, it is best to have at least two path segments in your post’s permalink structure such as /%year%/%postname%/ or even /posts/%postname%/.
+
+
+
+
+**Emphasis** mine. 
+
+
+
+
+So why the number of queries increased so dramatically? No idea. Does WordPress use the database to resolve URLs when you use just /%postname%/? Yes. And if you use one of their recommendations, does it remove the need to interact with the database at all? I also don’t know, but it’s certainly faster.
+
+
+
+
+How did I even think of permalinks as a potential problem? I’m not sure. I just wracked my brain trying to think of things it could be, and remembered that I’ve read things here and there over the years that this has been a problem. One of those articles was on [“Otto on WordPress”](http://ottopress.com/2010/category-in-permalinks-considered-harmful/) which delves into this…
+
+
+
+
+### Starting with a text-based part instead of a number-based part, that’s the problem.
+
+
+
+
+> The problem comes in when you try to use a non-number for the beginning of your permalink string.
+
+
+
+
+When WordPress is parsing the URL to figure out what to serve up, it really wants to figure out if it’s a post or a page. Pages always have the /%postname%/ structure. You can’t really change that. So if you use any one of the word-based permalink keywords (%category%, %tag%, %postname%, or %author%), which can theoretically be anything, WordPress can’t easily tell the difference between Posts and Pages. 
+
+
+
+
+Fairly obvious right? Your posts structure is /%postname%/ and your pages structure is /%postname%/ – if you publish one of each and call them both “Contact”, how does it tell them apart? Thankfully WordPress is smart enough to not let you choose the same slug for both, but it still proves problematic for URL parsing. 
+
+
+
+
+So if you’ve chosen to begin your URL structure with one of the text-based options, WordPress [triggers a flag](https://twitter.com/#!/nacin/status/82551983222964224) called **use_verbose_page_rules** which literally [creates a rule](https://twitter.com/#!/nacin/status/82248754593402880) for every single page that you have. So instead of a rather concise set of rewrite rules (maybe 10) now you have a very thick set of rewrite rules (10 + # of pages you have). I have 550 pages or so on CSS-Tricks, so this is clearly problematic. Andrew Nacin guesses performance issues seep in around [50-100 pages](https://twitter.com/nacin/status/82227583655223296). Not only do these new rewrite rules need to be read through on every single page request, the need to be recreated every time you create new content. Both very slow processes.
+
+
+
+
+If you use anything numeric to start your permalink structure (or even a static word like “/posts/”), the rewrite rules can remain compact, and verbose rules do not need to be used. 
+
+
+
+
+Some might say, hey, just use the year or the year and month! That’s cool, go for it. I like that for the most part. Some people feel super strongly that having the date in the URL is vital since it gives people information about when the article was published. I don’t feel that strongly. I think that information is vital but it’s more important it’s visible on the page itself. SEO expert (not kidding, he’s the man) [Joost De Valk](http://yoast.com/) told me dates in the URL’s can kill clickthrough rates on Search Engine Results Pages since the content can look old before they even see it. 
+
+
+
+
+Personally, I’ve opted to start my URL’s with /%post_id%/ then also use /%postname%/. It looks a little weird maybe, but I don’t overly mind it. Performance is more important to me.
+
+
+
+
+### What can WordPress (the project) do?
+
+
+
+
+I’d vote that on the Settings page for permalinks, it should at least have a sentence like “It is not recommended that you begin your permalink structure with /%category%, %tag%, %postname%, or %author% for performance reasons.”
+
+
+
+
+### What about me?! I use /%postname%/. What should I do?
+
+
+
+
+The thing to consider is how many pages you have now, and how many pages you might ever have. If you are pretty sure you’ll have very few, like under 20 pages EVER. Then whatever, I think you are probably fine with that structure. If you think you might have more than that, I think you ought to change now before it becomes a problem. Consider one of the date based structures or starting with the %post_id%.
+
+
+
+
+### What about SEO?
+
+
+
+
+This one had me sweating. There are a lot of links out there to CSS-Tricks. I don’t want to lose traffic. That site is decent part of my income. Now all of those incoming links are wrong. That can’t be good for SEO!
+
+
+
+
+Well as it turns out, it’s really not that big of a deal. There is a plugin out there that redirects all old posts to the new posts. **Don’t use that!** You don’t need it. WordPress automatically handles the 301 redirects from the old format to the new format. 301 redirects are what Google needs to know about your new format and update itself and retain your ranks. It’s been five days since my new transition, and even after a little snafu where I left it on a date-based structure while testing a little too long and Google picked it up, I’m right back where I was before and Google is showing my new structure just fine.
+
+
+
+
+* * *
+
+
+
+
+1 Media Temple (dv) Dedicated-Virtual 3.5 – Extreme w/ additional 256MB memory upgrade.
+
+
+
+
+* * *
+
+
+
+
+© 2011 [Digging into WordPress](http://digwp.com) | [Permalink](http://digwp.com/2011/06/dont-use-postname/) | [153 comments](http://digwp.com/2011/06/dont-use-postname/#comments) | Add to [del.icio.us](javascript:void(0);) | Post tags:   
+
+
+![](http://feeds.feedburner.com/~r/DiggingIntoWordpress/~4/lOQA4FxfJ1c)

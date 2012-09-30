@@ -1,0 +1,109 @@
+---
+comments: true
+date: 2010-08-22 18:51:35
+layout: post
+published: false
+slug: None
+title: 'Thnks Fr Th Mmrs: The Rise Of Microblogging, The Death Of Posterity'
+wordpress_id: 1897
+tags:
+- TC
+---
+
+![](http://tctechcrunch.files.wordpress.com/2010/08/moles.jpg?w=257&h=192)_A poor life this if, full of care,  
+
+We have no time to stand and star_e**  
+
+- W.H. Davies, [Leisure](http://www.englishverse.com/poems/leisure)**
+
+
+
+
+A little over a week ago, I [closed down](http://techcrunch.com/2010/08/13/social-shutdown/) all of my social media accounts, with the exception of Twitter, which I [locked](http://www.twitter.com/paulcarr). The explanation I gave was that, in an age when everyone and their dog is sharing every aspect of their life, being a digital recluse is the new “Internet famous”.
+
+
+
+
+Since then, some people have criticized my logic – pointing out that if I really wanted to be a digital recluse then I’d close Twitter too. By drawing attention to myself for becoming a semi-hermit, am I not just trying to have my social media cake and eat it too?
+
+
+
+
+Perhaps. The truth is that there were numerous reasons for me wanting to dial down my use of social media, but presenting numerous arguments in one column is the kiss of death to a columnist. The neo-narcissistic benefits of locking Twitter were  what finally made my decision, and so that was the reason I gave. The others would keep.
+
+
+
+
+This morning, though, Leo Laporte wrote a [hugely revealing blog post](http://leoville.com/buzz-kill) and, in doing so, artfully proved the misquoted maxim that the medium is the message. In short: Laporte discovered last night that, due to a glitch in Google Buzz, several weeks of his updates had failed to reach either Buzz or Twitter. The kicker? Not one of his tens of thousands of followers had noticed, or cared.
+
+
+
+
+Leo’s response was a vow to turn his attentions back to his blog – a place where people visit specifically to read about Leo, and where they email in the hundreds if he skips an update. By contrast, he argues, people on Twitter are so busy broadcasting their own updates that they’re unable or unwilling to listen to others’.
+
+
+
+
+But, while I certainly agree with Leo’s reasoning for abandoning Buzz and going back to macro-blogging, it was another – almost throw-away – line in his post that chimed most loudly with me.
+
+
+
+
+> “I should have been posting [on his blog] all along. Had I been doing so I’d have something to show for it. A record of my life for the last few years at the very least. But I ignored my blog and ran off with the sexy, shiny microblogs.”
+
+
+
+
+Reading that line, I instantly felt Leo’s pain. When I was researching my most recent book – which mainly focusses on the events of the past three years of my life – I spent several days going back through my [blog archives](http://www.paulcarr.com/2010/08/), plus Twitter, Facebook, Flickr and the rest – to remind myself of details and events that may have been missing from my more traditional notes. What I found – or rather didn’t find – shocked me.
+
+
+
+
+Throughout my earlier archives, I was able to find lengthy, sometimes surprisingly personal, posts – recounting the highs and lows of starting companies, making and losing friends, leaving London, beginning to travel around America and Europe… and countless other published episodes that backed up, and enhanced the contents of my private notebooks. But then, as I clicked forward through the archives to more recent years, something odd happened. At a certain point, the number of posts in each monthly archive dropped off a cliff, particularly where details of my personal life were concerned.
+
+
+
+
+The reason, of course, was that I’d started to use Twitter for that kind of personal stuff. Unperturbed, I moved my research attentions away from my blog archives and over to my Twitter archives – and that’s when I started to panic: for all the dozens of updates I wrote each month, there was absolutely no substance to any of them.
+
+
+
+
+“I  am learning a lot about pens.” reads [one update](http://twitter.com/paulcarr/status/6060827723) from last year. What does that even mean? “Ok, that’s quite enough of all this. I’m going  out”, reads [another](http://twitter.com/paulcarr/status/5999408476). Enough of all what? And where was I going? Of course, the fact that I’m a particularly boring tweeter doesn’t help, but look at anyone’s Twitter account and it’s the same story – 140 characters simply doesn’t give enough depth or breadth to commit events, memories or feelings to the permanent record.
+
+
+
+
+I’m one of the lucky ones: I hand-write a lot – and I mean a lot – of notes. Recalling personal experiences is what pays my rent so I have dozens of Moleskine books full of memories to look back on. I also have a similar number of published [columns](http://www.paulcarr.com/columns) and a couple of [memoirs](http://www.paulcarr.com/books) to refer to if my recollection gets patchy.
+
+
+
+
+Others aren’t so fortunate. A decade or so ago, a new generation who would previously have kept diaries instead started to set up blogs. Sure those blogs may have been twee or self-absorbed or clumsily written or emo or just plain boring – isn’t that the joy of a diary? – but they at least required the writer to take the time to process the events of their life, and the attendant emotions they generated – before putting finger to keyboard. The result, in many cases, was a detailed archive of events and memories that they can look back on now and say “that was how I was then”.
+
+
+
+
+And then along came micro-blogging – and, with a finite amount of time and effort available, the blog generation turned into the Twitter (or Facebook) generation. A million blogs withered and died as their authors stopped taking the time to process their thoughts and switched instead to simply copying and pasting them into the world, 140 meaningless characters at a time. The result: a whole lot of sound and mundanity, signifying nothing.
+
+
+
+
+To argue for a mass switch back from Tweeting to Livejournaling (or Bloggering, or Movable Typing…) in the interests of the permanent record is as ridiculous as campaigning for everyone to abandon instant messaging and return to [letter-writing](http://www.lettersofnote.com/). The fact is people are busy (or lazy, depending on your view of humanity) and for the vast majority, immediacy will always trump posterity.
+
+
+
+
+But for those of us who have had reason to look back at the past few years –  like me writing my  book,  or Leo having “woken up to a bad social media dream in terms of the content I’ve put in others’ hands” – the realisation is slightly terrifying: by constantly micro-broadcasting everything, we’ve ended up macro-remembering almost nothing.
+
+
+  
+ [![](http://feeds.wordpress.com/1.0/comments/tctechcrunch.wordpress.com/210752/)](http://feeds.wordpress.com/1.0/gocomments/tctechcrunch.wordpress.com/210752/) [![](http://feeds.wordpress.com/1.0/delicious/tctechcrunch.wordpress.com/210752/)](http://feeds.wordpress.com/1.0/godelicious/tctechcrunch.wordpress.com/210752/) [![](http://feeds.wordpress.com/1.0/facebook/tctechcrunch.wordpress.com/210752/)](http://feeds.wordpress.com/1.0/gofacebook/tctechcrunch.wordpress.com/210752/) [![](http://feeds.wordpress.com/1.0/twitter/tctechcrunch.wordpress.com/210752/)](http://feeds.wordpress.com/1.0/gotwitter/tctechcrunch.wordpress.com/210752/) [![](http://feeds.wordpress.com/1.0/stumble/tctechcrunch.wordpress.com/210752/)](http://feeds.wordpress.com/1.0/gostumble/tctechcrunch.wordpress.com/210752/) [![](http://feeds.wordpress.com/1.0/digg/tctechcrunch.wordpress.com/210752/)](http://feeds.wordpress.com/1.0/godigg/tctechcrunch.wordpress.com/210752/) [![](http://feeds.wordpress.com/1.0/reddit/tctechcrunch.wordpress.com/210752/)](http://feeds.wordpress.com/1.0/goreddit/tctechcrunch.wordpress.com/210752/) ![](http://stats.wordpress.com/b.gif?host=techcrunch.com&blog=11718616&post=210752&subd=tctechcrunch&ref=&feed=1)
+
+[![](http://pro.tweetmeme.com/imagebutton.gif?url=http://techcrunch.com/2010/08/22/thnks-fr-th-mmrs/&style=compact&source=techcrunch&service=bit.ly)](http://pro.tweetmeme.com/share?url=http://techcrunch.com/2010/08/22/thnks-fr-th-mmrs/&style=compact&source=techcrunch&service=bit.ly&service_api=techcrunch:R_0381170e330c42dda299f92709e0ef5c)
+
+
+[![](http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI)](http://feeds.feedburner.com/~ff/Techcrunch?a=0ApV5wRsB0c:EPKdHHpbXwA:2mJPEYqXBVI) [![](http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA)](http://feeds.feedburner.com/~ff/Techcrunch?a=0ApV5wRsB0c:EPKdHHpbXwA:7Q72WNTAKBA) [![](http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/Techcrunch?a=0ApV5wRsB0c:EPKdHHpbXwA:yIl2AUoC8zA) [![](http://feeds.feedburner.com/~ff/Techcrunch?i=0ApV5wRsB0c:EPKdHHpbXwA:-BTjWOF_DHI)](http://feeds.feedburner.com/~ff/Techcrunch?a=0ApV5wRsB0c:EPKdHHpbXwA:-BTjWOF_DHI) [![](http://feeds.feedburner.com/~ff/Techcrunch?i=0ApV5wRsB0c:EPKdHHpbXwA:D7DqB2pKExk)](http://feeds.feedburner.com/~ff/Techcrunch?a=0ApV5wRsB0c:EPKdHHpbXwA:D7DqB2pKExk) [![](http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs)](http://feeds.feedburner.com/~ff/Techcrunch?a=0ApV5wRsB0c:EPKdHHpbXwA:qj6IDK7rITs)
+
+
+![](http://feeds.feedburner.com/~r/Techcrunch/~4/0ApV5wRsB0c)

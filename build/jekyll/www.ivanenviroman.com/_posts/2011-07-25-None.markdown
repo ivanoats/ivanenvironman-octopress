@@ -1,0 +1,119 @@
+---
+comments: true
+date: 2011-07-25 21:58:00
+layout: post
+published: false
+slug: None
+title: Performance stories - Writing two stories instead of one
+wordpress_id: 2355
+---
+
+## TL;DR
+
+
+
+
+
+Estimating performance stories are total bike-shed conversations.
+
+
+
+
+
+
+
+  1. Write a figure-out-what-to-do story which generates the knowledge to estimate #2 (with repeatable benchmarks)
+
+
+  2. Now estimate and execute the actual story around doing the optimization (and compare benchmarks)
+
+
+  3. Repeat until your slowness is gone
+
+
+
+# Estimating Optimization is hard
+
+
+
+
+
+## Don't Pre-optimize
+
+
+
+
+
+We are always told to never pre-optimize our code. This is generally a good practice; it tends to keep you focused on writing readable, correct code. It also keeps you from making the common mistake of optimizing things that you think are expensive and are not anywhere close to the hot-spot.
+
+
+
+
+
+## Okay, okay, but something really needs it
+
+
+
+
+
+Given enough time though, some part of the software you are writing will eventually become slow enough that it actually affects the usefulness of the code. A product manager should eventually see these performance-related issues and request stories around fixing it. 
+
+
+
+
+
+## Avoid the Bike-Shed Conversation
+
+
+
+
+
+Unfortunately, on many occasions I've sat at a planning meeting being asked to fix aforementioned performance issues, and I've nearly always seen a huge bike-shed conversation snowball, taking up lots of time, and rarely generating actual value such as what to optimize and how. Even worse is attempting to estimate the difficulty of optimizing. Optimizing code can have wildly different amounts of effort. Sometimes some simple cacheing can make huge impacts in a couple lines of code, but sometimes extravagant new algorithms are required which take weeks to write and test.
+
+
+
+
+
+# Estimating Two Stories instead of One
+
+
+
+
+
+Optimizing might be hard, but avoiding wasting copious time estimating stories in Tracker is easy: write two stories.
+
+
+
+
+
+## The Find-Something-Juicy-and-Benchmark-It Story
+
+
+
+
+
+The first story is simple: analyze your code. Try to instrument your code as best you can, it can be hard but make sure you get real numbers, and record your efforts. Find low hanging fruit in code that is both taking lots of time, and you have a couple ideas on how to make faster. The primary output of this story is your benchmark results, and an estimation of the work it will take to optimize. It may be useful to timebox your work, this will make your product manager happy because they know you won't be running off into the distance chasing things that aren't going to deliver value.
+
+
+
+
+
+## The Actually-Fix-It, Estimatable Story
+
+
+
+
+
+The next story you write is simple, do the optimization, and then run the benchmark again to see that you got some results. Doing anything but going off of repeatable benchmarks is just silly. Having simple metrics which prove you actually sped things up is also very important as it is the only way a product manager can truly accept your story most of the time. Proving some batch process ran 30 percent faster is not fun for a product manager, letting them see a graph that proves it is.
+
+
+
+
+
+## Save Your Breath and Overestimates
+
+
+
+
+
+Now your PM doesn't have to choke on an hour long conversation, or a grossly over-estimated story because there is so much risk in actually delivering an optimization story. All you had to do was stop spending time trying to estimate things that are really hard to predict.

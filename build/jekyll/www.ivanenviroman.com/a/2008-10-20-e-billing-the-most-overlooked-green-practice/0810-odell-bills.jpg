@@ -1,0 +1,544 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+
+<script type="text/javascript">
+  var mfp_url='http://m.greenbiz.com';
+  var mfp_host_name=document.location.hostname;
+  var mfp_request_uri=document.location.pathname;
+  var mfp_no_mobile=location.search;
+  var mfp_cookie=document.cookie;
+  function mf_detect(){
+    var mfp_ua=navigator.userAgent.toLowerCase();
+    var mfp_devices=['vnd.wap.xhtml+xml','sony','symbian','nokia','samsung','windows ce','epoc','opera mini','nitro','j2me','midp-','cldc-','netfront','mot','up.browser','up.link','audiovox','blackberry','ericsson','panasonic','philips','sanyo','sharp','sie-','portalmmm','blazer','avantgo','danger','palm','series60','palmsource','pocketpc','smartphone','rover','ipaq','au-mic','alcatel','ericy','vodafone','wap1','wap2','teleca','playstation','lge','lg-','iphone','android','htc','dream','webos','bolt','nintendo'];for(var i in mfp_devices){if(mfp_ua.indexOf(mfp_devices[i])!=-1){return true}}
+  }
+  if(mfp_no_mobile!='?nomobile=1'&&mfp_cookie.indexOf('mfp_no_mobile')==-1){
+    mfp_is_mobile=mf_detect();
+    if(mfp_is_mobile){window.location=mfp_url+"?h="+mfp_host_name+"&r="+mfp_request_uri}
+  } else { if(mfp_cookie.indexOf('mfp_no_mobile')!=-1) {
+    }
+    else{
+    mfp_cookie_expires=new Date();mfp_cookie_expires.setTime(mfp_cookie_expires.getTime()+1000*60*60*24);
+    document.cookie="mfp_no_mobile=1; expires="+mfp_cookie_expires.toGMTString()+"; path=/;"}
+  }
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; URL=http://m.greenbiz.com">
+</noscript>
+
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+  <meta name="google-site-verification" content="PxYpSR__tV74EG6oPh8Lt1cyhwXp12kjUJWfmZInDQA" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="revisit-after" content="1 day" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <title>Page Not Found | GreenBiz.com</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contrib/ckeditor/ckeditor.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/timeentry.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/logintoboggan/logintoboggan.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/mollom/mollom.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/calendar/calendar.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/print/css/printlinks.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/comment/comment.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/greenbiz/style.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/greenbiz/jquery.megamenu.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/greenbiz/skin.min.css?j" />
+    <!--[if lte IE 7]><style type="text/css">@import '/sites/all/themes/greenbiz/ie.css';</style><![endif]-->
+    <script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery-1.5.2.min.js?j"></script>
+<script type="text/javascript" src="/misc/drupal.js?j"></script>
+<script type="text/javascript" src="/sites/all/modules/mollom/mollom.js?j"></script>
+<script type="text/javascript" src="/sites/all/modules/views_slideshow/js/jquery.cycle.all.min.js?j"></script>
+<script type="text/javascript" src="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.js?j"></script>
+<script type="text/javascript" src="/sites/all/themes/greenbiz/js/common.js?j"></script>
+<script type="text/javascript" src="/sites/all/themes/greenbiz/js/ga_social_tracking.js?j"></script>
+<script type="text/javascript" src="/sites/all/themes/greenbiz/js/mega_search.js?j"></script>
+<script type="text/javascript" src="/sites/all/themes/greenbiz/js/jquery.pixelentity.kenburnsSlider.min.js?j"></script>
+<script type="text/javascript" src="/sites/all/themes/greenbiz/js/mega-menu-settings.js?j"></script>
+<script type="text/javascript" src="/sites/all/themes/greenbiz/js/jquery.megamenu.js?j"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "NoBlocks": 3, "jcarousel": { "ajaxPath": "/jcarousel/ajax/views" } });
+//--><!]]>
+</script>
+    <!--script src="/sites/all/themes/greenbiz/microsite_slider/swfobject.js" type="text/javascript"></script-->
+    
+        <meta name="verify-postrank" content="r4kz8hw" />
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-517528-6']);
+    _gaq.push(['_setCustomVar', 1, 'Author', 'admin', 3 ]);
+            _gaq.push(['_trackPageview']);
+  
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <!-- Load Twitter JS-API asynchronously -->
+  <script>
+  (function(){
+  var twitterWidgets = document.createElement('script');
+  twitterWidgets.type = 'text/javascript';
+  twitterWidgets.async = true;
+  twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+  // Setup a callback to track once the script loads.
+  twitterWidgets.onload = _ga.trackTwitter;
+  document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+  })();
+  </script>
+  <link href='http://fonts.googleapis.com/css?family=Ruda:400,700,900' rel='stylesheet' type='text/css'>
+  </head>
+  <body class="greenbiz">
+
+
+<!--
+    <div id="pMask" style="display: none;">
+            <div id="pagePeel">
+                    <h1>Alternative content</h1>
+                    <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+            </div>
+    </div>
+-->
+<script type="text/javascript" src="/sites/all/modules/swftools/onepixelout/onepixelout.js?j"></script>
+<img style="display:none;" id="mc_tracking_pixel" src="http://gooo.al/tracking_image.gif"/>  <div class="mega-header-wrapper">
+    <div class="mega-header-top-bg">
+    <div class="mega-header-bot-bg">
+      <div class="mega-header">
+        <div class="mega-nav">
+          <ul class="megamenu first-tier">
+          <li class="channel-active channel-active-greenbiz channel-greenbiz blue">
+          <a href="/home" class="mega-trigger-home">News &amp; Opinions</a>
+          <div class="business">
+          <div class="mega-section-wrapper">
+  <div class="mega-section-1">
+            <h2>In This Section</h2>
+            <ul>
+                          <li><a href="http://www.greenbiz.com/section/business-operations">Supply Chain &amp; Operations</a></li>
+                                       <li><a href="http://www.greenbiz.com/section/energy-climate">Energy &amp; Resource Management</a></li>
+                                       <li><a href="http://www.greenbiz.com/section/buildings-facilities">The Built Environment</a></li>
+                                       <li><a href="http://www.greenbiz.com/section/computing-information-technology">IT &amp; Technology</a></li>
+                                       <li><a href="http://www.greenbiz.com/microsite/verge">VERGE</a></li>
+                                       <li><a href="http://www.greenbiz.com/engage/videos">GreenBiz TV</a></li>
+                         </ul>
+                        <div class="more-link-1">
+            <a href="http://www.greenbiz.com/all/news-blogs"><img src='/sites/all/themes/greenbiz/img/more_link_bg.png'></a>         
+            </div>
+              </div>
+  <div class="mega-section-2">
+            <h2>Featured Blogs</h2>
+            <!-- if section two is using view to display blogs use this code -->
+            <div>
+            <div class="view view-megamenu-featured view-id-megamenu_featured view-display-id-block_1 view-dom-id-12">
+        <div class="view-noheader"></div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first"><div class="blog-wrapper">
+  <div class="featured-blog-icon">
+            <img src="http://www.greenbiz.com/sites/default/files/imagecache/user_small/image-3.png" alt="" title="" width="25" height="30" class="imagecache imagecache-user_small"/>      </div>
+  <div class="featured-blog-title">
+    <a href="/blog/2012/09/27/transparency-crusaders-double-edged-sword">Transparency crusaders wield double-edged sword</a>    <div class="featured-blog-name-or-author">
+                Drummond Lawson|  Methodology    </div>
+  </div>
+</div></li>
+          <li class="views-row views-row-2 views-row-even"><div class="blog-wrapper">
+  <div class="featured-blog-icon">
+    <img src="http://www.greenbiz.com/sites/default/files/imagecache/user_small/ellen-weinreb-2011.jpg" alt="" title="" width="25" height="30" class="imagecache imagecache-user_small imagecache-default imagecache-user_small_default"/>      </div>
+  <div class="featured-blog-title">
+    <a href="/blog/2012/09/21/sustainability-pros-attack-middle">Why sustainability pros need to attack from the middle</a>    <div class="featured-blog-name-or-author">
+            Ellen Weinreb        </div>
+  </div>
+</div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last"><div class="blog-wrapper">
+  <div class="featured-blog-icon">
+    <img src="http://www.greenbiz.com/sites/default/files/imagecache/user_small/john-davies-2.jpg" alt="" title="" width="25" height="30" class="imagecache imagecache-user_small imagecache-default imagecache-user_small_default"/>      </div>
+  <div class="featured-blog-title">
+    <a href="/blog/2012/09/30/sustainability-survey-frequency-assessment">Survey of surveys 2012: Are companies just checking the box?</a>    <div class="featured-blog-name-or-author">
+            John Davies        </div>
+  </div>
+</div></li>
+      </ul>
+</div>      <div class="clear"></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>             <!-- end section two blog display -->
+            <!-- if section two is using node reference use this code -->
+            <div class="view view-megamenu-featured view-id-megamenu_featured view-display-id-block_2 view-dom-id-13">
+        <div class="view-noheader"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>             <!-- end node reference-->
+            <!-- if section two is using custom display -->
+                        <div class="section-two-custom-link">
+                        
+            </div>
+            <div class="section-two-custom-summary">
+                        
+            </div>
+            <!-- end custom display -->
+            </div>
+                        <div class="more-link-2">
+            <a href="http://www.greenbiz.com/engage/blogs"><img src='/sites/all/themes/greenbiz/img/more_link_bg.png'></a>             
+            </div>
+              </div>
+  <div class="mega-section-3">
+            <h2>A Life of Ideas</h2>
+            <!-- if section three is using node reference use this code -->
+                        <div>
+           <div class="view view-megamenu-featured view-id-megamenu_featured view-display-id-block_2 view-dom-id-14">
+        <div class="view-noheader"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>             </div>
+            <!-- end node reference-->
+            <!-- if section three is using custom display -->
+                        <div class="section-three-custom-image">
+            <img src="http://www.greenbiz.com/sites/default/files/imagecache/wide_small/ogi-logo.png" alt="" title="" width="100" height="75" class="imagecache imagecache-wide_small"/>            </div>
+                        <div class="section-three-custom-link">
+              <a href="http://www.greenbiz.com/microsite/one-great-idea">One Great Idea</a>          
+            </div>
+            <div class="section-three-custom-summary">
+              Our One Great Idea video series brings together leading thinking and lessons learned in the world of corporate sustainability.          
+            </div>
+            <!-- end custom display -->
+                        <div class="more-link-3">
+            <a href="http://www.greenbiz.com/microsite/one-great-idea"><img src='/sites/all/themes/greenbiz/img/more_link_bg.png'></a>             
+            </div>
+              </div>
+</div>          </div>
+          </li>
+          <li class="channel-greenbiz green">
+          <a href="/events" class="mega-trigger-events">Events</a>
+          <div class="events">
+          <div class="mega-section-wrapper">
+  <div class="mega-section-1">
+            <h2>In This Section</h2>
+            <ul>
+                          <li><a href="/events">GreenBiz Events</a></li>
+                                       <li><a href="/engage/webcasts">Webcasts</a></li>
+                                       <li><a href="/event/calendar">Events Calendar</a></li>
+                                       <li><a href="http://www.greenbiz.com/node/add/event">Post an Event</a></li>
+                                                   </ul>
+              </div>
+  <div class="mega-section-2">
+            <h2>VERGE @GreenBuild</h2>
+            <!-- if section two is using view to display blogs use this code -->
+            <div>
+                        <!-- end section two blog display -->
+            <!-- if section two is using node reference use this code -->
+            <div class="view view-megamenu-featured view-id-megamenu_featured view-display-id-block_2 view-dom-id-8">
+        <div class="view-noheader"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>             <!-- end node reference-->
+            <!-- if section two is using custom display -->
+                        <div class="section-two-custom-image">
+            <img src="https://www.greenbiz.com/sites/default/files/imagecache/wide_small/citystates_0.jpg" alt="" title="" width="100" height="75" class="imagecache imagecache-wide_small"/>            </div>
+                        <div class="section-two-custom-link">
+              <a href="http://www.greenbiz.com/events/verge/2012/11/san-francisco">Elevating the Conversation</a>          
+            </div>
+            <div class="section-two-custom-summary">
+              Coming Nov 12-13 in San Francisco.  Discover opportunities for radical efficiencies created through technology advancements in energy, buildings and transportation.           
+            </div>
+            <!-- end custom display -->
+            </div>
+              </div>
+  <div class="mega-section-3">
+            <h2>VERGE Virtual Highlights</h2>
+            <!-- if section three is using node reference use this code -->
+                        <div>
+           <div class="view view-megamenu-featured view-id-megamenu_featured view-display-id-block_2 view-dom-id-9">
+        <div class="view-noheader"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>             </div>
+            <!-- end node reference-->
+            <!-- if section three is using custom display -->
+                        <div class="section-three-custom-image">
+            <img src="https://www.greenbiz.com/sites/default/files/imagecache/wide_small/covers_640x480_robin_chase_0.png" alt="" title="" width="100" height="75" class="imagecache imagecache-wide_small"/>            </div>
+                        <div class="section-three-custom-link">
+              <a href="http://vergecon.greenbiz.com/">VERGE Virtual</a>          
+            </div>
+            <div class="section-three-custom-summary">
+              GreenBiz travels the world with VERGE in 2012.  Catch full sessions from VERGE DC, London, Cities 2.0 and more.          
+            </div>
+            <!-- end custom display -->
+              </div>
+</div>          </div>
+          </li>
+          <li class="channel-intelligence orange">
+          <a href="/research-networking" class="mega-trigger-research">Research &amp; Networking</a>
+          <div class="research">
+          <div class="mega-section-wrapper">
+  <div class="mega-section-1">
+            <h2>Resource Center</h2>
+            <ul>
+                          <li><a href="/research/reports">Reports</a></li>
+                                       <li><a href="http://jobs.greenbiz.com">GreenBiz Job Board</a></li>
+                                       <li><a href="/intelligence/ExecutiveNetwork">GreenBiz Executive Network</a></li>
+                                       <li><a href="http://professional-services.greenbiz.com/">Consultants Directory</a></li>
+                                       <li><a href="http://www.greenbiz.com/white-papers">White Papers</a></li>
+                                       <li><a href="http://www.greenbiz.com/engage/hot-topics">Hot Topics &amp; Microsites</a></li>
+                         </ul>
+                        <div class="more-link-1">
+            <a href="/research"><img src='/sites/all/themes/greenbiz/img/more_link_bg.png'></a>         
+            </div>
+              </div>
+  <div class="mega-section-2">
+            <h2>State of Green Business</h2>
+            <!-- if section two is using view to display blogs use this code -->
+            <div>
+                        <!-- end section two blog display -->
+            <!-- if section two is using node reference use this code -->
+            <div class="view view-megamenu-featured view-id-megamenu_featured view-display-id-block_2 view-dom-id-14">
+        <div class="view-noheader"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>             <!-- end node reference-->
+            <!-- if section two is using custom display -->
+                        <div class="section-two-custom-image">
+            <img src="http://www.greenbiz.com/sites/default/files/imagecache/wide_small/sogb-cover-2012_0_0.jpg" alt="" title="" width="100" height="75" class="imagecache imagecache-wide_small"/>            </div>
+                        <div class="section-two-custom-link">
+              <a href="http://www.greenbiz.com/microsite/state-green-business">State of Green Business 2012</a>          
+            </div>
+            <div class="section-two-custom-summary">
+              The annual State of Green Business report provides a measure of the environmental impacts of the green economy.          
+            </div>
+            <!-- end custom display -->
+            </div>
+              </div>
+  <div class="mega-section-3">
+            <h2>Career Resources</h2>
+            <!-- if section three is using node reference use this code -->
+                        <div>
+           <div class="view view-megamenu-featured view-id-megamenu_featured view-display-id-block_2 view-dom-id-15">
+        <div class="view-noheader"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>             </div>
+            <!-- end node reference-->
+            <!-- if section three is using custom display -->
+                        <div class="section-three-custom-image">
+            <img src="http://www.greenbiz.com/sites/default/files/imagecache/wide_small/090715-teams-w_0.jpg" alt="" title="" width="100" height="75" class="imagecache imagecache-wide_small"/>            </div>
+                        <div class="section-three-custom-link">
+              <a href="http://www.greenbiz.com/microsite/green-career-resources">Career Resource Center</a>          
+            </div>
+            <div class="section-three-custom-summary">
+              Careers in sustainability are now firmly planted in the mainstream. The Greener Careers collection is chock-full of resources and tools to help you navigate this exciting sector.          
+            </div>
+            <!-- end custom display -->
+              </div>
+</div>          </div>
+          </li>
+          </ul>
+        </div> <!-- end mega-nav -->
+        <ul class="mega-login ">
+                    <li><a href="/user">Login</a></li>
+                  </ul>
+         <ul class="mega-tools">
+         <li><a href="/engage/newsletters" class="mega-enewsletter" title="eNews"></a></li>
+          <li><a href="/engage/twitter" class="mega-twitter" title="Twitter"></a></li>
+          <li><a href="https://www.facebook.com/GreenBiz" class="mega-facebook" title="Facebook" target="_blank"></a></li>
+          <li><a href="http://www.linkedin.com/groups?gid=664267" class="mega-linkedin" title="linkedIn" target="_blank"></a></li>
+          <li><a href="/engage/rss" class="mega-rss" title="RSS"></a></li>
+          <li><div class="mega-search"><form action="/search/apachesolr_search"  accept-charset="UTF-8" method="post" id="search-form" class="search-form">
+<div><div class="form-item">
+ <label>Enter your keywords: </label>
+ <div class="container-inline"><div class="form-item" id="edit-keys-wrapper">
+ <input type="text" maxlength="255" name="keys" id="edit-keys" size="40" value="Search" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+</div>
+</div>
+<input type="hidden" name="form_build_id" id="form-6fc7e51624cfa917b932ee56caa207b3" value="form-6fc7e51624cfa917b932ee56caa207b3"  />
+<input type="hidden" name="form_id" id="edit-search-form" value="search_form"  />
+
+</div></form>
+</div></li>
+        </ul> <!-- end mega-tools -->
+        <div class="mega-content">
+        <div id="logo"><a href="/"><img src="/sites/all/themes/greenbiz/img/logo_greenbiz.gif" alt="Business voice of the Green Economy" /></a></div> 
+          <div id="header-banner-spc">
+            <script type="text/javascript">
+          aj_server = 'http://ads.greenerworldmedia.com/servlet/ajrotator/'; aj_tagver = '1.0';
+          aj_zone = 'greenbiz'; aj_adspot = '163956'; aj_page = '0'; aj_dim ='197702'; aj_ch = ''; aj_ct = ''; aj_kw = '';
+          aj_pv = true; aj_click = '';
+          </script><script type="text/javascript" src="http://img1.adjuggler.com/banners/ajtg.js"></script>          </div>
+        </div>
+                        <div class="message-banner">
+          <div id="block-block-184" class="clear-block block block-block">
+
+
+  <div class="content"><a href="http://www.greenbiz.com/events/verge/2012/11/san-francisco?src=bamsg"><img src="http://www.greenbiz.com/sites/default/files/6984702957_c783fd43f9_m.jpg" height="110" alt="VERGE SF" valign="middle" align="left" hspace="30"></a><div align="left"><p><font size="6" color="#26B4CA" ><strong>VERGE SF - November 12-13</strong></font><font size="4" color="#535B5C" ><br />&raquo; Radical Energy Efficiencies<br />&raquo; Smarter Supply Chains<br />&raquo; Breakthrough Stakeholder Engagement<br /><font size="5"><a href="http://www.greenbiz.com/events/verge/2012/11/san-francisco?src=bamsg"  style="color:#26B4CA;">Early-Bird Rate Ends Sept 30 --</font><font size="5" color="#D87841"><strong> Save 20%</strong></font><a href="http://www.greenbiz.com/events/verge/2012/11/san-francisco?src=bamsg"><img alt="REGISTER NOW" src="http://www.greenbiz.com/sites/default/files/inline/Screen%20shot%202012-07-17%20at%2010.11.53%20AM.png" style="width: 160px; height: 40px; padding-left: 30px; " /></a></p></font></div></div>
+</div>
+        </div>
+              </div> <!-- end mega-header -->
+    </div> <!-- End mega-header-bot-bg -->
+    </div> <!-- End mega-header-top-bg -->
+  </div> <!-- End mega-header-wrapper -->
+    </div>
+    <div id="page">
+      <div class="mega-crumbs">
+      <h1>Page Not Found</h1>      </div>
+      <div id="main">
+        <div id="columns" class="columns-one">
+          <div class="column-content">
+                                                            <div class="clear-block">
+              <span class='print-link'></span><p>We're sorry, the page you've requested does not exist at this address.</p>
+            </div>
+             
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="copyright">&copy; 2011 GreenBiz Group - GreenBiz.com&reg; is a registered trademark of GreenBiz Group Inc.</div>
+        <a href="http://www.greenbizgroup.com">About Us</a> |
+        <a href="/">Browse</a> |
+        <a href="/engage">Engage</a> |
+        <a href="/research">Research</a> |
+        <a href="/privacy-policy">Privacy Policy</a>
+      </div>
+      <div id="bottom-banner-spc">
+        <script language="javascript">
+        if (typeof(aj_pv) != 'undefined' && aj_pv == true) {
+          if (typeof(aj_pv_rnd) == 'undefined') {
+            aj_pv_rnd = Math.round( (Math.random() + "") * 10000000000000000 ) + 1;
+          }
+        }
+        document.write('<ifr'+'ame width="728" height="90" noresize scrolling=No frameborder=0 marginheight=0 marginwidth=0 src="http://ads.greenerworldmedia.com/servlet/ajrotator/295758/0/vh?z=greenbiz&dim=197702&pv='+aj_pv_rnd+'"></ifr'+'ame>');
+        </script>      </div>
+    </div>
+<script type="text/javascript">
+    __compete_code = '0fbbb4f41312cfe873e1e9803ad034a4';
+    (function () {
+        var s = document.createElement('script'),
+            d = document.getElementsByTagName('head')[0] ||
+                document.getElementsByTagName('body')[0],
+            t = 'https:' == document.location.protocol ? 
+                'https://c.compete.com/bootstrap/' : 
+                'http://c.compete.com/bootstrap/';
+        s.src = t + __compete_code + '/bootstrap.js';
+        s.type = 'text/javascript';
+        s.async = 'async'; 
+        if (d) { d.appendChild(s); }
+    }());
+</script>
+<!--<script type="text/javascript">tyntVariables = {"ap":"Read more:"};</script>
+<script type="text/javascript" src="http://tcr.tynt.com/javascripts/Tracer.js?user=cZNmGCm3Or36edadbiUzgI&amp;s=152"></script>-->
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: '127238067314234', status: true, cookie: true,
+             xfbml: true});
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+
+
+    
+        <!-- PadiAct Code -->
+    <script type="text/javascript">
+      var protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+      document.write(unescape("%3Cscript src='" + protocol + "d2xgf76oeu9pbh.cloudfront.net/43fe1122ef971a12f4263116767b49fe.js' async='true' id='2w6t0w' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+<script type="text/javascript">
+var _sf_async_config={uid:23761,domain:"greenbiz.com"};
+(function(){
+function loadChartbeat() {
+window._sf_endpt=(new Date()).getTime();
+var e = document.createElement('script');
+e.setAttribute('language', 'javascript');
+e.setAttribute('type', 'text/javascript');
+e.setAttribute('src',
+(("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+"js/chartbeat.js");
+document.body.appendChild(e);
+}
+var oldonload = window.onload;
+window.onload = (typeof window.onload != 'function') ?
+loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+
+</script>
+<!-- script src="http://www.surveymonkey.com/jsPop.aspx?sm=pB7bRgijiomDdE8hmU_2fvtA_3d_3d"> </script -->
+
+  </body>
+</html>
+

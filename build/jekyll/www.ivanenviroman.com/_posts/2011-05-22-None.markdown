@@ -1,0 +1,590 @@
+---
+comments: true
+date: 2011-05-22 20:19:00
+layout: post
+published: false
+slug: None
+title: Using MySQL foreign keys, procedures and triggers with Rails
+wordpress_id: 2300
+---
+
+When I made the transition from an ASP.NET developer to a Rails developer, one of the biggest changes I noticed was that
+the vast majority of Rails developers I worked with paid no attention to referential integrity at the database level,
+and relied solely on Rails to make sure things worked as expected.  Predictably, one of the biggest issues I've seen across
+all the production Rails applications I've worked on is data integrity - especially duplicate data in rows that should be
+unique, and orphaned records.
+
+
+
+
+
+To their defense, it's actually quite difficult to add support for referential integrity with Rails, and support for it
+in common gems is limited.  In this post, I'll explain how to:
+
+
+
+
+
+
+
+  * create foreign keys, views, procedures, functions and triggers with migrations
+
+
+  * call routines from Rails
+
+
+  * use views to back ActiveRecord objects
+
+
+  * hack `rake db` tasks to dump and load a proper schema file
+
+
+  * test using fixtures
+
+
+  * work with FixtureBuilder
+
+
+
+## Creating foreign keys in migrations
+
+
+
+
+
+There are several plugins and gems that help create foreign keys in migrations, but it's pretty simple to roll your own.
+Here's a quick example:
+
+
+
+
+    
+    <code>module ForeignKeys
+    
+      def add_foreign_key(from_table, from_column, to_table, options = {})
+        to_column = options.fetch(:to_column, 'id')
+        suffix = options[:suffix]
+        on_delete = options[:delete]
+        on_update = options[:update]
+    
+        on_delete = 'SET NULL' if on_delete == :set_null
+        on_update = 'CASCADE' if on_update == :cascade
+    
+        constraint_name = "fk_#{from_table}_#{to_table}"
+        constraint_name += "_#{suffix}" unless suffix.nil?
+        sql = "ALTER TABLE #{from_table} ADD CONSTRAINT #{constraint_name} FOREIGN KEY (#{from_column}) REFERENCES #{to_table}(#{to_column})"
+        sql += "\nON DELETE #{on_delete}" if on_delete
+        sql += "\nON UPDATE #{on_update}" if on_update
+        execute sql
+      end
+    
+      def remove_foreign_key(from_table, to_table, suffix = nil)
+        constraint_name = "fk_#{from_table}_#{to_table}"
+        constraint_name += "_#{suffix}" unless suffix.nil?
+    
+        # note, you may have to use DROP KEY here - see MySQL docs for details
+        execute "ALTER TABLE #{from_table} DROP FOREIGN KEY #{constraint_name}"
+      end
+    
+    end
+    
+    ActiveRecord::Migration.extend(ForeignKeys)
+    </code>
+
+
+
+
+
+The in your migrations you can do things like:
+
+
+
+
+    
+    <code>def self.up
+      add_foreign_key :some_table, :created_by_id, :users, :update => :cascade, :delete => :set_null, :suffix => :created_by_id
+      add_foreign_key :some_table, :updated_by_id, :users, :update => :cascade, :delete => :set_null, :suffix => :updated_by_id
+    end
+    
+    def self.down
+      remove_foreign_key :some_table, :created_by_id, :users, :suffix => :created_by_id
+      remove_foreign_key :some_table, :updated_by_id, :users, :suffix => :updated_by_id
+    end
+    </code>
+
+
+
+
+
+## Creating non-standard objects with migrations
+
+
+
+
+
+Creating views, procedures, functions, and triggers in MySQL via migrations is actually much easier than creating them in the MySQL interactive shell.
+In the shell, when you create routines you have to set a different delimiter before creating a proc, and then reset it when you are done.
+ActiveRecord sets up a different end-of-statement flag (not a semi-colon), so you can just write the straight sql, like so:
+
+
+
+
+    
+    <code>class CreateSomeProc < ActiveRecord::Migration
+      def self.up
+        execute "DROP PROCEDURE IF EXISTS some_proc"
+    
+        sql = <<-SQL
+          CREATE PROCEDURE some_proc(IN some_id INT)
+          BEGIN
+            INSERT INTO some_table (id)
+            VALUES (some_id);
+    
+            UPDATE some_other_table
+            SET some_column = some_column + 1
+            WHERE id = some_id;
+          END
+        SQL
+    
+        execute sql
+      end
+    end
+    </code>
+
+
+
+
+
+Notice how you can have multiple semi-colons in the procedure / trigger definition.  The only catch is that if you
+want to drop an object, you'll need to do that in a separate `execute` call, or the migration will raise an unhelpful sytax error.
+
+
+
+
+
+## Calling MySQL Procedures from Rails
+
+
+
+
+
+Calling MySQL procedures from Rails is very straightforward - just use the `execute` method:
+
+
+
+
+    
+    <code>ActiveRecord::Base.connection.execute("CALL some_proc(#{some_id})")
+    </code>
+
+
+
+
+
+If you want to return more than one value from a procedure, like a recordset, you're on your own.  You have to tweak the
+connection to MySQL to allow for multiple results from procedures, and I haven't had the pleasure of doing that yet.
+
+
+
+
+
+## Using views with ActiveRecord
+
+
+
+
+
+Rails can use a database view as its table, and it's as easy as setting the table name:
+
+
+
+
+    
+    <code>class SomeModelBackedByAView < ActiveRecord::Base
+      set_table_name "some_view"
+    end
+    </code>
+
+
+
+
+
+In MySQL views are read-only, and if you want that to be reflected in your model, you might want to do something like this:
+
+
+
+
+    
+    <code>class SomeModelBackedByAView < ActiveRecord::Base
+      set_table_name "some_view"
+      def readonly() true end
+      before_destroy { raise(ActiveRecord::ReadOnlyRecord) }
+    end
+    </code>
+
+
+
+
+
+If you want access to the magic `id` attribute for a column that's not named `id`, you can also use `set_primary_key`.
+
+
+
+
+
+## Getting rake to work with a complete schema file
+
+
+
+
+
+By default Rails dumps its database schema to a ruby file.  Unless you are using a plugin that also dumps foreign keys etc.
+the default ruby format will lose all of this information, which means your test database will differ significantly from
+your development/production database.  So to start you'll need to tell Rails to use a SQL formatted schema file like so:
+
+
+
+
+    
+    <code>module YourApp
+      class Application < Rails::Application
+        config.active_record.schema_format = :sql
+      end
+    end
+    </code>
+
+
+
+
+
+Unfortunately, the built in structure dump tasks for MySQL do not include procedures, triggers or foreign keys.  This means
+that you need to override the default rake tasks with new ones.  Rake does not make this easy, because by default if you define
+a task with the same name as an existing task, it _appends_ to the task, running the original one first, then yours.
+So first you need to add some plumbing to allow you to erase and re-create rake tasks.  To do so, put this in your top-level Rakefile:
+
+
+
+
+    
+    <code>require File.expand_path('../config/application', __FILE__)
+    require 'rake'
+    
+    # http://blog.jayfields.com/2008/02/rake-task-overwriting.html
+    class Rake::Task
+    
+      def overwrite(&block)
+        @full_comment = nil
+        @actions.clear
+        prerequisites.clear
+        enhance(&block)
+      end
+    
+      def abandon
+        @full_comment = nil
+        prerequisites.clear
+        @actions.clear
+      end
+    
+    end
+    
+    YourApp::Application.load_tasks
+    </code>
+
+
+
+
+
+Now you can override the tasks you need.  For `db:test:prepare` to work, you'll need to override `db:structure:dump` and `db:test:clone_structure`.
+In addition, you'll probably want to add a task that's equivalent to `db:schema:load` named `db:structure:load`.
+
+
+
+
+
+The first task to override is `db:structure:dump`.  In you'll need to:
+
+
+
+
+
+
+
+  * get the database credentials for the current environment
+
+
+  * dump a schema file using mysqldump, being sure to supply all of the proper flags (mysqldump does not, by default, include procedures or triggers)
+
+
+  * populate the schema migrations table
+
+
+
+
+
+MySQL ships with a tool called `mysqldump` that can create usable sql schema files, so you can use that to do the heavy lifting.
+Here's what it looks like using a modern version of MySQL:
+
+
+
+
+    
+    <code>namespace :db do
+      namespace :structure do |schema|
+        schema[:dump].abandon
+        desc "OVERWRITTEN - shell out to mysqldump"
+        task :dump => :environment do
+          config = ActiveRecord::Base.configurations[Rails.env]
+          cmd = "mysqldump -u#{config['username']} -p#{config['password']} -d --routines --triggers --skip-comments #{config['database']} > db/development_structure.sql"
+          system cmd
+          File.open("#{Rails.root}/db/#{Rails.env}_structure.sql", "a") { |f| f << ActiveRecord::Base.connection.dump_schema_information }
+        end
+      end
+    end
+    </code>
+
+
+
+
+
+The `--routines` and `--triggers` flags tell mysqldump to include functions, procedures and triggers.  The `--skip-comments`
+flag tells mysqldump to not include the datetime that the file was dumped, as it causes unnecessary conflicts if you check your
+structure files into version control.
+
+
+
+
+
+Now that you have a complete snapshot of your database, you'll need to be able to load it properly.  The built-in Rake task assumes
+that the generated sql file has single SQL statements delimited by 2 newlines, so it reads the SQL file, splits it on newlines
+and then runs `execute` for each of them.  However mysqldump produces a file that does not have a predictable number of
+newlines between statements and has all kinds of characters that `execute` chokes on, so the default `db:test:clone_structure` task fails.
+
+
+
+
+
+Here's a working version that uses the mysql shell directly:
+
+
+
+
+    
+    <code>namespace :db do
+      namespace :test do |schema|
+        schema[:clone_structure].abandon
+        desc "OVERWRITTEN - load the development_structure file using mysql shell"
+        task :clone_structure => ["db:structure:dump", "db:test:purge"] do
+          config = ActiveRecord::Base.configurations['test']
+          cmd = "mysql -u#{config['username']} -p#{config['password']}  #{config['database']} < db/development_structure.sql"
+          system cmd
+        end
+      end
+    end
+    </code>
+
+
+
+
+
+For things like Continuous Integration boxes, it's nice to be able to load a schema directly.  For that, you can create another task that uses the mysql shell to load the schema:
+
+
+
+
+    
+    <code>namespace :db do
+      namespace :structure do |schema|
+        desc "load the development_structure file using mysql shell"
+        task :load => :environment do
+          config = ActiveRecord::Base.configurations[Rails.env]
+          cmd = "mysql -u#{config['username']} -p#{config['password']}  #{config['database']} < db/development_structure.sql"
+          system cmd
+        end
+      end
+    end
+    </code>
+
+
+
+
+
+NOTE:  if your database credentials include different host names, ports etc... you'll have to add those to the system command.  
+
+The code above is just an example of how you can use mysqldump - it's not meant to be a complete version you can copy to your app. 
+
+
+
+
+
+Now standard tasks like `db:test:prepare` will work as expected in development.  If you have a Continuous Integration server
+setup, you can easily create your test database like so:
+
+
+
+
+    
+    <code>rake db:test:purge db:structure:load RAILS_ENV=test
+    </code>
+
+
+
+
+
+### ^---- The section above makes my eyes bleed ---^
+
+
+
+
+
+If you are thinking that the above rake tasks are brittle and may cause a maintenance headache when upgrading or switching
+databases, you are correct.  The Rails database rake tasks are a travesty and are perhaps the most poorly-written code in Rails.
+Instead of using the built-in adapters and some polymorphism, almost every database rake task has an ugly case statement which,
+when combined with Rake's idiosyncrasies, makes it impossible to override without hackery.  Unfortunately it's very
+time-consuming to refactor those tasks because:
+
+
+
+
+
+
+
+  * there are no tests around them now, so you'd first have to write a test suite
+
+
+  * many of the tasks shell out, so you'd have to test against multiple versions of each database (for example tools like mysqldump has different flags in different versions)
+
+
+
+
+
+## Working with test/spec fixtures
+
+
+
+
+
+If you use foreign keys or triggers, you may run into problems loading fixtures in tests.  One common issue I've noticed is when
+you load all global fixtures:
+
+
+
+
+    
+    <code># spec/spec_helper.rb
+    
+    RSpec.configure do |config|
+      config.global_fixtures = :all
+    end
+    </code>
+
+
+
+
+
+If by coincidence your foreign key checks work when tables are deleted alphabetically, you're OK, but if not you may
+need to specify the order in which your fixtures are loaded, like so:
+
+
+
+
+    
+    <code># spec/spec_helper.rb
+    
+    RSpec.configure do |config|
+      config.global_fixtures = *w[ some_model_name some_other_model_name ]
+    end
+    </code>
+
+
+
+
+
+If you use triggers, you may notice that some data is mysteriously lying around even after tests/specs finish.  This
+can happen for a number of reasons, such as individual specs being run with `transactional_fixtures` turned off.  If that's the case,
+you may need to manually delete data from those tables right before your test suite starts, like so:
+
+
+
+
+    
+    <code># spec/spec_helper.rb
+    
+    ActiveRecord::Base.connection.execute "delete from some_problematic_table;"
+    
+    RSpec.configure do |config|
+      config.global_fixtures = *w[ some_model_name some_other_model_name ]
+    end
+    </code>
+
+
+
+
+
+## Working with FixtureBuilder
+
+
+
+
+
+I'm a big fan of [FixtureBuilder](https://github.com/rdy/fixture_builder), but its support for referential integrity is
+poor in the currently released version.  The main issue is that it doesn't disable referential integrity when deleting
+tables.  Luckily, it's easy to fix.  In your fixture_builder file, add the following hack:
+
+
+
+
+    
+    <code># spec/support/fixture_builder.rb
+    
+    FixtureBuilder::Configuration.class_eval do
+      def delete_tables
+        ActiveRecord::Base.connection.disable_referential_integrity do
+          tables.each { |t| ActiveRecord::Base.connection.delete(delete_sql % ActiveRecord::Base.connection.quote_table_name(t)) }
+        end
+      end
+    end
+    
+    FixtureBuilder.configure do |builder|
+      #...
+    end
+    </code>
+
+
+
+
+
+NOTE:  I currently have a [pull request](https://github.com/rdy/fixture_builder/pull/6)
+that fixes these issues, so if you'd like to see these changes rolled in add a comment there - it might speed things up :)
+
+
+
+
+
+ActiveRecord will report views as tables with many database adapters.  However, you don't want fixture_builder to try to
+delete from or load data into a database view, so you'll have to manually exclude your views from fixture_builder like so:
+
+
+
+
+    
+    <code>FixtureBuilder.configure do |builder|
+      builder.skip_tables += ["active_ads_view"]
+      builder.factory do
+        #...
+      end
+    end
+    </code>
+
+
+
+
+
+## Summary
+
+
+
+
+
+Using foreign keys in Rails is still somewhat painful, but with the steps outlined above you can
+get up and running in a few minutes.  Using procedures, functions, triggers and views in ActiveRecord is straightforward,
+once the proper rake tasks are in place.

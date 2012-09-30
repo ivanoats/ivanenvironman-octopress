@@ -1,0 +1,105 @@
+---
+comments: true
+date: 2010-09-28 16:27:00
+layout: post
+published: false
+slug: None
+title: Defrosting your Icebox
+wordpress_id: 1891
+---
+
+[Pivotal Tracker](http://www.pivotaltracker.com) makes it easy to add stories to you project. Hit Ctrl-A, type a quick sentence along the lines of “As a user, I can…so that…”.  On most of our projects, we find ourselves discovering new stories all the time, based on the continuous feedback loop that Tracker encourages. Not all stories end up in the backlog, but it’s liberating to be able to capture new ideas and user feedback as they occur.
+
+
+
+
+
+The downside of this is that the **icebox**, where all new and unprioritized stories live, can grow out of control very quickly. It’s not uncommon for longer lived, active projects to end up with hundreds, even thousands of stories on ice.
+
+
+
+
+
+#### Yesterday's Priorities
+
+
+
+
+
+A large and growing icebox can be a burden. Your project takes longer to load, it’s harder to find that story you’re sure you added just a few weeks ago. It becomes harder to focus on the future, due to what feels like ever growing debt of promises and yesterday's priorities. 
+
+
+
+
+
+In our eternal optimism as software developers, we like to hang on to our stories. We know we’ll have more bandwidth just as soon as we get through this month’s big release. Besides, we’re hiring, right?
+
+
+
+
+
+#### Story Overflow
+
+
+
+
+
+The reality is that on most software projects, the rate of new story discovery far exceeds the rate at which stories get completed. Typically, a new story in the icebox either gets prioritized and moved to the backlog fairly quickly (either immediately or in the next planning session), or it ends up staying in the Icebox indefinitely. New priorities have a way of displacing older ones.
+
+
+
+
+
+Stories are perishable, and get stale over time, even when on ice (so to speak). It’s good practice to clean up your icebox regularly, and delete stories that have been sitting there for a while, and are unlikely to see the light of day any time soon. The old stories may have seemed really important at some point in the past, and involved the whole team spending hours in front of a whiteboard or a table full of cards writing them, but if the feature becomes a priority again in the future, you’re probably better off doing it again, based on all the new knowledge you’ll have by then. The important thing is the conversation and a fresh flow of ideas, not so much the stories themselves. 
+
+
+
+
+
+#### Export before Deleting
+
+
+
+
+
+To preserve the ideas and any comment discussion in these old stories, it’s a good idea to export them before deleting them. You can do so by selecting them in the icebox via the selection boxes to the right of story titles, and using the Actions menu to export them. You can also export the entire icebox on the project Export CSV page, which is accessible via the Actions menu in your project.
+
+
+
+
+
+![](http://assets.pivotallabs.com/811/original/story_selection.png)
+
+
+
+
+
+![](http://assets.pivotallabs.com/814/original/action_export.png)
+
+
+
+
+
+  
+
+Another option is to move old icebox stories from your active project to a separate project, which serves as a searchable archive. You can move stories from one project to another via the Actions menu as well. 
+
+
+
+We typically keep exported old stories in a [Google Docs](http://docs.google.com) spreadsheet, shared with the entire development team. The flexibility of a spreadsheet makes it possible to slice and organize the stories in arbitrary ways, and the shared nature of Google Docs make it easy to for anyone on the team to go back and look for ideas from the past, even to re-import selected stories back into your Tracker project if it's really needed.
+
+
+
+#### Icebox as an Inbox
+
+
+
+
+
+Use the Icebox as an inbox, for continuous review of new stories, rather than a permanent storage device. As new ideas, feature requests, and bugs come in, triage them regularly. If a new story is really important, for example a production bug, you’ll probably drag it into the backlog immediately. Otherwise, review newly created stories with the team at the next iteration review and planning session, and either estimate them and prioritize them (by dragging them to the backlog), or move them into a system better suited for long term storage, like a Google Docs spreadsheet or a more general purpose project management or issue tracking tool, like JIRA or Lighthouse. Tracker has built-in [integrations](http://www.pivotaltracker.com/help/integrations) with these tools, allowing you to bring back and link stories easily with drag and drop import.
+
+
+
+
+
+![](http://assets.pivotallabs.com/813/original/icebox_as_inbox.png)

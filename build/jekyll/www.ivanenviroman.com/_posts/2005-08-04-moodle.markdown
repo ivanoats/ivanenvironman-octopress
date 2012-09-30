@@ -1,0 +1,29 @@
+---
+comments: true
+date: 2005-08-04 09:15:06
+layout: post
+slug: moodle
+title: Moodle
+wordpress_id: 9
+tags:
+- technology
+---
+
+
+
+
+[Moodle](http://www.worldchanging.com/archives/003235.html#comments): "
+
+We've written before about the open source revolution in education, from MIT's [OpenCourseWare](http://www.worldchanging.com/archives/000027.html) to [open source textbooks](http://www.worldchanging.com/archives/000276.html). Now, ally Jason Cole has written up [the definitive book](http://www.oreilly.com/catalog/moodle/index.html) on using [Moodle](http://moodle.org/), a 'free, open source course management system for online learning.' The whole movement to open the tools of teaching and learning for all to use is a tremendously worldchanging one, whether we're talking about American universities or the world's 1,000,000 villages. Sounds like Moodle's a step in that direction.
+
+
+
+
+
+(Posted by **Alex Steffen** in _[QuickChanges](http://www.worldchanging.com/archives/cat_quickchanges.html)_ at 11:50 AM)"
+
+
+
+
+
+(Via [WorldChanging: Another World Is Here](http://www.worldchanging.com/).)

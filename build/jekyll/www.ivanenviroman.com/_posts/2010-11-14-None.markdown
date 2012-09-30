@@ -1,0 +1,26 @@
+---
+comments: true
+date: 2010-11-14 14:24:00
+layout: post
+published: false
+slug: None
+title: 'Productivity Boosting Shell Script: Search Gmail Without Viewing Inbox'
+wordpress_id: 1971
+---
+
+I'll often go into Gmail to accomplish a specific task and get distracted by shit that doesn't really matter. To solve the problem of entering Gmail to send somebody e-mail, only to be distracted endlessly by new mail, I created a micro-business [experiment](http://gilesbowkett.blogspot.com/2010/08/launched-little-startup-email-without.html) called [Email Without The Inbox](http://emailwithouttheinbox.com/). To solve the problem of entering Gmail to search for something, only to be distracted endlessly by new mail, I created a simple bash script for OS X.  
+  
+Here it is, in its entirety:  
+  
+
+    
+    # search Gmail THIS WAY, not by going to the Inbox<br></br>search_gmail() {<br></br>  open "http://mail.google.com/mail/#search/$*"<br></br>}
+
+  
+Usage:  
+  
+`search_gmail whatever`  
+  
+This takes you directly to your search results from the command line, and allows you to skip entirely the whole distracting experience that is your inbox. Note that it only works for one-word search terms, and would need some minor tweaks (namely URL encoding) to support fuller searches. (I'd put the gist on GitHub and encourage you to fork it, but GitHub appears to be down at the moment.)
+
+![](https://blogger.googleusercontent.com/tracker/7602886877359920483-510446250142796959?l=gilesbowkett.blogspot.com)

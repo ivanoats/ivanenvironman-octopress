@@ -1,0 +1,122 @@
+---
+comments: true
+date: 2011-06-30 10:30:00
+layout: post
+published: false
+slug: None
+title: Blotter for Mac puts iCal on your desktop
+wordpress_id: 2305
+tags:
+- blotter
+- google calendar
+- GoogleCalendar
+- ical
+- mac
+- os x
+- OsX
+- reviews
+---
+
+
+	![](http://www.blogcdn.com//media/2011/06/blottertuaw-title.jpg)
+
+
+
+
+
+	Back when I was in corporate America, an annual tradition was to order new calendars for the desk. I preferred the "day at a glance" type, but many of my fellow wage slaves liked these large [desk blotter](http://en.wikipedia.org/wiki/Desk_pad) calendars that displayed a full month. Now there's a Mac app from [WireLoad](http://wireload.net), [Blotter](http://itunes.apple.com/us/app/blotter/id406580224?mt=12) (US$9.99) that turns your iCal events and tasks into the electronic equivalent of the desk blotter calendar.
+
+
+
+
+### 
+	Blotter
+
+
+
+
+
+	After you purchase Blotter from the Mac App Store, an app icon appears in your Dock. I have enough icons in my Dock, so I usually drag 'em off, and that was the case with Blotter. Not to worry, though -- once you've launched Blotter, a tiny menu bar icon appears for setting preferences and creating new events and tasks. Blotter can be set to auto-launch at login, and that's the way it should be.
+
+
+
+
+
+	The main feature of Blotter is the beautiful translucent calendar that appears on your Mac desktop. By default, it shows the current week, but can be set in preferences to show the seven days or only weekday dates. The current date is listed as a large number, with the month, year, and day of the week listed below. There's also a list of To Do items, as well as a "Right Now" mini-view showing the next four or five hours at a glance. I have my Blotter calendar set to fade out after 60 seconds -- a quick click on the menu bar icon brings it back to full intensity.
+
+
+
+
+
+	
+
+**Gallery: [Blotter for Mac](http://www.tuaw.com/photos/blotter-for-mac/)**
+
+[![](http://www.blogcdn.com/www.tuaw.com/media/2011/06/blottertuaw-1_thumbnail.jpg)](http://www.tuaw.com/photos/blotter-for-mac/#4263968)[![](http://www.blogcdn.com/www.tuaw.com/media/2011/06/blottertuaw-2_thumbnail.jpg)](http://www.tuaw.com/photos/blotter-for-mac/#4263969)[![](http://www.blogcdn.com/www.tuaw.com/media/2011/06/blottertuaw-3_thumbnail.jpg)](http://www.tuaw.com/photos/blotter-for-mac/#4263970)[![](http://www.blogcdn.com/www.tuaw.com/media/2011/06/blottertuaw-4_thumbnail.jpg)](http://www.tuaw.com/photos/blotter-for-mac/#4263971)[![](http://www.blogcdn.com/www.tuaw.com/media/2011/06/blottertuaw-5_thumbnail.jpg)](http://www.tuaw.com/photos/blotter-for-mac/#4263972)
+
+
+
+
+
+	Blotter isn't meant to replace iCal. Instead, it is meant to work with iCal so that you don't need to actually open your calendar to look at it. It's always there on the desktop for you to see if you need it, much in the manner those desk blotter calendars were on our real desktops in the past, soaking up coffee spills and giving us a look at what was coming up in the next few days or weeks. If you use Google calendars, no problem -- as long as you're subscribing to those calendars in iCal, they'll show up on Blotter.
+
+
+
+
+
+	The calendar can be set to take up a lot of screen real estate or a smaller area, and in the smaller views it is movable to various locations on your desktop. There's a "narrow" mode that displays just the date, To Do list, and the Right Now mini-view, but it seems to defeat the purpose of Blotter for me.
+
+
+
+
+
+	On my 27" iMac I tend to always have a lot of windows open, so they obscure the view of Blotter and also defeat the purpose of the app a bit. However, it's possible to hide windows temporarily by pressing Command-H repeatedly while in the Finder, and that makes it very easy to hide windows very quickly, glance at the Blotter calendar, and then return to work without taking my hands off of the keyboard.
+
+
+
+
+
+	Within the Blotter preferences, there is a setting for displaying all iCal calendars or just a selected few. One of the few negatives I see with this app is that for some reason, the color of one of my calendars -- which is orange in iCal -- came over as a sickly olive color in Blotter. The two main calendars (home and work) showed up in their proper colors.
+
+
+
+
+
+	What about adding new events and tasks to the calendar with Blotter? The app would be worthless without this capability, and Blotter makes it as easy as either clicking on the menu bar icon and selecting New Event or New Task, or by setting up a keyboard shortcut. In either case, a small dialog appears for entering in the scheduling information on the fly.
+
+
+
+
+### 
+	Conclusion
+
+
+
+
+
+	Blotter is a very attractive Mac utility for displaying iCal events and tasks on otherwise unused space on your Mac desktop. I fear, though, that Blotter might be made obsolete by Lion. While testing the next version of Mac OS X, I've found it useful to place iCal in full-screen mode. From any screen, it's available with a gesture and a click; much faster and easier than clicking on my desktop and hitting Command-H until I can see Blotter. Still, the translucent Blotter calendar is _much_ sexier than even the Lion calendar in full-screen. Apple should take some design cues from the Blotter developers for the future.
+
+
+
+
+
+	Don't just take my opinion about Blotter. I've included a video review of the app by friend and frequent TUAW TV Live guest Doc Rock, who was the person who turned me onto this amazing utility.
+
+
+
+
+
+
+
+
+
+
+
+	
+
+[Blotter for Mac puts iCal on your desktop](http://www.tuaw.com/2011/06/30/blotter-for-mac-puts-ical-on-your-desktop/) originally appeared on [TUAW - The Unofficial Apple Weblog](http://www.tuaw.com) on Thu, 30 Jun 2011 13:30:00 EST.  Please see our [terms for use of feeds](http://www.weblogsinc.com/feed-terms/).  
+
+
+###### 
+
+[Source](http://wireload.net/products/blotter/) | [Permalink](http://www.tuaw.com/2011/06/30/blotter-for-mac-puts-ical-on-your-desktop/) | [Email this](http://www.tuaw.com/forward/19980426/) | [Comments](http://www.tuaw.com/2011/06/30/blotter-for-mac-puts-ical-on-your-desktop/#comments)
